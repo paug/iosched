@@ -504,7 +504,7 @@
             "startTimestamp": "2014-09-22T09:55:00Z",
             "title": "The making of an app: from having an idea to shipping it",
             "youtubeUrl": "",
-            "mainTag": "TOPIC_OTHER",
+            "mainTag": "TOPIC_DEVELOPMENT",
             "endTimestamp": "2014-09-22T10:45:00Z",
             "color": "",
             "hashtag": "",
@@ -515,8 +515,8 @@
                 "fabiendevos"
             ],
             "tags": [
-                "TOPIC_OTHER",
-                "THEME_EN",
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR",
                 "THEME_INTERMEDIATE"
             ]
         },
@@ -576,7 +576,7 @@
             "startTimestamp": "2014-09-23T08:15:00Z",
             "title": "Petit design pour grande Humanité",
             "youtubeUrl": "",
-            "mainTag": "TOPIC_OTHER",
+            "mainTag": "TOPIC_UI_UX",
             "endTimestamp": "2014-09-23T09:05:00Z",
             "color": "",
             "hashtag": "",
@@ -587,7 +587,7 @@
                 "geoffreydorne"
             ],
             "tags": [
-                "TOPIC_OTHER",
+                "TOPIC_UI_UX",
                 "THEME_FR",
                 "THEME_BEGINNER"
             ]
@@ -718,7 +718,7 @@
             "photoUrl": "",
             "url": "http://fr.droidcon.com/2014/agenda/detail?title=Feu+vert+pour+les+apps+avec+Calaba.sh+%21",
             "startTimestamp": "2014-09-23T10:25:00Z",
-            "title": "Feu vert pour les apps avec Calaba.sh !",
+            "title": "Green light for the apps with Calaba.sh!",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
             "endTimestamp": "2014-09-23T11:15:00Z",
@@ -733,7 +733,7 @@
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_EN",
+                "THEME_FR",
                 "THEME_INTERMEDIATE"
             ]
         },
@@ -853,7 +853,7 @@
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_EN",
+                "THEME_FR",
                 "THEME_INTERMEDIATE"
             ]
         },
@@ -877,13 +877,13 @@
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_FR",
+                "THEME_EN",
                 "THEME_INTERMEDIATE"
             ]
         },
         {
             "id": "session_chprunier_remygottschalk_1",
-            "description": "This session is about the android build system, especially its makefiles and how to use them well. Both Rémy and Charles-Henry will be giving this talk.",
+            "description": "##\n## This module is about android build system, especially its makefiles and how to use them well\n##\n## @authors : Remy Gottschalk, Charles-Henry Prunier\n\nLOCAL_PATH:= $(call for-paper)\ninclude $(CLEAR_VARS)\n\nLOCAL_MODULE := buildsystem.mk\nLOCAL_SRC_FILES := \\\n  Android.mk \\\n  BoardConfig.mk \\\n  AndroidProducts.mk \\\n  CleanSpec.mk \\\n  device.mk\n\nLOCAL_CONF_FLAGS := -Obuild_system\nLOCAL_CONF_FLAGS += -DHAVE_CUSTOM_ROM -IRomCooking\n\nLOCAL_CONF_INCLUDES += \\\n  definitions \\\n  fonctionnement \\\n  mots_cles \\\n  utilisation \\\n  modifications \\\n  bonnes_pratiques\n\nLOCAL_MODULE_PATH := $(TARGET_OUT_BRAIN)\nLOCAL_MODULE_TAGS := eng\n\ninclude $(BUILD_CONFERENCE)",
             "photoUrl": "https://lh6.googleusercontent.com/-ybpGl7DV12M/U2-5uwyMJrI/AAAAAAAAH4M/i1CDu45aK-c/w956-h637-no/IMG_5888.jpg",
             "url": "http://fr.droidcon.com/2014/agenda/detail?title=buildsystem.mk",
             "startTimestamp": "2014-09-23T15:15:00Z",
@@ -914,7 +914,7 @@
             "startTimestamp": "2014-09-23T13:55:00Z",
             "title": "Maximize App engagement and monetization",
             "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
+            "mainTag": "TOPIC_UI_UX",
             "endTimestamp": "2014-09-23T14:45:00Z",
             "color": "",
             "hashtag": "",
@@ -925,7 +925,7 @@
                 "jeanmaisonnial"
             ],
             "tags": [
-                "TOPIC_EVERYWHERE",
+                "TOPIC_UI_UX",
                 "THEME_EN",
                 "THEME_BEGINNER"
             ]
@@ -980,7 +980,7 @@
         },
         {
             "id": "session_quentin_sallat_1",
-            "description": "Avec l'arrivée d'Android L, Google a décidé d'apporter à son OS mobile un nouvel ensemble de règles visuelles nommé Material Design. Mais il n'est pour autant pas nécessaire de changer intégralement le design de son application pour respecter ces nouvelles guidelines. \n\nCette conférence vous montrera en direct comment passer de Holo à Material au travers d'une application. Du floating button aux cartes à la Google Now, en passant par les nouvelles APIs d'animation, vous saurez tout ce qui est nécessaire pour effectuer une transition en douceur.",
+            "description": "With Android L coming, Google has decided to bring a brand new set of design rules called Material Design. However, it is not required to change all your application design to respect these new guidelines.\n\nIn his talk, Quentin will show you through an example how to make the transistion from Holo to Marerial through an application. You will learn everything about floating buttons, cards and new animation APIs to make a smooth design transition.",
             "photoUrl": "",
             "url": "http://fr.droidcon.com/2014/agenda/detail?title=Holo+Material+Design+Transition",
             "startTimestamp": "2014-09-23T13:55:00Z",
@@ -998,7 +998,7 @@
             ],
             "tags": [
                 "TOPIC_UI_UX",
-                "THEME_FR",
+                "THEME_EN",
                 "THEME_BEGINNER"
             ]
         },
@@ -1478,12 +1478,12 @@
         {
             "originalid": "leparisien",
             "id": "leparisien",
-            "name": "Le Parisien"
+            "name": "1st Floor"
         },
         {
             "originalid": "salon",
             "id": "salon",
-            "name": "Salon"
+            "name": "2nd Floor"
         }
     ],
     "tags": [
