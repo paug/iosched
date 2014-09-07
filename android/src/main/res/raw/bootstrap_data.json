@@ -1478,12 +1478,12 @@
         {
             "originalid": "leparisien",
             "id": "leparisien",
-            "name": "Le Parisien"
+            "name": "1st Floor"
         },
         {
             "originalid": "salon",
             "id": "salon",
-            "name": "Salon"
+            "name": "2nd Floor"
         }
     ],
     "tags": [
