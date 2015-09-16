@@ -141,7 +141,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.dir/vnd.droidconparis2014.session" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.droidconparis2015.session" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -174,13 +174,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.droidconparis2014.session" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.droidconparis2015.session" />
             </intent-filter>
             <!-- Android Beam for session details -->
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.droidconparis2014.session" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.droidconparis2015.session" />
             </intent-filter>
         </activity>
 
