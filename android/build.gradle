@@ -23,7 +23,6 @@ buildscript {
  * limitations under the License.
  */
 
-lpreview = hasProperty('lpreview')
 
 apply plugin: 'com.android.application'
 apply plugin: 'crashlytics'
@@ -37,15 +36,14 @@ repositories {
 }
 
 android {
-    compileSdkVersion lpreview ? "android-L" : 19
+    compileSdkVersion 22
     buildToolsVersion "20.0.0"
 
-    productFlavors { lpreview ? lpreview{} : classic{} }
+    productFlavors { classic{} }
 
-    defaultConfig lpreview ? {} : {
-        // Non-L-preview configuration
+    defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 19
+        targetSdkVersion 22
     }
 
     signingConfigs {
@@ -69,7 +67,7 @@ android {
             signingConfig signingConfigs.debug
         }
         release {
-            runProguard true
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), file('proguard-project.txt')
             signingConfig signingConfigs.release
         }
@@ -87,8 +85,8 @@ android {
 dependencies {
 //    wearApp project(':Wearable')
     compile 'com.google.android.gms:play-services:5.0.+'
-    compile 'com.android.support:support-v13:20.+'
-    compile 'com.android.support:support-v4:20.+'
+    compile 'com.android.support:support-v13:22.+'
+    compile 'com.android.support:support-v4:22.+'
     compile 'com.google.android.apps.dashclock:dashclock-api:+'
     compile 'com.google.code.gson:gson:2.+'
     compile('com.google.api-client:google-api-client:1.+') {
