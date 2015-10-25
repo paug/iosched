@@ -23,18 +23,6 @@
         android:defaultValue="false" />
 
     <CheckBoxPreference
-        android:key="pref_attendee_at_venue_2015"
-        android:title="@string/pref_attendee_at_venue_title"
-        android:summary="@string/pref_attendee_at_venue_description"
-        android:defaultValue="true" />
-
-    <CheckBoxPreference
-        android:key="pref_conf_message_cards_enabled"
-        android:title="@string/pref_conf_message_cards_enabled_title"
-        android:summary="@string/pref_conf_message_cards_enabled_description"
-        android:defaultValue="false" />
-
-    <CheckBoxPreference
         android:key="pref_analytics_enabled"
         android:title="@string/pref_analytics_enabled_title"
         android:summary="@string/pref_analytics_enabled_description"
@@ -50,12 +38,6 @@
         android:key="pref_show_session_reminders_2015"
         android:title="@string/pref_notify_starred_sessions_title"
         android:summary="@string/pref_notify_starred_sessions_description"
-        android:defaultValue="true" />
-
-    <CheckBoxPreference
-        android:key="pref_show_session_feedback_reminders_2015"
-        android:title="@string/pref_notify_feedback_title"
-        android:summary="@string/pref_notify_feedback_description"
         android:defaultValue="true" />
 
 </PreferenceScreen>
