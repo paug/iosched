@@ -27,7 +27,6 @@ import com.google.android.gms.wearable.Wearable;
 import fr.paug.droidcon2015.explore.ExploreIOActivity;
 import fr.paug.droidcon2015.feedback.FeedbackHelper;
 import fr.paug.droidcon2015.feedback.SessionFeedbackActivity;
-import fr.paug.droidcon2015.map.MapActivity;
 import fr.paug.droidcon2015.myschedule.MyScheduleActivity;
 import fr.paug.droidcon2015.provider.ScheduleContract;
 import fr.paug.droidcon2015.provider.ScheduleContractHelper;
@@ -540,11 +539,7 @@ public class SessionAlarmService extends IntentService
                         String.format(res.getString(fr.paug.droidcon2015.R.string.snooze_x_min), 5),
                         createSnoozeIntent(sessionStart, intervalEnd, 5));
             }
-            if (starredCount == 1 && SettingsUtils.isAttendeeAtVenue(this)) {
-                notifBuilder.addAction(fr.paug.droidcon2015.R.drawable.ic_map_holo_dark,
-                        res.getString(fr.paug.droidcon2015.R.string.title_map),
-                        createRoomMapIntent(singleSessionRoomId));
-            }
+
             String bigContentTitle;
             if (starredCount == 1 && starredSessionTitles.size() > 0) {
                 bigContentTitle = starredSessionTitles.get(0);
@@ -582,17 +577,6 @@ public class SessionAlarmService extends IntentService
                 snoozeMinutes * MILLI_ONE_MINUTE);
         return PendingIntent.getService(this, 0, scheduleIntent,
                 PendingIntent.FLAG_CANCEL_CURRENT);
-    }
-
-    private PendingIntent createRoomMapIntent(final String roomId) {
-        Intent mapIntent = new Intent(getApplicationContext(), MapActivity.class);
-        mapIntent.putExtra(MapActivity.EXTRA_ROOM, roomId);
-        mapIntent.putExtra(MapActivity.EXTRA_DETACHED_MODE, true);
-        return TaskStackBuilder
-                .create(getApplicationContext())
-                .addNextIntent(new Intent(this, ExploreIOActivity.class))
-                .addNextIntent(mapIntent)
-                .getPendingIntent(0, PendingIntent.FLAG_CANCEL_CURRENT);
     }
 
     private void scheduleAllStarredBlocks() {

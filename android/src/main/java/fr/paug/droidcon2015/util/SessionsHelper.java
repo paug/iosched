@@ -27,7 +27,6 @@ import android.support.v4.app.ShareCompat;
 import fr.paug.droidcon2015.BuildConfig;
 import fr.paug.droidcon2015.R;
 import fr.paug.droidcon2015.appwidget.ScheduleWidgetProvider;
-import fr.paug.droidcon2015.map.MapActivity;
 import fr.paug.droidcon2015.provider.ScheduleContract;
 import fr.paug.droidcon2015.sync.SyncHelper;
 
@@ -45,13 +44,6 @@ public class SessionsHelper {
 
     public SessionsHelper(Activity activity) {
         mActivity = activity;
-    }
-
-    public void startMapActivity(String roomId) {
-        Intent intent = new Intent(mActivity.getApplicationContext(), MapActivity.class);
-        intent.putExtra(MapActivity.EXTRA_ROOM, roomId);
-        intent.putExtra(MapActivity.EXTRA_DETACHED_MODE, true);
-        mActivity.startActivity(intent);
     }
 
     public Intent createShareIntent(int messageTemplateResId, String title, String hashtags,

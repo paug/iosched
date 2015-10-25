@@ -25,7 +25,6 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 
 import fr.paug.droidcon2015.R;
-import fr.paug.droidcon2015.map.MapActivity;
 import fr.paug.droidcon2015.provider.ScheduleContract;
 import fr.paug.droidcon2015.debug.DebugAction;
 
@@ -41,14 +40,6 @@ public class ShowSessionNotificationDebugAction implements DebugAction {
                 ScheduleContract.Sessions.buildSessionUri("__keynote__"));
 
         PendingIntent pi = PendingIntent.getActivity(context, 0, i, PendingIntent.FLAG_CANCEL_CURRENT);
-        Intent mapIntent = new Intent(context, MapActivity.class);
-        mapIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK |
-                Intent.FLAG_ACTIVITY_TASK_ON_HOME);
-        mapIntent.putExtra(MapActivity.EXTRA_ROOM, "keynote");
-        PendingIntent piMap = TaskStackBuilder
-                .create(context)
-                .addNextIntent(mapIntent)
-                .getPendingIntent(0, PendingIntent.FLAG_CANCEL_CURRENT);
 
          //= PendingIntent.getActivity(context, 0, mapIntent, 0);
 
@@ -61,9 +52,6 @@ public class ShowSessionNotificationDebugAction implements DebugAction {
                 .setContentIntent(pi)
                 .setPriority(Notification.PRIORITY_MAX)
                 .setAutoCancel(true);
-        notifBuilder.addAction(R.drawable.ic_map_holo_dark,
-                context.getString(R.string.title_map),
-                piMap);
 
         NotificationCompat.InboxStyle richNotification = new NotificationCompat.InboxStyle(
                 notifBuilder)

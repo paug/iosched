@@ -23,7 +23,7 @@
     <!-- Text displayed in the Navigation Drawer for each respective menu item. -->
     <string name="navview_menu_item_explore">Explore</string>
     <!-- Text displayed in the Navigation Drawer for each respective menu item. -->
-    <string name="navview_menu_item_map">Map</string>
+    <string name="navview_menu_item_map">Directions</string>
     <!-- Text displayed in the Navigation Drawer for each respective menu item. -->
     <string name="navview_menu_item_social">Social</string>
     <!-- Text displayed in the Navigation Drawer for each respective menu item. -->

@@ -208,16 +208,12 @@ public class SessionDetailFragment extends Fragment
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.session_detail, menu);
         tryExecuteDeferredUiOperations();
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_map_room:
-                sendUserAction(SessionDetailModel.SessionDetailUserActionEnum.SHOW_MAP, null);
-                return true;
             case R.id.menu_share:
                 sendUserAction(SessionDetailModel.SessionDetailUserActionEnum.SHOW_SHARE, null);
                 return true;

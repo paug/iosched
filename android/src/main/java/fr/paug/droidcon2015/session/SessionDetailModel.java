@@ -562,12 +562,6 @@ public class SessionDetailModel implements Model {
             amendCalendarAndSetUpNotificationIfRequired();
             success = true;
             sendAnalyticsEventForStarUnstarSession(false);
-        } else if (action == SessionDetailUserActionEnum.SHOW_MAP) {
-            // ANALYTICS EVENT: Click on Map action in Session Details page.
-            // Contains: Session title/subtitle
-            sendAnalyticsEvent("Session", "Map", mTitle);
-            mSessionsHelper.startMapActivity(mRoomId);
-            success = true;
         } else if (action == SessionDetailUserActionEnum.SHOW_SHARE) {
             // On ICS+ devices, we normally won't reach this as ShareActionProvider will handle
             // sharing.

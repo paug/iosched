@@ -23,33 +23,24 @@ import android.content.OperationApplicationException;
 import android.net.Uri;
 import android.os.RemoteException;
 import android.preference.PreferenceManager;
-import android.text.TextUtils;
 
 import fr.paug.droidcon2015.io.BlocksHandler;
-import fr.paug.droidcon2015.io.map.model.Tile;
 import fr.paug.droidcon2015.provider.ScheduleContract;
-import fr.paug.droidcon2015.util.IOUtils;
-import fr.paug.droidcon2015.util.MapUtils;
+
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 
-import com.larvalabs.svgandroid.SVG;
-import com.larvalabs.svgandroid.SVGBuilder;
-import com.larvalabs.svgandroid.SVGParseException;
-import com.turbomanage.httpclient.BasicHttpClient;
 import com.turbomanage.httpclient.ConsoleRequestLogger;
 import com.turbomanage.httpclient.HttpResponse;
 import com.turbomanage.httpclient.RequestLogger;
 
 import fr.paug.droidcon2015.io.HashtagsHandler;
 import fr.paug.droidcon2015.io.JSONHandler;
-import fr.paug.droidcon2015.io.MapPropertyHandler;
 import fr.paug.droidcon2015.io.RoomsHandler;
 import fr.paug.droidcon2015.io.SearchSuggestHandler;
 import fr.paug.droidcon2015.io.SessionsHandler;
@@ -104,7 +95,6 @@ public class ConferenceDataHandler {
     SpeakersHandler mSpeakersHandler = null;
     SessionsHandler mSessionsHandler = null;
     SearchSuggestHandler mSearchSuggestHandler = null;
-    MapPropertyHandler mMapPropertyHandler = null;
     HashtagsHandler mHashtagsHandler = null;
     VideosHandler mVideosHandler = null;
 
@@ -140,7 +130,6 @@ public class ConferenceDataHandler {
         mHandlerForKey.put(DATA_KEY_SESSIONS, mSessionsHandler = new SessionsHandler(mContext));
         mHandlerForKey.put(DATA_KEY_SEARCH_SUGGESTIONS, mSearchSuggestHandler =
                 new SearchSuggestHandler(mContext));
-        mHandlerForKey.put(DATA_KEY_MAP, mMapPropertyHandler = new MapPropertyHandler(mContext));
         mHandlerForKey.put(DATA_KEY_HASHTAGS, mHashtagsHandler = new HashtagsHandler(mContext));
         mHandlerForKey.put(DATA_KEY_VIDEOS, mVideosHandler = new VideosHandler(mContext));
 
@@ -164,10 +153,6 @@ public class ConferenceDataHandler {
             LogUtils.LOGD(TAG, "Content provider operations so far: " + batch.size());
         }
         LogUtils.LOGD(TAG, "Total content provider operations: " + batch.size());
-
-        // download or process local map tile overlay files (SVG files)
-        LogUtils.LOGD(TAG, "Processing map overlay files");
-        processMapOverlayFiles(mMapPropertyHandler.getTileOverlays(), downloadsAllowed);
 
         // finally, push the changes into the Content Provider
         LogUtils.LOGD(TAG, "Applying " + batch.size() + " content provider operations.");
@@ -243,56 +228,6 @@ public class ConferenceDataHandler {
      * @param collection Set of tiles containing a local filename and remote url.
      * @throws IOException
      */
-    private void processMapOverlayFiles(Collection<Tile> collection, boolean downloadAllowed) throws IOException, SVGParseException {
-        // clear the tile cache on disk if any tiles have been updated
-        boolean shouldClearCache = false;
-        // keep track of used files, unused files are removed
-        ArrayList<String> usedTiles = new ArrayList<>();
-        for (Tile tile : collection) {
-            final String filename = tile.filename;
-            final String url = tile.url;
-
-            usedTiles.add(filename);
-
-            if (!MapUtils.hasTile(mContext, filename)) {
-                shouldClearCache = true;
-                // copy or download the tile if it is not stored yet
-                if (MapUtils.hasTileAsset(mContext, filename)) {
-                    // file already exists as an asset, copy it
-                    MapUtils.copyTileAsset(mContext, filename);
-                } else if (downloadAllowed && !TextUtils.isEmpty(url)) {
-                    try {
-                        // download the file only if downloads are allowed and url is not empty
-                        File tileFile = MapUtils.getTileFile(mContext, filename);
-                        BasicHttpClient httpClient = new BasicHttpClient();
-                        httpClient.setRequestLogger(mQuietLogger);
-                        HttpResponse httpResponse = httpClient.get(url, null);
-                        IOUtils.writeToFile(httpResponse.getBody(), tileFile);
-
-                        // ensure the file is valid SVG
-                        InputStream is = new FileInputStream(tileFile);
-                        SVG svg = new SVGBuilder().readFromInputStream(is).build();
-                        is.close();
-                    } catch (IOException ex) {
-                        LogUtils.LOGE(TAG, "FAILED downloading map overlay tile " + url +
-                                ": " + ex.getMessage(), ex);
-                    } catch (SVGParseException ex) {
-                        LogUtils.LOGE(TAG, "FAILED parsing map overlay tile " + url +
-                                ": " + ex.getMessage(), ex);
-                    }
-                } else {
-                    LogUtils.LOGD(TAG, "Skipping download of map overlay tile" +
-                            " (since downloadsAllowed=false)");
-                }
-            }
-        }
-
-        if (shouldClearCache) {
-            MapUtils.clearDiskCache(mContext);
-        }
-
-        MapUtils.removeUnusedTiles(mContext, usedTiles);
-    }
 
     // Returns the timestamp of the data we have in the content provider.
     public String getDataTimestamp() {

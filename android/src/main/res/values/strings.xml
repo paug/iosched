@@ -189,7 +189,7 @@
     <string name="description_i_o_extended">Droidcon Paris Extended</string>
 
     <!-- Menu item that takes the user to the conference venue map screen -->
-    <string name="description_map">Map</string>
+    <string name="description_map">Directions</string>
 
     <!-- Menu item that allows user to turn on or turn off the output of a video to a
     second screen. -->
@@ -867,7 +867,7 @@ user updates the rating. -->
     <string name="title_explore">Explore</string>
 
     <!-- Navigation bar text for the map -->
-    <string name="title_map">Map</string>
+    <string name="title_map">Directions</string>
 
     <!-- Navigation bar text for viewing the user's schedule -->
     <string name="title_my_schedule">My Schedule</string>

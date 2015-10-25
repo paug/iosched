@@ -83,7 +83,6 @@ import fr.paug.droidcon2015.framework.QueryEnum;
 import fr.paug.droidcon2015.framework.UpdatableView;
 import fr.paug.droidcon2015.framework.UserActionEnum;
 import fr.paug.droidcon2015.gcm.ServerUtilities;
-import fr.paug.droidcon2015.map.MapActivity;
 import fr.paug.droidcon2015.myschedule.MyScheduleActivity;
 import fr.paug.droidcon2015.provider.ScheduleContract;
 import fr.paug.droidcon2015.service.DataBootstrapService;
@@ -810,7 +809,7 @@ public abstract class BaseActivity extends AppCompatActivity implements
                 finish();
                 break;
             case NAVDRAWER_ITEM_MAP:
-                createBackStack(new Intent(this, MapActivity.class));
+                Toast.makeText(this, "Map", Toast.LENGTH_SHORT).show();
                 break;
             case NAVDRAWER_ITEM_SOCIAL:
                 createBackStack(new Intent(this, SocialActivity.class));
