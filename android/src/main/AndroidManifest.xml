@@ -207,7 +207,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.dir/vnd.iosched2015.session" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.droidconparis2015.session" />
             </intent-filter>
         </activity>
 
@@ -254,7 +254,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.iosched2015.session_feedback" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.droidconparis2015.session_feedback" />
             </intent-filter>
         </activity>
 
@@ -295,7 +295,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.iosched2015.session" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.droidconparis2015.session" />
             </intent-filter>
             <!-- Android Beam for session details -->
             <intent-filter>
@@ -303,7 +303,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <data android:mimeType="vnd.android.cursor.item/vnd.iosched2015.session" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.droidconparis2015.session" />
             </intent-filter>
             <!-- Web URLs -->
             <!-- URLs are indexed in search engines in the form:
