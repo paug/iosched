@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched;
+package fr.paug.droidcon2015;
 
-import com.google.samples.apps.iosched.framework.QueryEnum;
-import com.google.samples.apps.iosched.framework.UserActionEnum;
+import fr.paug.droidcon2015.framework.QueryEnum;
+import fr.paug.droidcon2015.framework.UserActionEnum;
 
 /**
 * Enum used for testing.

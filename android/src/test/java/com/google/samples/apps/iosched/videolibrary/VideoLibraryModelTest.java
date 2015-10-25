@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.videolibrary;
+package fr.paug.droidcon2015.videolibrary;
 
-import com.google.samples.apps.iosched.InvalidEnum;
-import com.google.samples.apps.iosched.provider.ScheduleContract;
+import fr.paug.droidcon2015.InvalidEnum;
+import fr.paug.droidcon2015.provider.ScheduleContract;
+import fr.paug.droidcon2015.videolibrary.VideoLibraryModel;
 
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;

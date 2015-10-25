@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.model;
+package fr.paug.droidcon2015.model;
 
-import com.google.samples.apps.iosched.provider.ScheduleContract;
+import fr.paug.droidcon2015.model.TagMetadata;
+import fr.paug.droidcon2015.provider.ScheduleContract;
 
 import org.junit.Rule;
 import org.junit.Test;

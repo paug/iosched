@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.feedback;
+package fr.paug.droidcon2015.feedback;
 
 import android.content.Context;
 import android.content.CursorLoader;
@@ -24,9 +24,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import com.google.samples.apps.iosched.InvalidEnum;
-import com.google.samples.apps.iosched.provider.ScheduleContract;
-import com.google.samples.apps.iosched.feedback.SessionFeedbackModel.SessionFeedbackData;
+import fr.paug.droidcon2015.InvalidEnum;
+
+import fr.paug.droidcon2015.feedback.FeedbackHelper;
+import fr.paug.droidcon2015.feedback.SessionFeedbackModel;
+import fr.paug.droidcon2015.provider.ScheduleContract;
+import fr.paug.droidcon2015.feedback.SessionFeedbackModel.SessionFeedbackData;
 
 import org.junit.Before;
 import org.junit.Test;

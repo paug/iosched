@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.feedback;
+package fr.paug.droidcon2015.feedback;
 
-import com.google.samples.apps.iosched.util.LogUtils;
+import fr.paug.droidcon2015.feedback.FeedbackApiHelper;
+import fr.paug.droidcon2015.util.LogUtils;
 
 import com.turbomanage.httpclient.BasicHttpClient;
 import com.turbomanage.httpclient.HttpResponse;
@@ -33,9 +34,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import android.test.suitebuilder.annotation.SmallTest;
 
 import java.net.HttpURLConnection;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.feedback;
+package fr.paug.droidcon2015.feedback;
 
 import com.google.android.gms.wearable.DataMap;
 
-import com.google.samples.apps.iosched.feedback.SessionFeedbackModel.SessionFeedbackData;
-import com.google.samples.apps.iosched.util.LogUtils;
+import fr.paug.droidcon2015.feedback.FeedbackHelper;
+import fr.paug.droidcon2015.feedback.SessionFeedbackModel.SessionFeedbackData;
+import fr.paug.droidcon2015.util.LogUtils;
 
 import org.json.JSONException;
 import org.junit.Before;

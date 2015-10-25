@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched;
+package fr.paug.droidcon2015;
 
 import org.junit.Test;
 

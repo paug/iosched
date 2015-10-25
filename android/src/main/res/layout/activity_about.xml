@@ -24,7 +24,7 @@
     tools:context=".social.SocialActivity">
 
     <!-- Main layout -->
-    <com.google.samples.apps.iosched.ui.widget.DrawShadowFrameLayout
+    <fr.paug.droidcon2015.ui.widget.DrawShadowFrameLayout
         android:id="@+id/main_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -94,7 +94,7 @@
         </LinearLayout>
 
 
-    </com.google.samples.apps.iosched.ui.widget.DrawShadowFrameLayout>
+    </fr.paug.droidcon2015.ui.widget.DrawShadowFrameLayout>
 
     <!-- Nav drawer -->
     <include layout="@layout/navdrawer" />

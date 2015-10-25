@@ -99,7 +99,7 @@
 # Make sure that Google Analytics doesn't get removed
 -keep class com.google.analytics.tracking.android.CampaignTrackingReceiver
 # Keep the LUtils members that are used by the ObjectAnimator using reflection
--keep public class com.google.samples.apps.iosched.util.LUtils {
+-keep public class fr.paug.droidcon2015.util.LUtils {
     public <methods>;
 }
 

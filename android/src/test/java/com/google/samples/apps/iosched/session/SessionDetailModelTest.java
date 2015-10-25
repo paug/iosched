@@ -14,14 +14,16 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.iosched.session;
+package fr.paug.droidcon2015.session;
 
-import com.google.samples.apps.iosched.BuildConfig;
-import com.google.samples.apps.iosched.InvalidEnum;
-import com.google.samples.apps.iosched.R;
-import com.google.samples.apps.iosched.model.TagMetadataTest;
-import com.google.samples.apps.iosched.provider.ScheduleContract;
-import com.google.samples.apps.iosched.util.SessionsHelper;
+import fr.paug.droidcon2015.BuildConfig;
+import fr.paug.droidcon2015.InvalidEnum;
+import fr.paug.droidcon2015.R;
+import fr.paug.droidcon2015.model.TagMetadataTest;
+import fr.paug.droidcon2015.provider.ScheduleContract;
+import fr.paug.droidcon2015.session.SessionDetailConstants;
+import fr.paug.droidcon2015.session.SessionDetailModel;
+import fr.paug.droidcon2015.util.SessionsHelper;
 
 import org.junit.Before;
 import org.junit.Test;
