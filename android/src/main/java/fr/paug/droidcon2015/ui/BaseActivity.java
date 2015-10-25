@@ -809,7 +809,8 @@ public abstract class BaseActivity extends AppCompatActivity implements
                 finish();
                 break;
             case NAVDRAWER_ITEM_MAP:
-                Toast.makeText(this, "Map", Toast.LENGTH_SHORT).show();
+                String uri = "geo:48.8719444,2.3572243?q=67+Rue+du+Faubourg+Saint-Martin,+75010+Paris";
+                startActivity(new Intent(android.content.Intent.ACTION_VIEW, Uri.parse(uri)));
                 break;
             case NAVDRAWER_ITEM_SOCIAL:
                 createBackStack(new Intent(this, SocialActivity.class));
@@ -935,10 +936,10 @@ public abstract class BaseActivity extends AppCompatActivity implements
             }, NAVDRAWER_LAUNCH_DELAY);
 
             // change the active item on the list so the user can see the item changed
-            setSelectedNavDrawerItem(itemId);
             // fade out the main content
             View mainContent = findViewById(R.id.main_content);
-            if (mainContent != null) {
+            if (mainContent != null && itemId != NAVDRAWER_ITEM_MAP) {
+                setSelectedNavDrawerItem(itemId);
                 mainContent.animate().alpha(0).setDuration(MAIN_CONTENT_FADEOUT_DURATION);
             }
         }

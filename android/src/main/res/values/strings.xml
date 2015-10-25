@@ -470,7 +470,7 @@
     <string name="navdrawer_item_explore_a11y">Explore Droidcon Paris</string>
 
     <!-- Menu item to open the Map screen [CHAR_LIMIT=20] -->
-    <string name="navdrawer_item_map">Map</string>
+    <string name="navdrawer_item_map">Directions</string>
 
     <!-- Menu item to open the My Schedule screen [CHAR_LIMIT=20] -->
     <string name="navdrawer_item_my_schedule">My Schedule</string>
