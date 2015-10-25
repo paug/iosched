@@ -51,8 +51,7 @@ public class AboutActivity extends BaseActivity {
                 case R.id.about_licenses:
                     AboutUtils.showOpenSourceLicenses(AboutActivity.this);
                     break;
-                case R.id.about_eula:
-                    AboutUtils.showEula(AboutActivity.this);
+                default:
                     break;
             }
         }

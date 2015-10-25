@@ -72,44 +72,4 @@ public class AboutUtils {
                     .create();
         }
     }
-
-    public static void showEula(Activity activity) {
-        FragmentManager fm = activity.getFragmentManager();
-        FragmentTransaction ft = fm.beginTransaction();
-        Fragment prev = fm.findFragmentByTag("dialog_eula");
-        if (prev != null) {
-            ft.remove(prev);
-        }
-        ft.addToBackStack(null);
-
-        new EulaDialog().show(ft, "dialog_eula");
-    }
-
-    public static class EulaDialog extends DialogFragment {
-
-        public EulaDialog() {
-        }
-
-        @Override
-        public Dialog onCreateDialog(Bundle savedInstanceState) {
-            int padding = getResources().getDimensionPixelSize(R.dimen.content_padding_dialog);
-
-            TextView eulaTextView = new TextView(getActivity());
-            eulaTextView.setText(Html.fromHtml(getString(R.string.eula_legal_text)));
-            eulaTextView.setMovementMethod(LinkMovementMethod.getInstance());
-            eulaTextView.setPadding(padding, padding, padding, padding);
-
-            return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.about_eula)
-                    .setView(eulaTextView)
-                    .setPositiveButton(R.string.ok,
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int whichButton) {
-                                    dialog.dismiss();
-                                }
-                            }
-                    )
-                    .create();
-        }
-    }
 }
