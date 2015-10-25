@@ -280,14 +280,6 @@ public abstract class BaseActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         RecentTasksStyler.styleRecentTasksEntry(this);
 
-        // Check if the EULA has been accepted; if not, show it.
-        if (WelcomeActivity.shouldDisplay(this)) {
-            Intent intent = new Intent(this, WelcomeActivity.class);
-            startActivity(intent);
-            finish();
-            return;
-        }
-
         mImageLoader = new ImageLoader(this);
         mHandler = new Handler();
 
@@ -503,19 +495,17 @@ public abstract class BaseActivity extends AppCompatActivity implements
 
         // Explore is always shown.
         mNavDrawerItems.add(NAVDRAWER_ITEM_EXPLORE);
-
-        // If the attendee is on-site, show Map on the nav drawer
-        if (attendeeAtVenue) {
-            mNavDrawerItems.add(NAVDRAWER_ITEM_MAP);
-        }
         mNavDrawerItems.add(NAVDRAWER_ITEM_SEPARATOR);
+
+        mNavDrawerItems.add(NAVDRAWER_ITEM_VIDEO_LIBRARY);
 
         // Other items that are always in the nav drawer.
         mNavDrawerItems.add(NAVDRAWER_ITEM_SOCIAL);
-        mNavDrawerItems.add(NAVDRAWER_ITEM_VIDEO_LIBRARY);
+
+        mNavDrawerItems.add(NAVDRAWER_ITEM_MAP);
+
         mNavDrawerItems.add(NAVDRAWER_ITEM_SEPARATOR_SPECIAL);
         mNavDrawerItems.add(NAVDRAWER_ITEM_SETTINGS);
-        mNavDrawerItems.add(NAVDRAWER_ITEM_ABOUT);
 
         // Debug menu only on debug builds.
         if (BuildConfig.DEBUG) {
