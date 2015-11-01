@@ -106,33 +106,7 @@ public class RemoteConferenceDataFetcher {
             }
         }
 
-        HttpResponse response = httpClient.get(mManifestUrl, null);
-        if (response == null) {
-            LogUtils.LOGE(TAG, "Request for manifest returned null response.");
-            throw new IOException("Request for data manifest returned null response.");
-        }
-
-        int status = response.getStatus();
-        if (status == HttpURLConnection.HTTP_OK) {
-            LogUtils.LOGD(TAG, "Server returned HTTP_OK, so new data is available.");
-            mServerTimestamp = getLastModified(response);
-            LogUtils.LOGD(TAG, "Server timestamp for new data is: " + mServerTimestamp);
-            String body = response.getBodyAsString();
-            if (TextUtils.isEmpty(body)) {
-                LogUtils.LOGE(TAG, "Request for manifest returned empty data.");
-                throw new IOException("Error fetching conference data manifest: no data.");
-            }
-            LogUtils.LOGD(TAG, "Manifest " + mManifestUrl + " read, contents: " + body);
-            mBytesDownloaded += body.getBytes().length;
-            return processManifest(body);
-        } else if (status == HttpURLConnection.HTTP_NOT_MODIFIED) {
-            // data on the server is not newer than our data
-            LogUtils.LOGD(TAG, "HTTP_NOT_MODIFIED: data has not changed since " + refTimestamp);
-            return null;
-        } else {
-            LogUtils.LOGE(TAG, "Error fetching conference data: HTTP status " + status);
-            throw new IOException("Error fetching conference data: HTTP status " + status);
-        }
+        return processManifest();
     }
 
     // Returns the timestamp of the data downloaded from the server
@@ -310,24 +284,14 @@ public class RemoteConferenceDataFetcher {
 
     /**
      * Process the data manifest and download data files referenced from it.
-     * @param manifestJson The JSON of the manifest file.
      * @return The contents of the set of files referenced from the manifest, or null
      * if none could be retrieved.
      * @throws IOException If an error occurs while retrieving information.
      */
-    private String[] processManifest(String manifestJson) throws IOException {
-        LogUtils.LOGD(TAG, "Processing data manifest, length " + manifestJson.length());
+    private String[] processManifest() throws IOException {
 
-        DataManifest manifest = new Gson().fromJson(manifestJson, DataManifest.class);
-        if (manifest.format == null || !manifest.format.equals(MANIFEST_FORMAT)) {
-            LogUtils.LOGE(TAG, "Manifest has invalid format spec: " + manifest.format);
-            throw new IOException("Invalid format spec on manifest:" + manifest.format);
-        }
+        DataManifest manifest = new DataManifest();
 
-        if (manifest.data_files == null || manifest.data_files.length == 0) {
-            LogUtils.LOGW(TAG, "Manifest does not list any files. Nothing done.");
-            return null;
-        }
 
         LogUtils.LOGD(TAG, "Manifest lists " + manifest.data_files.length + " data files.");
         String[] jsons = new String[manifest.data_files.length];

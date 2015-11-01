@@ -18,7 +18,14 @@ package fr.paug.droidcon2015.io.model;
 
 public class DataManifest {
     public String format;
-    public String[] data_files;
+    public String[] data_files = new String[] {
+            "https://raw.githubusercontent.com/paug/zeppelin/gh-pages/_data/speakers.yml",
+            "https://raw.githubusercontent.com/paug/zeppelin/gh-pages/_data/organizers.yml",
+            "https://raw.githubusercontent.com/paug/zeppelin/gh-pages/_data/partners.yml",
+            "https://raw.githubusercontent.com/paug/zeppelin/gh-pages/_data/schedule.yml",
+            "https://raw.githubusercontent.com/paug/zeppelin/gh-pages/_data/sessions.yml",
+            "https://raw.githubusercontent.com/paug/zeppelin/gh-pages/_data/team.yml"
+    };
 }
 
 

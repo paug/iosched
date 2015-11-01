@@ -81,7 +81,6 @@ public class ConferenceDataHandler {
             DATA_KEY_SPEAKERS,
             DATA_KEY_SESSIONS,
             DATA_KEY_SEARCH_SUGGESTIONS,
-            DATA_KEY_MAP,
             DATA_KEY_HASHTAGS,
             DATA_KEY_VIDEOS
     };
