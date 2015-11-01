@@ -1,334 +1,765 @@
 {
   "speakers": [
     {
-      "id": "cyrilmottier",
-      "bio": "Cyril Mottier is Mobile Software Engineer at Capitaine Train and Android Google Developer Expert. Passionate about technology and design, Cyril is an avid lover of Android and a multi-skilled engineer. He is actively involved in the Android community and shares his passion writing blog posts, creating open source librairies and giving talks. His motto: “Do less, but do it insanely great",
-      "name": "Cyril Mottier",
-      "company": "Capitaine Train",
-      "plusoneUrl": "https://plus.google.com/+CyrilMottier",
-      "website": "http://cyrilmottier.com/",
-      "twitter": "https://twitter.com/cyrilmottier",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/-LWYaRkiLVvM/Ut48DO9cP1I/AAAAAAAAQkU/HvZg4UrVXtI/s500-no/me.jpg"
+      "id": 52002,
+      "name": "Brian Egan /",
+      "surname": "Guillaume Lung",
+      "thumbnailUrl": "594d64dd5d350f303f7bbce4c86d7312",
+      "company": "SoundCloud",
+      "bio": "In the past months Brian and Guillaume got the chance to pair together at SoundCloud on an Android project. Brian comes originally from the web development and pairing together on Android led to unexpected but interesting side discussions. ",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@lungos @brianegan"
+        }
+      ]
     },
     {
-      "id": "xavierhallade",
-      "bio": "Xavier Hallade is Developer Evangelist in Intel Software and Service Group in Paris, France. He is helping developers to improve their support for new hardware and technologies backed by Intel, with a focus on the Android NDK, 64-bit and wireless displays.",
-      "name": "Xavier Hallade",
-      "company": "Intel",
-      "plusoneUrl": "https://plus.google.com/+XavierHallade",
-      "website": "http://ph0b.com/",
-      "twitterUrl": "https://twitter.com/ph0b",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Xavier-Hallade.jpg"
+      "id": 28051,
+      "name": "Alexis",
+      "surname": "Fogel",
+      "thumbnailUrl": "AF_HD.jpg",
+      "company": "Dashlane",
+      "bio": "I am Co-founder at Dashlane and running product there. I have studied business (ESCP-Europe) and computer science (Centrale Paris) and have worked on UI & UX since then while growing the Dashlane product. I have also co-founded the French Blog and Publishing company Playlist Society (<a href='http://www.playlistsociety.com'>www.playlistsociety.com</a>) for which I take care of development, design and UX.",
+      "rockstar": true,
+      "social": [
+        {
+          "name": "google-plus",
+          "link": "https://plus.google.com/+alexisfogel"
+        },
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/alexisfogel"
+        },
+        {
+          "name": "site",
+          "link": "https://www.dashlane.com"
+        }
+      ]
     },
     {
-      "id": "janchong",
-      "bio": "Jan Chong holds a BS and MS in Computer Science from Stanford University. She has Ph.D from the Management Science & Engineering Department, also from Stanford. She is currently the Engineering Manager for the Twitter Android Team. Prior to joining Twitter, Jan ran client and server software development at OnLive.",
-      "name": "Jan Chong",
-      "company": "Twitter",
-      "plusoneUrl": "https://plus.google.com/107409019686006760010",
-      "website": "",
-      "twitterUrl": "https://twitter.com/lessachu",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Jan-Chong-222x222.png"
+      "id": 93129,
+      "name": "Alizée",
+      "surname": "Penel",
+      "thumbnailUrl": "photoalizee.png",
+      "company": "Genymobile",
+      "bio": "Alizée is a (embedded) system developer at Genymobile, a startup offering companies its Android expertise through a range of application and system services and innovative solutions. She works on virtualization problematics, graphics stack on Linux and Android ROM cooking. She also teaches courses on Android system at EPITA to the future engineers specializing in embedded systems. ",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@kynzie___"
+        },
+        {
+          "name": "site",
+          "link": "http://www.genymobile.com"
+        }
+      ]
     },
     {
-      "id": "taylorling",
-      "bio": "Taylor is very passionate about User Experience (UX), not so much on the ethnography part, but more on the User Interface execution that can directly influence UX and Usability, particularly on the mobile devices (Android always come first!). He is currently the GDE for UX/Design, and enjoys going around the world to share his experience on UI/UX Design. He is currently crafting pixels at snappymob.com.",
-      "name": "Taylor Ling",
-      "company": "Snappymob",
-      "plusoneUrl": "https://plus.google.com/+TaylorLing",
-      "website": "http://androiduiux.com/",
-      "twitterUrl": "https://twitter.com/taylorling",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Taylor-Ling-final-222x222.png"
+      "id": 29788,
+      "name": "Alexis",
+      "surname": "Rosovsky",
+      "thumbnailUrl": "AAEAAQAAAAAAAAP_AAAAJDFkYmI1ZDliLTEwZDQtNDVjMS1iYTI3LTY1NzA4OGJmYmY0Zg.jpg",
+      "company": "Genymobile",
+      "bio": "Alexis is an Android platform developer at Genymobile. He is used to work on Android porting issues, such as HAL development and framework fixes.",
+      "social": [
+        {
+          "name": "site",
+          "link": "https://plus.google.com/103101983670154301873"
+        }
+      ]
     },
     {
-      "id": "stephanenicolas",
-      "bio": "Stéphane Nicolas is Senior Android Developer at Groupon, specialized in the development of Android applications for smartphones and tablets. With almost 15 years’ experience in Java, he contributed or initiated different Open Source projects for Android (like RoboSpice, RoboDemo, Android Maven Plugin, RoboGuice etc) or commercial applications. He actively participates to the Android community and contributes to the integration of the Android platform and advanced industrialized programming techniques such as Sonar, Maven, Jenkins etc.",
-      "name": "Stéphane Nicolas",
-      "company": "Groupon",
-      "plusoneUrl": "https://plus.google.com/+StéphaneNICOLAS-OnG",
-      "website": "",
-      "twitterUrl": "",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/st%C3%A9phane-nicolas-222x222.jpg"
+      "id": 45915,
+      "name": "Bill",
+      "surname": "Phillips",
+      "thumbnailUrl": "bc7c0704a8de23220efc62e1029dba97",
+      "company": "Big Nerd Ranch",
+      "bio": "Bill Phillips is a Fellow at Big Nerd Ranch. Under this title he is allowed to help develop course material, write Android code, evangelize teaching philosophy, teach, write blog posts, get to know people in the Android community, and who knows what else. He is coauthor of the bestselling Big Nerd Ranch Guide To Android Programming, an introductory Android text, as well as the materials for Big Nerd Ranch's Android Bootcamp.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@billjings"
+        },
+        {
+          "name": "site",
+          "link": "https://www.bignerdranch.com/blog/"
+        }
+      ]
     },
     {
-      "id": "fabiendevos",
-      "bio": "Fabien Devos started to work in Paris by developing applications such as Le Monde, AlloCiné, Crédit Agricole and the renowned Dailymotion. Then, he moved to London and joined the startup Lightbox, which has since been bought by Facebook for which he worked for one year in the Framework Android Team in California. He currently works for the Startup Upthere in cloud computing, founded by Bertrand Serlet.",
-      "name": "Fabien Devos",
-      "company": "Upthere",
-      "plusoneUrl": "https://plus.google.com/116057947663114842022",
-      "website": "",
-      "twitterUrl": "https://twitter.com/Fabien_Devos",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Fabien-Devos-222x222.jpg"
+      "id": 92512,
+      "name": "Corey",
+      "surname": "Latislaw",
+      "thumbnailUrl": "New-Headshot.jpg",
+      "company": "Green Life Software Development",
+      "bio": "Corey Leigh Latislaw (<a href='http://coreylatislaw.com'>coreylatislaw.com</a>) is a Google Developer Expert (GDE) in Android who has written several high profile Android applications at companies large and small. By day she is rebooting a large hybrid enterprise app as a native Android app. At night she authors videos and books on Android programming, runs an Android + full-stack consulting firm, and organizes the Philadelphia Google Developer Group. She is passionate about travel, local food, the outdoors, photography, and living in Philly.",
+      "rockstar": true,
+      "ribbon": [
+        {
+          "abbr": "GDE",
+          "title": "Google Developer Expert",
+          "url": "https://developers.google.com/experts/"
+        },
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/114727657292466806804/"
+        }
+      ],
+      "social": [
+        {
+          "name": "google-plus",
+          "link": "https://plus.google.com/+CoreyLeighLatislaw"
+        },
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/corey_latislaw"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/colabug"
+        },
+        {
+          "name": "site",
+          "link": "http://coreylatislaw.com/"
+        }
+      ]
     },
     {
-      "id": "guillaumelaforge",
-      "bio": "Guillaume Laforge is the project lead of the Open Source Groovy programming language for the Java platform, the most widely used alternative language of the Java platform. Guillaume works for Pivotal, and is the co-author of the best-seller « Groovy in Action » book. He often speaks at conference worldwide about Groovy related matters.",
-      "name": "Guillaume Laforge",
-      "company": "Pivotal",
-      "plusoneUrl": "https://plus.google.com/+GuillaumeLaforge",
-      "website": "",
-      "twitterUrl": "https://twitter.com/glaforge",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Guillaume-Laforge-222x222.png"
+      "id": 24812,
+      "name": "Damien",
+      "surname": "Cavaillès",
+      "thumbnailUrl": "photo.jpg",
+      "company": "Tripndrive",
+      "bio": "Je suis passionné par la mobilité et ses nouveaux usages et en particulier l'interaction avec les objets connectés.<br />Je suis également organisateur du Startup Weekend Lille \"Maker Edition\" et Facilitateur Startup Weekend.<br />=D",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@thedamfr"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+DamienCavailles"
+        }
+      ]
     },
     {
-      "id": "nabilhachicha",
-      "bio": "Developer of SnappyDB.com which is a NoSQL database for Android, Nabil works as an Android software engineer at The App Business in London.",
-      "name": "Nabil Hachicha",
-      "company": "The App Business",
-      "plusoneUrl": "https://plus.google.com/110610526826489061446",
-      "website": "",
-      "twitterUrl": "https://twitter.com/nabil_hachicha",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Nabil-Hachicha-222x222.jpg"
+      "id": 93192,
+      "name": "Cyril",
+      "surname": "Mottier",
+      "thumbnailUrl": "85753a6f0b1f7e49e0ed34ac9dea1335",
+      "company": "Captain Train",
+      "bio": "I like Android & UI/UX",
+      "rockstar": true,
+      "ribbon": [
+        {
+          "abbr": "GDE",
+          "title": "Google Developer Expert",
+          "url": "https://developers.google.com/experts/"
+        }
+      ],
+      "social": [
+        {
+          "name": "google-plus",
+          "link": "https://plus.google.com/+CyrilMottier"
+        },
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/cyrilmottier"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/cyrilmottier"
+        },
+        {
+          "name": "site",
+          "link": "http://cyrilmottier.com"
+        }
+      ]
     },
     {
-      "id": "geoffreydorne",
-      "bio": "Geoffrey will be presenting how design impacts our lives while creating products, services or experiences.",
-      "name": "Geoffrey Dorne",
-      "company": "Design & Human",
-      "plusoneUrl": "https://plus.google.com/116718314329691158716",
-      "website": "http://designandhuman.com/",
-      "twitterUrl": "https://twitter.com/GeoffreyDorne",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Geoffrey-Dorne-222x222.jpg"
+      "id": 40048,
+      "name": "Etienne",
+      "surname": "Margraff",
+      "thumbnailUrl": "photo.jpg.1",
+      "company": "Microsoft",
+      "bio": "Evangéliste développeur chez Microsoft France, Etienne fait du développement dans l'univers des technologies Microsoft depuis plusieurs années. Geek passionné par la techno, Etienne joue entre autre avec HTML5, Javascript, CSS, Visual Studio, Cordova et la mobilité en général. Il touche un peu à la 3D avec une contribution modeste sur BabylonJS (<a href='http://www.babylonjs.com'>www.babylonjs.com</a>). <br />Il est co-créateur de l’outil open-source Vorlon.js (<a href='http://www.vorlonjs.io'>http://www.vorlonjs.io</a>), un outil cross-plateforme pour débugger le web.<br />Il est speaker dans de nombreux événements tels que les TechDays, DroidCon, meetups, Kiwi Party, etc.<br />Vous pouvez le retrouver sur son blog : <a href='http://blogs.msdn.com/b/emargraff'>http://blogs.msdn.com/b/emargraff</a> et sur twitter : <a href='http://www.twitter.com/meulta'>http://www.twitter.com/meulta</a>.",
+      "social": [
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+EtienneMargraff"
+        }
+      ]
     },
     {
-      "id": "marcdecourville",
-      "bio": "Archos is a French company and has been a player in the Android arena since Android 1.5. The company was the first one to introduce Android tablets onto the market and a Google certified Android TV (Archos TV Connect). Archos is now a recognized brand for Android based tablets, phones and recently for Android based connected home solutions.",
-      "name": "Marc de Courville",
-      "company": "Archos",
-      "plusoneUrl": "https://plus.google.com/+MarcdeCourville",
-      "website": "",
-      "twitterUrl": "https://twitter.com/marcdecourville",
-      "thumbnailUrl": "https://lh6.googleusercontent.com/-gW61S7OilRU/Ukrbut8uhqI/AAAAAAAAAMk/tvCi34Iq8JM/w661-h655-no/MarcDeCourville_3.jpg"
+      "id": 56760,
+      "name": "Etienne",
+      "surname": "Caron",
+      "thumbnailUrl": "photo.jpg.2",
+      "company": "Intel Security",
+      "bio": "Etienne has been an active member of the Montreal Android community since 2010. As part of the Montreal Android GDG, he organises meetups, hackathons and codelabs. As part of the Google Developer Expert program, he also devotes time towards mentoring startups and developers new to Android.<br /><br />He got his start in programming in the mid-'80s obsessing over C64 demos, and went on to organize the NAID 95/96 demoparties. 3D animation, procedural content generation and VR are some of his hobbies, and he loves to introduce other developers to this fascinating field.<br /><br />He's the Android technical team lead for TrueKey from Intel Security. He lives in Montreal with his wonderful wife and daughter, and speaks French and English fluently.",
+      "ribbon": [
+        {
+          "abbr": "GDE",
+          "title": "Google Developer Expert",
+          "url": "https://developers.google.com/experts/"
+        },
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/109736270049664372028/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/kanawish"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+EtienneCaron"
+        }
+      ]
     },
     {
-      "id": "jbkempf",
-      "bio": "Jean-Baptiste Kempf is the president of the VideoLAN non-profit organization and one of the main developers of VLC. Jean-Baptiste led some of the ports of VLC on mobile devices, including the Android port, and is the current release manager of VLC.",
-      "name": "Jean-Baptiste Kempf",
-      "company": "VideoLAN",
-      "plusoneUrl": "https://plus.google.com/100674486160360423322",
-      "website": "",
-      "twitterUrl": "",
-      "thumbnailUrl": "https://lh5.googleusercontent.com/-M1Mwx3wQnB0/T6ptwS8gRiI/AAAAAAAAAEQ/eV7RBejAH48/w652-h655-no/JB-IMG_1103_DxO_1-Resize.jpg"
+      "id": 54886,
+      "name": "Eyal",
+      "surname": "LEZMY",
+      "thumbnailUrl": "photo.jpg.3",
+      "company": "Genymobile",
+      "bio": "Eyal is a software engineer at Genymobile, working on Genymotion – an Android emulator. He's been working with Android since 2009.<br /><br />He's also Treasurer at the Paris Android User Group and a Google Developer Expert in Android.<br /><br />Over the years, Eyal has been involved in several R&D projects with the French internet providers; worked for Samsung's Android B2B team; and built an Android set-top box for a hotel chain.",
+      "ribbon": [
+        {
+          "abbr": "GDE",
+          "title": "Google Developer Expert",
+          "url": "https://developers.google.com/experts/"
+        },
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/103781206198600111125/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/Eyal_Lezmy"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+EyalLEZMY"
+        }
+      ]
     },
     {
-      "id": "timmesserschmidt",
-      "bio": "As a long time mobile and web developer, Tim channels his knowledge and experience as PayPal’s Lead Developer Evangelist in EMEA. He is passionate about startups and serves as mentor at multiple incubators and accelerators. Prior joining PayPal Tim used to work with Neofonie Mobile and Samsung focussing on several mobile projects. In his spare time, he leads and creates training classes in all sorts of developer-oriented topics, contributes to Open Source projects and is one of the authors of the Mobile Developer’s Guide to the Galaxy, as well as numerous articles published in print magazines.",
-      "name": "Tim Messerschmidt",
-      "company": "PayPal",
-      "plusoneUrl": "https://plus.google.com/+TimMesserschmidt",
-      "website": "",
-      "twitterUrl": "https://twitter.com/SeraAndroid",
-      "thumbnailUrl": "https://lh4.googleusercontent.com/-G0EKTKz1vGI/UW6XHy-ncVI/AAAAAAAALbQ/quBFmBndiD4/w654-h655-no/IMG_0843_web.jpg"
+      "id": 99221,
+      "name": "Florian",
+      "surname": "Mierzejewski",
+      "thumbnailUrl": "b802469678e56fdee0a95c5e7f27d460",
+      "company": "Novoda",
+      "bio": "Florian is a french Android developer since 2009. He is based in Berlin and recently joined Novoda where he converts caffeine into great Android apps.",
+      "rockstar": true,
+      "ribbon": [
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/103781206198600111125/"
+        }
+      ],
+      "social": [
+        {
+          "name": "google-plus",
+          "link": "https://plus.google.com/+FlorianMierzejewski"
+        },
+        {
+          "name": "twitter",
+          "link": "http://twitter.com/florianmski"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/florianmski"
+        },
+        {
+          "name": "site",
+          "link": "http://florianmski.fr"
+        }
+      ]
     },
     {
-      "id": "hoilam",
-      "bio": "Hoi is a Senior Developer Advocate at Google for Wearables including both Android Wear and Google Glass. He previously worked on Google Cast where he was part of the launch team for both the Google Cast SDK and Chromecast in Europe. Prior to joining Google, he founded Exahive to disrupt the mobile commerce marketplace with new technology and business models. Hoi was an Equity Research VP at Deutsche Bank and Citigroup between 2007-2012 advising technology CEOs, CFOs on corporate strategy and institutional investors on technology investments. Before banking, he was an enterprise architect at Accenture heading up product management for large client programmes. Hoi holds a Master and Bachelor degree in Space Engineering from the University of Cambridge.",
-      "name": "Hoi Lam",
-      "company": "Google",
-      "plusoneUrl": "https://plus.google.com/+HoiLam",
-      "website": "",
-      "twitterUrl": "https://twitter.com/hcl21",
-      "thumbnailUrl": "https://lh4.googleusercontent.com/-VUBOaPF8tcM/UV3-2sDPqhI/AAAAAAAAU-E/GHTsNmt2__o/w653-h655-no/20090802-DSC_8688.png"
+      "id": 62738,
+      "name": "François",
+      "surname": "Blavoet",
+      "thumbnailUrl": "photo.jpg.4",
+      "company": "Deezer",
+      "bio": "Software engineer at Deezer",
+      "social": [
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+FrançoisBlavoet"
+        }
+      ]
     },
     {
-      "id": "marioviviani",
-      "bio": "Mario Viviani, Android Developer since 2010, has been nominated Google Developer Expert (GDE) for Android by Google in 2013. Mario has published more than 90 apps on Google Play. In 2011 Mario decided to create the startup Mariux Apps, based in Milan, Italy, focused on Mobile Applications Development. He is member of Talent Garden, a network of co-working spaces focused on digital and innovation. As Mariux Apps his products received 12.000.000+ total downloads and are currently ranked in the Top 100 apps in a lot of Categories in Google Play. At Mariux Apps he is also working with cutting edge technologies like Google Glass and Leap Motion. Mario is really active in the Android community, attending a lot of events worldwide, helping Android developers build new, compelling and well-received apps.",
-      "name": "Mario Viviani",
-      "company": "Mariux Apps",
-      "plusoneUrl": "https://plus.google.com/+MarioViviani",
-      "website": "",
-      "twitterUrl": "https://twitter.com/Mariuxtheone",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Mario-Viviani-222x222.jpg"
+      "id": 55337,
+      "name": "GUILLAUME",
+      "surname": "BERNARD",
+      "thumbnailUrl": "8acd7219295f70b6750e8532218a78ec.jpg",
+      "company": "Koridev",
+      "bio": "Guillaume, développeur Android depuis plus de 3 ans et Freelance depuis peu.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@Koridev_fr"
+        },
+        {
+          "name": "site",
+          "link": "http://www.koridev.fr"
+        }
+      ]
     },
     {
-      "id": "cedriccreusot",
-      "bio": "Cédric has always been fond of Mobile Development and he has a few years experience in the development of Android applications but he also wanted to try the “freelance experience” by creating video games himself. After that, he joined Meetic and he now is in charge of the development of Android applications, convinced that working in a team is more efficient and fun than on his own!",
-      "name": "Cédric Creusot",
-      "company": "Meetic",
-      "plusoneUrl": "",
-      "website": "",
-      "twitterUrl": "",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/C%C3%A9dric-Creusot-222x222.jpg"
-    },
-    {
-      "id": "jeanloupyu",
-      "bio": "Jean-Loup is fond of new technologies and he has been specializing in Mobile for a few years. He is currently the Head of Development for Mobile Applications at Meetic. Prior to Meetic, he worked as a consultant for many influential companies in the Media and Internet world. He joined Meetic to implement the Mobile Strategy of the group.",
-      "name": "Jean-Loup Yu",
-      "company": "Meetic",
-      "plusoneUrl": "https://plus.google.com/112882583085432640120",
-      "website": "",
-      "twitterUrl": "https://twitter.com/djelmen",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Jean-Loup-Yu-222x222.jpg"
-    },
-    {
-      "id": "thomasguerin",
-      "bio": "Consultant at Xebia since 2011, Thomas is fond of Android development and enthusiastic of good development practices. He is really interested in continuous deployment on Mobile phones.",
-      "name": "Thomas Guerin",
+      "id": 7237,
+      "name": "Jérémie",
+      "surname": "Martinez",
+      "thumbnailUrl": "me.jpg",
       "company": "Xebia",
-      "plusoneUrl": "https://plus.google.com/112041335454373673694",
-      "website": "",
-      "twitterUrl": "https://twitter.com/Tom404_",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Thomas-Guerin-222x222.jpg"
+      "bio": "Jeremie est développeur Android depuis plus de 4 ans et travaille en tant que consultant chez Xebia. Passionné par le développement mobile, il est un fervant adepte des bonnes pratiques et des principes du Software Craftsmanship.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@jeremmartinez"
+        },
+        {
+          "name": "site",
+          "link": "http://blog.xebia.fr/author/jeremie-martinez/"
+        }
+      ]
     },
     {
-      "id": "benjaminaugustin",
-      "bio": "Benjamin is an aspiring Software Craftsman and Android developer at Novoda. He is convinced that functional programming has a lot to teach us on our everyday work.",
-      "name": "Benjamin Augustin",
-      "company": "Novoda",
-      "plusoneUrl": "https://plus.google.com/113116875847268618115",
-      "website": "",
-      "twitterUrl": "https://twitter.com/Dorvaryn",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Benjamin-Augustin-222x222.jpg"
+      "id": 656,
+      "name": "Madis",
+      "surname": "Pink",
+      "thumbnailUrl": "b5b43736709fb47edc3ee649618d84f7",
+      "company": "ZeroTurnaround",
+      "bio": "Madis is currently working on JRebel for Android at ZeroTurnaround.<br />He started hacking on Android apps on a T-Mobile G1 more than 6 years ago<br />and quickly grew a particular interest in build systems and developer tooling.<br /><br />His previous experience includes working on the Android Platform team at Spotify<br />and producing multiple apps at Mobi Lab. During his free time he likes to dabble<br />around with guitars and home recording.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@madisp"
+        },
+        {
+          "name": "site",
+          "link": "https://zeroturnaround.com/software/jrebel-for-android/"
+        }
+      ]
     },
     {
-      "id": "sebastianopoggi",
-      "bio": "A self-taught and strong OSS believer who loves beautiful and simple UX and UI, where “less is more”, Sebastiano spends a big chunk of his spare time reading and writing about Android development. He also creates and maintains some FOSS apps and libraries, that span from the fun, smaller projects to the more serious (and, perhaps, useful) work. Sebastiano worked some time in AKQA as a Senior Software Engineer. Before moving to London, he also worked at i’m Spa (an Italian smartwatch startup) for two years, playing with the Android platform and handling their Developer Relations. He’s been toying with the Android SDK since 2010.",
-      "name": "Sebastiano Poggi",
-      "company": "Novoda",
-      "plusoneUrl": "https://plus.google.com/+SebastianoPoggi",
-      "website": "",
-      "twitterUrl": "https://twitter.com/seebrock3r",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/-uhZ-3UFgzzo/T4XR5D4VHiI/AAAAAAABBp4/PNiNGfhEHUs/w354-h352-no/Face_malga.jpg"
+      "id": 89927,
+      "name": "Marc",
+      "surname": "de Courville",
+      "thumbnailUrl": "photo.jpg.5",
+      "company": "Archos",
+      "bio": "Archos CTO.<br />Archos is a company that is manufacturing Google certified phone and tablets and has a comprehensive Android based Home connected solution. Apart from purely hardware based solutions, Archos is also making Android applications such has Archos Video Player and seeds some Archos differentiating software included in all their devices such as Archos Fusion Software.",
+      "rockstar": true,
+      "social": [
+        {
+          "name": "google-plus",
+          "link": "https://plus.google.com/106693526004988859571"
+        }
+      ]
     },
     {
-      "id": "mathieucalba",
-      "bio": "Mathieu is a Mobile Software Developer at Capitaine Train and GDG leader at Lyon with the GDG Lyon Android. Mathieu is fond of new technologies, and particularly with Android. He loves to create applications that integrate seamlessly with the system and spread his love for Android by giving some talks.",
-      "name": "Mathieu Calba",
-      "company": "Capitaine Train",
-      "plusoneUrl": "https://plus.google.com/+MathieuCalba",
-      "website": "",
-      "twitterUrl": "https://twitter.com/Mathieu_Calba",
-      "thumbnailUrl": "https://lh4.googleusercontent.com/-8hq7bSTRUjk/U8-lC8_87tI/AAAAAAAASXI/ZCwhRO7DtvI/s655-no/MathieuCalba_Profile.jpg"
+      "id": 54657,
+      "name": "Mark",
+      "surname": "Scheel",
+      "thumbnailUrl": "e552215dd726801c644470feae8bb41c",
+      "company": "Digital Construction",
+      "bio": "Mark lives in Colorado, USA where he works on a consumer medical application with over 6 million Play Store downloads.  He wrote a book on Google Glass software development, likes open source contributions and snowboarding, and enjoys speaking around the world about Google technology.  ",
+      "ribbon": [
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/107789954104899034011/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@5280mark"
+        },
+        {
+          "name": "site",
+          "link": "http://www.digitalconstruction.com"
+        }
+      ]
     },
     {
-      "id": "pyricau",
-      "bio": "Pierre-Yves Ricau is Android Software Engineer at Square, an innovative company that creates sleek, reliable instruments of commerce. He contributes to several open source projects, and created the AndroidAnnotations framework in 2010.",
-      "name": "Pierre-Yves Ricau",
-      "company": "Square",
-      "plusoneUrl": "https://plus.google.com/+PierreYvesRicau",
-      "website": "",
-      "twitterUrl": "https://twitter.com/Piwai",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Pierre-Yves-Ricau-222x222.jpg"
+      "id": 31851,
+      "name": "Mathieu",
+      "surname": "Calba",
+      "thumbnailUrl": "photo.jpg.6",
+      "company": "Captain Train",
+      "bio": "Mathieu is a Mobile Software Developer at Captain Train, and GDG leader at Lyon with the Lyon Android User Group. Mathieu is fond of new technologies, and particularly with Android. He loves to create applications that integrate seamlessly with the system and spread his love for Android by giving some talks.",
+      "ribbon": [
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/100234371859446651010/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@Mathieu_Calba"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+MathieuCalba"
+        }
+      ]
     },
     {
-      "id": "nicolasklein",
-      "bio": "Nicolas Klein is an engineer working on Google Play Games as well as working on building services to help make it easy to add awesome features to your games.",
-      "name": "Nicolas Klein",
-      "company": "Google",
-      "plusoneUrl": "https://plus.google.com/+NicolasKlein86",
-      "website": "http://www.foxykeep.com/homepage/",
-      "twitterUrl": "https://twitter.com/foxykeep",
-      "thumbnailUrl": "https://lh4.googleusercontent.com/-4sigh6so5Xk/UuqYNIa-AXI/AAAAAAAABGo/UYflVH4bQ2w/w654-h655-no/fox_irl2_centered.png"
+      "id": 9191,
+      "name": "Mounir",
+      "surname": "BOUDRAA",
+      "thumbnailUrl": "e139aa7ae2b6c738a42bc6f0303df361",
+      "company": "snips",
+      "bio": "Mounir Boudraa is a software engineer passionate about code craftsmanship.<br />He worked at Xebia as a mobile engineer, Android trainer and recruiter.  He is now making technology disappear at snips since 4 monthes",
+      "ribbon": [
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/103781206198600111125/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@_mboudraa"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/101079866497704610685"
+        }
+      ]
     },
     {
-      "id": "chprunier",
-      "bio": "Charles-Henry is a Development & Design Engineer at Genymobile and he is specialized in ROM customization that are destined for professionals.",
-      "name": "Charles-Henry Prunier",
-      "company": "Genymobile",
-      "plusoneUrl": "https://plus.google.com/113947333441309712266",
-      "website": "",
-      "twitterUrl": "",
-      "thumbnailUrl": "https://lh6.googleusercontent.com/-Xku8jvfCRRY/UvJ84ze_BBI/AAAAAAAAAPg/wW1jyNGkaBw/w656-h655-no/Charly.jpg"
+      "id": 96689,
+      "name": "Nabil",
+      "surname": "Hachicha",
+      "thumbnailUrl": "8ec22ebc6cddbfbe097a580b8d685f75",
+      "company": "Realm",
+      "bio": "Nabil is an avid Android fan who enjoys speaking at community-oriented conferences like Droidcon & GDG. His work as the developer behind SnappyDB helped him hone his open source development skills. He previously worked on apps in France & UK for companies like Renault, Bouygues-Telecom, Michelin, NewsUK, Unilever, and Go-Ahead. Currently, Nabil is an Android developer at Realm, replacement for SQLite & Core Data.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@nabil_hachicha"
+        },
+        {
+          "name": "site",
+          "link": "http://realm.io"
+        }
+      ]
     },
     {
-      "id": "remygottschalk",
-      "bio": "Rémy is a Development & Design Engineer at Genymobile and he is specialized in ROM customization that are destined for professionals.",
-      "name": "Rémy Gottschalk",
-      "company": "Genymobile",
-      "plusoneUrl": "https://plus.google.com/115906133301850752077",
-      "website": "",
-      "twitterUrl": "",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/R%C3%A9my-Gottschak-222x222.jpg"
+      "id": 3900,
+      "name": "Pierre",
+      "surname": "Benayoun",
+      "thumbnailUrl": "5e5dd32f5540646a77252f90a5650952",
+      "company": "Le cabinet numérique",
+      "bio": "Pierre est fondateur du Cabinet Numérique et président du Bordeaux Android User Group à Bordeaux.<br /><br />Il travaille actuellement sur plusieurs projets Android liés à l'Activity Tracking.",
+      "ribbon": [
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "http://baug.fr/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@Pierre_Benayoun"
+        },
+        {
+          "name": "site",
+          "link": "http://www.frandroid.com/blogs/vmvdd/"
+        }
+      ]
     },
     {
-      "id": "jeanmaisonnial",
-      "bio": "Jean has been working at Google for more than 3 years. He is a Mobile Apps Consultant and works with French developers to help them to grow, distribute and monetize their applications.",
-      "name": "Jean Maisonnial",
-      "company": "Google",
-      "plusoneUrl": "https://plus.google.com/102884676049998981590",
-      "website": "",
-      "twitterUrl": "",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Jean-Maisonnial-222x222.jpg"
+      "id": 60848,
+      "name": "Pierre",
+      "surname": "Crépieux",
+      "thumbnailUrl": "db950a4adf54b7a13cd3c70fdcd7e334",
+      "company": "Orange",
+      "bio": "Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd'hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau.<br /><a href='https://www.linkedin.com/in/pcrepieux'>https://www.linkedin.com/in/pcrepieux</a>",
+      "social": []
     },
     {
-      "id": "simonstewart",
-      "bio": "Often described as a “fire hazard” and sporting more hair than most primates, Simon is a Software Engineer on Facebook's internal tools team. He has best known for having turned his hairy hands to the invention of WebDriver, the open source web application testing tool, as well as leading the Selenium project. When he is not saving kittens from fires, or rescuing Granny’s from micro perms, he enjoys talking incessantly about Facebook's commitment to OSS and how we organize our git repo. Please ask him what makes for a truly pleasurable London bus experience.",
-      "name": "Simon Stewart",
-      "company": "Facebook",
-      "plusoneUrl": "https://plus.google.com/104565969450039850531",
-      "website": "",
-      "twitterUrl": "https://twitter.com/shs96c",
-      "thumbnailUrl": "https://lh6.googleusercontent.com/-N47hWFi5frI/TW9OX3t6YFI/AAAAAAAACh4/FbryZVBQ278/w500-h499-no/headshot.jpeg"
+      "id": 3632,
+      "name": "Pierre-Olivier",
+      "surname": "Dybman",
+      "thumbnailUrl": "tumblr_inline_naj6huWLqb1sa6hof.jpg",
+      "company": "Sidereo",
+      "bio": "I am the Mario Kart undisputed champion of the company.<br />My motto: Do one thing but do it well<br /><br />My favorite movie: Johnny Mnemonic<br />Because information matters.",
+      "ribbon": [
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/103781206198600111125/"
+        }
+      ],
+      "social": [
+        {
+          "name": "site",
+          "link": "https://plus.google.com/113008087135852546098"
+        }
+      ]
     },
     {
-      "id": "amritsanjeev",
-      "bio": "Google Developer Expert - Android\nOrganizer of GDG Blrdroid\nIntel Influencer - Android \nWorks at Digital Insight as Mobile Staff Engineer. \nPreviously worked as a Research engineer at Philips and Architect at IBM ",
-      "name": "Amrit Sanjeev",
-      "company": "Digital Insight",
-      "plusoneUrl": "https://plus.google.com/+AmritSanjeev",
-      "website": "http://amsanjeev.wordpress.com/",
-      "twitterUrl": "https://twitter.com/amsanjeev",
-      "thumbnailUrl": "https://lh5.googleusercontent.com/-hsv3-3ocI5c/U3miCl0UcTI/AAAAAAAADrU/6lqih6PX7wk/s348-no/045A1927.JPG"
-    },
-    {
-      "id": "quentinsallat",
-      "bio": "Android Developer for more than three years, I'm a huge fan of mobile and web development. I've been blogging for years about .NET, HTML5 and Java development, and I'm now a Professional Android developer.\n\nI'm especially interested in app design, and with more than fifteen apps published under my personal account, Aerilys, I've some things I'd like to share with my fellow developers!",
-      "name": "Quentin Sallat",
+      "id": 86297,
+      "name": "Quentin",
+      "surname": "Sallat",
+      "thumbnailUrl": "BnzgLRW.jpg",
       "company": "iD.apps",
-      "plusoneUrl": "https://plus.google.com/u/0/114162543563319129793",
-      "website": "http://blog.aerilys.fr/",
-      "twitterUrl": "https://twitter.com/aerilys",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Quentin-Sallat-222x222.jpg"
+      "bio": "I'm Android developer at iD.apps. I've been passionate about mobile development for several years, and I love to create smart and user-centric apps, focusing on user experience and little design details.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@Aerilys"
+        },
+        {
+          "name": "site",
+          "link": "http://blog.aerilys.fr"
+        }
+      ]
     },
     {
-      "id": "luwenhui",
-      "bio": "Wenhui Lu has 12 years’ experience in software development on mobile devices. He has been in different positions at Nokia and Microsoft for various projects ranging from product development to research oriented.\n\nCurrently working as a Technology Wizard, Wenhui promotes the developer ecosystem of Microsoft mobile platforms (Nokia X and Windows Phone) by providing developers with technical consultancy, training, evangelism, and other facilities to help them to succeed with Microsoft.",
-      "name": "Lu Wenhui",
+      "id": 46332,
+      "name": "Ran",
+      "surname": "Nachmany",
+      "thumbnailUrl": "photo.jpg.7",
+      "company": "Google",
+      "bio": "Google Dev Rel by day and sw poet by night. Ran compiled his first program when he was 8y/o and has been moving bits since. ",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@shed2k"
+        },
+        {
+          "name": "site",
+          "link": "http://developers.android.com"
+        }
+      ]
+    },
+    {
+      "id": 27801,
+      "name": "Ron",
+      "surname": "Munitz",
+      "thumbnailUrl": "ac3bc024116d41a21bcb99be7b2c4954.png",
+      "company": "The PSCG",
+      "bio": "Ron is a serial entrepreneur and a software development consultant, with long history developing performance and safety critical software, leading development groups, training application and platform developers, and helping companies in the process of board bring-ups, design and execution of embedded systems products, security best practices and product start-up. He specializes in all aspects of distributed systems, Linux and Android internals, a member of the Android-X86 project and the the designer and original developer of the first Android Remote Display Protocol, as the Founder and CTO of Nubo, the first Remote Android Workspace for the Enterprise. Ron frequently passes on his knowledge on the world's leading  conferences.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/ronubo"
+        },
+        {
+          "name": "site",
+          "link": "http://thepscg.com"
+        },
+        {
+          "name": "site",
+          "link": "http://ronubo.blogspot.com"
+        }
+      ]
+    },
+    {
+      "id": 54742,
+      "name": "Romain",
+      "surname": "Piel",
+      "thumbnailUrl": "photo.jpg.8",
+      "company": "Songkick",
+      "bio": "Romain is a passionate Android developer who has been building apps since Android Froyo. He is currently working for Songkick as a happy Android developer. In the past he worked for Microsoft as well as building useless/fun apps with GIFs and animations.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@_rpiel"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+RomainPiel"
+        }
+      ]
+    },
+    {
+      "id": 1690,
+      "name": "Stan",
+      "surname": "Kocken",
+      "thumbnailUrl": "photo.jpg.9",
+      "company": "Freelance",
+      "bio": "Android developer since 2010. I had the chance to work to be the lead developer on many projects such as Eurostar, Crédit Agricole, La Chaine Météo Marine or Dailymotion while I was working at Backelite until the end of 2012. This experience helped to join PrePlay until this summer, an American startup building a predictive game for American sport with the official support of the NHL (hockey) and the MLB (baseball). I'm now a freelance working into a famous dating website who want to improve his visibility on mobile.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@stan_kocken"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+StanKOCKEN"
+        }
+      ]
+    },
+    {
+      "id": 37805,
+      "name": "Svetlana",
+      "surname": "Isakova",
+      "thumbnailUrl": "SvetlanaIsakova.png",
+      "company": "JetBrains",
+      "bio": "Svetlana is working on the Kotlin language (<a href='http://kotlinlang.org/'>http://kotlinlang.org/</a>) at JetBrains since 2011. She is one of the authors of \"Kotlin in Action\" and a frequent conference speaker.",
+      "rockstar": true,
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/sveta_isakova"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/svtk"
+        },
+        {
+          "name": "site",
+          "link": "http://kotlin.jetbrains.org/"
+        }
+      ]
+    },
+    {
+      "id": 46632,
+      "name": "Turhan",
+      "surname": "Oz",
+      "thumbnailUrl": "ky0MYY5V.jpg",
+      "company": "Socosmoz",
+      "bio": "Entrepreneur et développeur dans la région parisienne. Passionné par Android. Membre actif du Paug",
+      "ribbon": [
+        {
+          "abbr": "GDG",
+          "title": "Google Developer Group",
+          "url": "https://developers.google.com/groups/chapter/103781206198600111125/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@turhanoz"
+        },
+        {
+          "name": "site",
+          "link": "http://turhanoz.com"
+        }
+      ]
+    },
+    {
+      "id": 31973,
+      "name": "Volker",
+      "surname": "Leck",
+      "thumbnailUrl": "volker_small_square_0.png",
+      "company": "Novoda",
+      "bio": "Volker is a Java veteran and an early adopter of the Android platform. He works at Novoda where he develops Android Apps of all sizes, flavours and colours.",
+      "rockstar": true,
+      "social": [
+        {
+          "name": "google-plus",
+          "link": "https://plus.google.com/+VolkerLeck"
+        },
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/devisnik"
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/devisnik"
+        },
+        {
+          "name": "site",
+          "link": "http://www.novoda.com/"
+        }
+      ]
+    },
+    {
+      "id": 22378,
+      "name": "Xavier",
+      "surname": "Hallade",
+      "thumbnailUrl": "photo.jpg.10",
+      "company": "Intel",
+      "bio": "Xavier Hallade is a software engineer at Intel Software and Services Group in Paris, France, where he works on a wide range of Android frameworks, libraries and applications, helping developers to improve their support for new hardware and technologies.<br />He's a Google Developer Expert in Android, with a focus on the Android NDK and Android TV.",
+      "ribbon": [
+        {
+          "abbr": "GDE",
+          "title": "Google Developer Expert",
+          "url": "https://developers.google.com/experts/"
+        }
+      ],
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@ph0b"
+        },
+        {
+          "name": "site",
+          "link": "https://plus.google.com/+XavierHallade"
+        }
+      ]
+    },
+    {
+      "id": 42098,
+      "name": "Benjamin",
+      "surname": "Lacroix",
+      "thumbnailUrl": "3721841ae671405b7bcec504d47da671",
+      "company": "XEBIA",
+      "bio": "Craftsman Android",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@benjlacroix"
+        },
+        {
+          "name": "site",
+          "link": "https://www.linkedin.com/profile/view?id=AAIAAAKnC-4BXlvTDPkQYjiYClV4jETjX5d9t94"
+        }
+      ]
+    },
+    {
+      "id": 58340,
+      "name": "Thomas",
+      "surname": "Guerin",
+      "thumbnailUrl": "742c61e904b91c905521a640c2dc0427",
+      "company": "Deezer",
+      "bio": "Passionné de développement Android et adepte des bonnes pratiques de développement.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@Tom404_"
+        }
+      ]
+    },
+    {
+      "id": 45678,
+      "name": "Jean-Sébastien",
+      "surname": "Dupuy",
+      "thumbnailUrl": "dupuyjs.jpg",
       "company": "Microsoft",
-      "plusoneUrl": "",
-      "website": "",
-      "twitterUrl": "https://twitter.com/ui_lu",
-      "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Wenhui-Lu-222x222.png"
-    },
-    {
-      "id": "damienmehers",
-      "bio": "Damian is a Senior Software Engineer at Evernote, based out of Geneva, Switzerland.  He created the original Evernote Windows Phone client, and worked on Evernote Food for Android, and is now focused on Evernote and wearable technology, having created Evernote for the Samsung Galaxy Gear, the Pebble Smartwatch, and Android Wear.\n\nPrior to joining Evernote, Damian released an app he’d created in his spare time, which used Evernote’s open API.  Evernote noticed, and he got a call from the CEO asking if he’d join the company to help build Evernote’s next generation of products.  It wasn’t a hard decision.\nHe has founded several successful software product companies, and loves the magic that is programming: turning something imagined into something real.",
-      "name": "Damien Mehers",
-      "company": "Evernote",
-      "plusoneUrl": "https://plus.google.com/+DamianMehers0",
-      "website": "http://damianblog.com/",
-      "twitterUrl": "https://twitter.com/DamianMehers",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/-q6WOniTjhcc/UmMYwC0a_6I/AAAAAAAFFIU/OnvdujXUHd0/w487-h486-no/DamianPortait25%25.JPG"
-    },
-    {
-      "id": "alexdanvy",
-      "bio": "Developer Evangelist at Microsoft",
-      "name": "Alex Danvy",
-      "company": "Microsoft",
-      "plusoneUrl": "https://plus.google.com/u/0/107150265059028646442",
-      "website": "http://danvy.tv/",
-      "twitterUrl": "https://twitter.com/danvy",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/-2aSmCUqOIc8/TXNd9hoSjsI/AAAAAAAAAyE/yUzxsbHRPrk/s399-no/Alex.jpg"
-    },
-    {
-      "id": "cedricpointel",
-      "bio": "Cédric Pointel est consultant dans l’équipe mobilité chez OCTO Technology depuis 4 ans. Il réalise des applications mobiles principalement sur iOS dans différents secteurs comme la banque, l’assurance, le luxe ou encore les réseaux sociaux . Il effectue également des missions d’accompagnement et de conseil sur les sujets autour de la mobilité, la qualité des développements et l’intégration continue. Intéressé par la robotique et les objets connectés, il s’est naturellement mis à tester les nouveaux terminaux dont les Google Glass depuis le début de l’année.",
-      "name": "Cédric Pointel",
-      "company": "Octo Technology",
-      "plusoneUrl": "https://plus.google.com/113903980522545486925",
-      "website": "",
-      "twitterUrl": "https://twitter.com/cpointel",
-      "thumbnailUrl": ""
-    },
-    {
-      "id": "mathieuhausherr",
-      "bio": "Mathieu Hausherr est développeur d’applications mobiles chez Octo Technology. Il réalise des applications iOS et Android. Il croit en l’industrialisation des devs mobiles, aux tests unitaires et à l’intégration continue. Il teste de nouveaux terminaux, de la lunette à la montre connectée.",
-      "name": "Mathieu Hausherr",
-      "company": "Octo Technology",
-      "plusoneUrl": "https://plus.google.com/111393145937875554935",
-      "website": "",
-      "twitterUrl": "https://twitter.com/mhausherr",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/-QqtML0wa6pA/Tqaipgj0lqI/AAAAAAAABWA/MQjejWlP_x8/w905-h902-no/MHA.jpg"
+      "bio": "Evangéliste développeur chez Microsoft France. Passionné par le développement d'applications mobiles et les objets connectés, Jean-Sébastien anime les relations techniques avec les développeurs depuis plusieurs années. Vous pouvez suivre son actualité et le contacter sur twitter <a href='http://twitter.com/@dupuyjs'>@dupuyjs</a> ou sur son blog <a href='http://blogs.msdn.com/b/jdupuy'>http://blogs.msdn.com/b/jdupuy</a>.",
+      "social": [
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/@dupuyjs"
+        },
+        {
+          "name": "site",
+          "link": "http://blogs.msdn.com/b/jdupuy"
+        }
+      ]
     }
   ],
   "sessions": [

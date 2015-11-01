@@ -21,11 +21,17 @@ import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.BaseColumns;
+import android.util.Log;
 
 import fr.paug.droidcon2015.io.model.Speaker;
 import fr.paug.droidcon2015.provider.ScheduleContract;
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
+import org.json.JSONArray;
+
 import fr.paug.droidcon2015.provider.ScheduleContractHelper;
 
 import java.util.ArrayList;
@@ -44,8 +50,24 @@ public class SpeakersHandler extends JSONHandler {
 
     @Override
     public void process(JsonElement element) {
+        int accu = 0;
         for (Speaker speaker : new Gson().fromJson(element, Speaker[].class)) {
+
+            JsonArray socials = element.getAsJsonArray().get(accu).getAsJsonObject().getAsJsonArray("social");
+            for (JsonElement social : socials) {
+                switch (social.getAsJsonObject().get("name").getAsString()) {
+                    case "twitter":
+                        speaker.twitterUrl = String.valueOf(social.getAsJsonObject().get("link").getAsString());
+                        break;
+                    case "google-plus":
+                        speaker.plusoneUrl = String.valueOf(social.getAsJsonObject().get("link").getAsString());
+                        break;
+                    default:
+                        break;
+                }
+            }
             mSpeakers.put(speaker.id, speaker);
+            accu++;
         }
     }
 
