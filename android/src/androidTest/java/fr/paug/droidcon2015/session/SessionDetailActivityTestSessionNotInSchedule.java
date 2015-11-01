@@ -159,12 +159,6 @@ public class SessionDetailActivityTestSessionNotInSchedule {
 
     @Test
     @Ignore("Will be written with Intento")
-    public void showMap_WhenClicked_IntentFired() {
-        onView(withId(R.id.menu_map_room)).perform(click());
-    }
-
-    @Test
-    @Ignore("Will be written with Intento")
     public void showShare_WhenClicked_IntentFired() {
         onView(withId(R.id.menu_share)).perform(click());
     }
