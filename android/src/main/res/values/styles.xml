@@ -40,7 +40,7 @@
 
         <item name="colorPrimary">@color/theme_primary</item>
         <item name="colorPrimaryDark">@color/theme_primary_dark</item>
-        <item name="colorAccent">@color/theme_primary</item>
+        <item name="colorAccent">@color/theme_accent_2</item>
 
         <item name="android:textColorLink">@color/flat_button_text</item>
 
@@ -232,7 +232,7 @@
     </style>
 
     <style name="TextAppearance.SessionTitle" parent="TextAppearance.Body2">
-        <item name="android:textColor">@color/video_title</item>
+        <item name="android:textColor">@color/body_text_2</item>
     </style>
 
     <style name="TextAppearance.VideoDuration" parent="TextAppearance.AppCompat.Caption">
@@ -241,6 +241,7 @@
 
     <style name="TextAppearance.Title" parent="TextAppearance.AppCompat.Title">
         <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/body_text_1</item>
     </style>
 
     <style name="TextAppearance.Subhead" parent="TextAppearance.Body2">

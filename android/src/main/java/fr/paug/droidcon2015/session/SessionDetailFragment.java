@@ -408,7 +408,8 @@ public class SessionDetailFragment extends Fragment
         mSubtitle.setText(data.getSessionSubtitle());
 
         mPhotoViewContainer
-                .setBackgroundColor(UIUtils.scaleSessionColorToDefaultBG(data.getSessionColor()));
+                .setBackgroundColor(UIUtils.scaleSessionColorToDefaultBG(getContext().getColor(R.color.default_session_color)));
+        //        .setBackgroundColor(UIUtils.scaleSessionColorToDefaultBG(data.getSessionColor()));
 
         if (data.hasPhotoUrl()) {
             mHasPhoto = true;

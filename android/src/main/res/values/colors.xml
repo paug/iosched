@@ -45,13 +45,13 @@
     <color name="app_body_text_disabled">#44000000</color>
     <color name="app_body_text_1_inverse">#deffffff</color>
     <color name="app_body_text_2_inverse">#8affffff</color>
-    <color name="flat_button_text">#ff008094</color>
-    <color name="text_on_primary">#ff004446</color>
-    <color name="subtitle_on_primary">#de004446</color>
+    <color name="flat_button_text">@color/theme_primary</color>
+    <color name="text_on_primary">#ffffffff</color>
+    <color name="subtitle_on_primary">#8affffff</color>
     <color name="unselected_tab_on_primary">#b3004446</color>
 
     <!-- Session Detail colors. -->
-    <color name="session_detail_tag_text_color">@color/flat_button_text</color>
+    <color name="session_detail_tag_text_color">@color/theme_primary</color>
     <color name="section_header_views_color">@color/io15_dark_grey</color>
     <color name="fab_not_in_schedule">#ffeeff21</color>
     <color name="fab_in_schedule">@color/io15_white</color>
@@ -59,8 +59,8 @@
     <color name="fab_icon_color">#99000000</color>
 
     <!-- start deprecated -->
-    <color name="body_text_1">#de000000</color>
-    <color name="body_text_2">#8a000000</color>
+    <color name="body_text_1">@color/theme_primary_dark</color>
+    <color name="body_text_2">@color/theme_primary</color>
     <color name="body_text_3">#60000000</color>
     <color name="body_text_disabled">#44000000</color>
 
@@ -68,12 +68,12 @@
     <color name="body_text_2_inverse">#8affffff</color>
     <!-- end deprecated -->
 
-    <color name="theme_primary">@color/app_primary_accent</color>
-    <color name="theme_primary_dark">#00BCD4</color>
-    <color name="theme_primary_light">#7986cb</color>
+    <color name="theme_primary">#ff3a7433</color>
+    <color name="theme_primary_dark">#ff244921</color>
+    <color name="theme_primary_light">#a8de25</color>
 
-    <color name="theme_accent_1">#00b0ff</color>
-    <color name="theme_accent_1_light">#8ad4fa</color>
+    <color name="theme_accent_1">#f73833</color>
+    <color name="theme_accent_1_light">#fff76e68</color>
 
     <color name="theme_accent_2">#e91e63</color>
 
@@ -91,13 +91,13 @@
     <color name="dark_divider">#32000000</color>
 
     <color name="more_button_background">#ffcfd8dc</color>
-    <color name="more_button_text">@color/cyan_a700_plus</color>
+    <color name="more_button_text">@color/theme_primary</color>
 
     <color name="navdrawer_background">#ffffffff</color>
     <color name="navdrawer_text_color">@color/body_text_1</color>
-    <color name="navdrawer_text_color_selected">@color/cyan_a700_plus</color>
-    <color name="navdrawer_icon_tint">#444</color>
-    <color name="navdrawer_icon_tint_selected">@color/cyan_a700_plus</color>
+    <color name="navdrawer_text_color_selected">@color/theme_primary</color>
+    <color name="navdrawer_icon_tint">#808080</color>
+    <color name="navdrawer_icon_tint_selected">@color/theme_primary</color>
     <color name="navdrawer_selected_item_background">#1a000000</color>
 
     <color name="data_item_background_light">#ffffff</color>
@@ -137,7 +137,7 @@
     <color name="lighter_gray">#ddd</color>
 
     <!-- video lib -->
-    <color name="video_title">#de07434d</color>
+    <color name="video_title">@color/theme_primary</color>
     <color name="filter_text">@color/app_primary_text</color>
     <color name="video_scrim_watched">#b3f1f1f1</color>
 
