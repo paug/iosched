@@ -17,7 +17,9 @@
 package fr.paug.droidcon2015.feedback;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.widget.Toolbar;
@@ -68,6 +70,13 @@ public class SessionFeedbackActivity extends BaseActivity {
 
         Toolbar toolbar = getActionBarToolbar();
         toolbar.setNavigationIcon(R.drawable.ic_up);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Drawable iconDrawable = getDrawable(R.drawable.ic_ab_up_ltr);
+            if (iconDrawable != null) {
+                iconDrawable.setAutoMirrored(true);
+                toolbar.setNavigationIcon(iconDrawable);
+            }
+        }
         toolbar.setNavigationContentDescription(R.string.close_and_go_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

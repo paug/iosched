@@ -16,6 +16,8 @@
 
 package fr.paug.droidcon2015.videolibrary;
 
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -90,6 +92,13 @@ public class VideoLibraryFilteredActivity extends BaseActivity implements
         // Add the back button to the toolbar.
         Toolbar toolbar = getActionBarToolbar();
         toolbar.setNavigationIcon(R.drawable.ic_up);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Drawable iconDrawable = getDrawable(R.drawable.ic_ab_up_ltr);
+            if (iconDrawable != null) {
+                iconDrawable.setAutoMirrored(true);
+                toolbar.setNavigationIcon(iconDrawable);
+            }
+        }
         toolbar.setNavigationContentDescription(R.string.close_and_go_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

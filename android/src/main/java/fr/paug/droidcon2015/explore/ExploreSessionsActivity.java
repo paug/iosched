@@ -21,7 +21,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.Loader;
 import android.database.Cursor;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -179,6 +181,13 @@ public class ExploreSessionsActivity extends BaseActivity
         // Add the back button to the toolbar.
         Toolbar toolbar = getActionBarToolbar();
         toolbar.setNavigationIcon(R.drawable.ic_up);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Drawable iconDrawable = getDrawable(R.drawable.ic_ab_up_ltr);
+            if (iconDrawable != null) {
+                iconDrawable.setAutoMirrored(true);
+                toolbar.setNavigationIcon(iconDrawable);
+            }
+        }
         toolbar.setNavigationContentDescription(R.string.close_and_go_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

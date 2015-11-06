@@ -68,7 +68,8 @@ public class WelcomeActivity extends AppCompatActivity implements WelcomeFragmen
 
         LogUtils.LOGD(TAG, "Inside Create View.");
 
-        setupAnimation();
+        // don't setup the anim as we don't have one, simply display the drawable
+        //setupAnimation();
     }
 
     private void setupAnimation() {
