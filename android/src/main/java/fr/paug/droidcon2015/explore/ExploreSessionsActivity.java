@@ -312,7 +312,7 @@ public class ExploreSessionsActivity extends BaseActivity
             } else {
                 // b) For remote users, default to only showing Sessions that are Live streamed.
                 TagMetadata.Tag theTag = mTagMetadata.getTag(Config.Tags.SESSIONS);
-                if (!TextUtils.equals(theTag.getCategory(), userTagCategory)) {
+                if (theTag != null && !TextUtils.equals(theTag.getCategory(), userTagCategory)) {
                     mTagFilterHolder.add(theTag.getId(), theTag.getCategory());
                 }
                 mTagFilterHolder.setShowLiveStreamedSessions(true);
