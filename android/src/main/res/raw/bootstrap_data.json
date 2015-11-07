@@ -1,370 +1,387 @@
 {
     "speakers": [
         {
+            "id": "brianegan",
+            "bio": "",
+            "name": "Brian Egan",
+            "company": "SoundCloud",
+            "plusoneUrl": "",
+            "website": "",
+            "twitter": "https://twitter.com/brianegan",
+            "thumbnailUrl": "https://pbs.twimg.com/profile_images/1555153459/Photo_on_9-16-11_at_4.11_PM__3.jpg"
+        },
+        {
+            "id": "guillaumelung",
+            "bio": "",
+            "name": "Guillaume Lung",
+            "company": "SoundCloud",
+            "plusoneUrl": "",
+            "website": "",
+            "twitter": "https://twitter.com/lungos",
+            "thumbnailUrl": "https://pbs.twimg.com/profile_images/639421933545656320/o5StVLZ2.jpg"
+        },
+        {
+            "id": "alexisfogel",
+            "bio": "I am Co-founder at Dashlane and running product there. I have studied business (ESCP-Europe) and computer science (Centrale Paris) and have worked on UI & UX since then while growing the Dashlane product. I have also co-founded the French Blog and Publishing company Playlist Society (www.playlistsociety.com) for which I take care of development, design and UX.",
+            "name": "Alexis Fogel",
+            "company": "Dashlane",
+            "plusoneUrl": "https://plus.google.com/+alexisfogel/posts",
+            "website": "",
+            "twitter": "https://twitter.com/alexisfogel",
+            "thumbnailUrl": "http://droidcon.fr/img/people/AF_HD.jpg"
+        },
+        {
+            "id": "alizeepenel",
+            "bio": "Alizée is a (embedded) system developer at Genymobile, a startup offering companies its Android expertise through a range of application and system services and innovative solutions. She works on virtualization problematics, graphics stack on Linux and Android ROM cooking. She also teaches courses on Android system at EPITA to the future engineers specializing in embedded systems.",
+            "name": "Alizée Penel",
+            "company": "Genymobile",
+            "plusoneUrl": "",
+            "website": "",
+            "twitter": "https://twitter.com/kynzie___",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photoalizee.png"
+        },
+        {
+            "id": "alexisrosovsky",
+            "bio": "Alexis is an Android platform developer at Genymobile. He is used to work on Android porting issues, such as HAL development and framework fixes.",
+            "name": "Alexis Rosovsky",
+            "company": "Genymobile",
+            "plusoneUrl": "https://plus.google.com/103101983670154301873",
+            "website": "",
+            "twitter": "",
+            "thumbnailUrl": "http://droidcon.fr/img/people/AAEAAQAAAAAAAAP_AAAAJDFkYmI1ZDliLTEwZDQtNDVjMS1iYTI3LTY1NzA4OGJmYmY0Zg.jpg"
+        },
+        {
+            "id": "billphillips",
+            "bio": "Bill Phillips is a Fellow at Big Nerd Ranch. Under this title he is allowed to help develop course material, write Android code, evangelize teaching philosophy, teach, write blog posts, get to know people in the Android community, and who knows what else. He is coauthor of the bestselling Big Nerd Ranch Guide To Android Programming, an introductory Android text, as well as the materials for Big Nerd Ranch's Android Bootcamp.",
+            "name": "Bill Phillips",
+            "company": "Big Nerd Ranch",
+            "plusoneUrl": "",
+            "website": "",
+            "twitter": "https://twitter.com/billjings",
+            "thumbnailUrl": "http://droidcon.fr/img/people/bc7c0704a8de23220efc62e1029dba97"
+        },
+        {
+            "id": "coreylatislaw",
+            "bio": "Corey Leigh Latislaw (coreylatislaw.com) is a Google Developer Expert (GDE) in Android who has written several high profile Android applications at companies large and small. By day she is rebooting a large hybrid enterprise app as a native Android app. At night she authors videos and books on Android programming, runs an Android + full-stack consulting firm, and organizes the Philadelphia Google Developer Group. She is passionate about travel, local food, the outdoors, photography, and living in Philly.",
+            "name": "Corey Latislaw",
+            "company": "Green Life Software Development",
+            "plusoneUrl": "https://plus.google.com/+CoreyLeighLatislaw",
+            "website": "http://coreylatislaw.com/",
+            "twitter": "https://twitter.com/corey_latislaw",
+            "thumbnailUrl": "http://droidcon.fr/img/people/New-Headshot.jpg"
+        },
+        {
+            "id": "damiencavailles",
+            "bio": "Je suis passionné par la mobilité et ses nouveaux usages et en particulier l'interaction avec les objets connectés.\nJe suis également organisateur du Startup Weekend Lille \"Maker Edition\" et Facilitateur Startup Weekend.\n=D",
+            "name": "Damien Cavaillès",
+            "company": "Hell Rider",
+            "plusoneUrl": "https://plus.google.com/+DamienCavailles",
+            "website": "",
+            "twitter": "https://twitter.com/thedamfr",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg"
+        },
+        {
             "id": "cyrilmottier",
-            "bio": "Cyril Mottier is Mobile Software Engineer at Capitaine Train and Android Google Developer Expert. Passionate about technology and design, Cyril is an avid lover of Android and a multi-skilled engineer. He is actively involved in the Android community and shares his passion writing blog posts, creating open source librairies and giving talks. His motto: “Do less, but do it insanely great",
+            "bio": "I like Android & UI/UX",
             "name": "Cyril Mottier",
-            "company": "Capitaine Train",
+            "company": "Captain Train",
             "plusoneUrl": "https://plus.google.com/+CyrilMottier",
             "website": "http://cyrilmottier.com/",
             "twitter": "https://twitter.com/cyrilmottier",
             "thumbnailUrl": "https://lh3.googleusercontent.com/-LWYaRkiLVvM/Ut48DO9cP1I/AAAAAAAAQkU/HvZg4UrVXtI/s500-no/me.jpg"
         },
         {
-            "id": "xavierhallade",
-            "bio": "Xavier Hallade is Developer Evangelist in Intel Software and Service Group in Paris, France. He is helping developers to improve their support for new hardware and technologies backed by Intel, with a focus on the Android NDK, 64-bit and wireless displays.",
-            "name": "Xavier Hallade",
-            "company": "Intel",
-            "plusoneUrl": "https://plus.google.com/+XavierHallade",
-            "website": "http://ph0b.com/",
-            "twitter": "https://twitter.com/ph0b",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Xavier-Hallade.jpg"
-        },
-        {
-            "id": "janchong",
-            "bio": "Jan Chong holds a BS and MS in Computer Science from Stanford University. She has Ph.D from the Management Science & Engineering Department, also from Stanford. She is currently the Engineering Manager for the Twitter Android Team. Prior to joining Twitter, Jan ran client and server software development at OnLive.",
-            "name": "Jan Chong",
-            "company": "Twitter",
-            "plusoneUrl": "https://plus.google.com/107409019686006760010",
+            "id": "etiennemargraff",
+            "bio": "Evangéliste développeur chez Microsoft France, Etienne fait du développement dans l'univers des technologies Microsoft depuis plusieurs années. Geek passionné par la techno, Etienne joue entre autre avec HTML5, Javascript, CSS, Visual Studio, Cordova et la mobilité en général. Il touche un peu à la 3D avec une contribution modeste sur BabylonJS (www.babylonjs.com). \nIl est co-créateur de l’outil open-source Vorlon.js (http://www.vorlonjs.io), un outil cross-plateforme pour débugger le web.\nIl est speaker dans de nombreux événements tels que les TechDays, DroidCon, meetups, Kiwi Party, etc.",
+            "name": "Etienne Margraff",
+            "company": "Microsoft",
+            "plusoneUrl": "",
             "website": "",
-            "twitter": "https://twitter.com/lessachu",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Jan-Chong-222x222.png"
+            "twitter": "https://twitter.com/meulta",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.1"
         },
         {
-            "id": "taylorling",
-            "bio": "Taylor is very passionate about User Experience (UX), not so much on the ethnography part, but more on the User Interface execution that can directly influence UX and Usability, particularly on the mobile devices (Android always come first!). He is currently the GDE for UX/Design, and enjoys going around the world to share his experience on UI/UX Design. He is currently crafting pixels at snappymob.com.",
-            "name": "Taylor Ling",
-            "company": "Snappymob",
-            "plusoneUrl": "https://plus.google.com/+TaylorLing",
-            "website": "http://androiduiux.com/",
-            "twitter": "https://twitter.com/taylorling",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Taylor-Ling-final-222x222.png"
+            "id": "etiennecaron",
+            "bio": "Etienne has been an active member of the Montreal Android community since 2010. As part of the Montreal Android GDG, he organises meetups, hackathons and codelabs. As part of the Google Developer Expert program, he also devotes time towards mentoring startups and developers new to Android.\n\nHe got his start in programming in the mid-'80s obsessing over C64 demos, and went on to organize the NAID 95/96 demoparties. 3D animation, procedural content generation and VR are some of his hobbies, and he loves to introduce other developers to this fascinating field.\n\nHe's the Android technical team lead for TrueKey from Intel Security. He lives in Montreal with his wonderful wife and daughter, and speaks French and English fluently.",
+            "name": "Etienne Caron",
+            "company": "Intel Security",
+            "plusoneUrl": "https://plus.google.com/+EtienneCaron/posts",
+            "website": "",
+            "twitter": "https://twitter.com/kanawish",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.2"
         },
         {
-            "id": "stephanenicolas",
-            "bio": "Stéphane Nicolas is Senior Android Developer at Groupon, specialized in the development of Android applications for smartphones and tablets. With almost 15 years’ experience in Java, he contributed or initiated different Open Source projects for Android (like RoboSpice, RoboDemo, Android Maven Plugin, RoboGuice etc) or commercial applications. He actively participates to the Android community and contributes to the integration of the Android platform and advanced industrialized programming techniques such as Sonar, Maven, Jenkins etc.",
-            "name": "Stéphane Nicolas",
-            "company": "Groupon",
-            "plusoneUrl": "https://plus.google.com/+StéphaneNICOLAS-OnG",
+            "id": "eyallezmy",
+            "bio": "Eyal is a software engineer at Genymobile, working on Genymotion – an Android emulator. He's been working with Android since 2009.\n\nHe's also Treasurer at the Paris Android User Group and a Google Developer Expert in Android.\n\nOver the years, Eyal has been involved in several R&D projects with the French internet providers; worked for Samsung's Android B2B team; and built an Android set-top box for a hotel chain.",
+            "name": "Eyal Lezmy",
+            "company": "Genymobile",
+            "plusoneUrl": "https://plus.google.com/u/0/+EyalLEZMY/",
+            "website": "",
+            "twitter": "https://twitter.com/Eyal_Lezmy",
+            "thumbnailUrl": "http://fr.droidcon.com/2014/agenda/Eyal-carre2.jpg"
+        },
+        {
+            "id": "florianmierzejewski",
+            "bio": "Florian is a french Android developer since 2009. He is based in Berlin and recently joined Novoda where he converts caffeine into great Android apps.",
+            "name": "Florian Mierzejewski",
+            "company": "Novoda",
+            "plusoneUrl": "https://plus.google.com/+FlorianMierzejewski/posts",
+            "website": "http://florianmski.fr/",
+            "twitter": "https://twitter.com/florianmski",
+            "thumbnailUrl": "http://droidcon.fr/img/people/b802469678e56fdee0a95c5e7f27d460"
+        },
+        {
+            "id": "francoisblavoet",
+            "bio": "Software engineer at Deezer",
+            "name": "François Blavoet",
+            "company": "Deezer",
+            "plusoneUrl": "https://plus.google.com/+Fran%C3%A7oisBlavoet",
             "website": "",
             "twitter": "",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/st%C3%A9phane-nicolas-222x222.jpg"
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.4"
         },
         {
-            "id": "fabiendevos",
-            "bio": "Fabien Devos started to work in Paris by developing applications such as Le Monde, AlloCiné, Crédit Agricole and the renowned Dailymotion. Then, he moved to London and joined the startup Lightbox, which has since been bought by Facebook for which he worked for one year in the Framework Android Team in California. He currently works for the Startup Upthere in cloud computing, founded by Bertrand Serlet.",
-            "name": "Fabien Devos",
-            "company": "Upthere",
-            "plusoneUrl": "https://plus.google.com/116057947663114842022",
-            "website": "",
-            "twitter": "https://twitter.com/Fabien_Devos",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Fabien-Devos-222x222.jpg"
+            "id": "guillaumebernard",
+            "bio": "Une révolution se prépare au sein du développement Android: le Data Binding. Révélé sous la forme d'une bibliothèque en béta depuis plusieurs mois, que vaut cet outil et comment modifie-t'il notre façon de développer des applications? Cette présentation vous permettra de découvrir le fonctionnement de cette bibliothèque, son potentiel et ses éventuelles limites.",
+            "name": "Guillaume Bernard",
+            "company": "Koridev",
+            "plusoneUrl": "",
+            "website": "http://www.koridev.fr/",
+            "twitter": "https://twitter.com/Koridev_fr",
+            "thumbnailUrl": "http://droidcon.fr/img/people/8acd7219295f70b6750e8532218a78ec.jpg"
         },
         {
-            "id": "guillaumelaforge",
-            "bio": "Guillaume Laforge is the project lead of the Open Source Groovy programming language for the Java platform, the most widely used alternative language of the Java platform. Guillaume works for Pivotal, and is the co-author of the best-seller « Groovy in Action » book. He often speaks at conference worldwide about Groovy related matters.",
-            "name": "Guillaume Laforge",
-            "company": "Pivotal",
-            "plusoneUrl": "https://plus.google.com/+GuillaumeLaforge",
-            "website": "",
-            "twitter": "https://twitter.com/glaforge",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Guillaume-Laforge-222x222.png"
+            "id": "jeremiemartinez",
+            "bio": "Jeremie est développeur Android depuis plus de 4 ans et travaille en tant que consultant chez Xebia. Passionné par le développement mobile, il est un fervant adepte des bonnes pratiques et des principes du Software Craftsmanship.",
+            "name": "Jérémie Martinez",
+            "company": "Xebia",
+            "plusoneUrl": "",
+            "website": "http://jeremie-martinez.com/",
+            "twitter": "https://twitter.com/jeremmartinez",
+            "thumbnailUrl": "http://droidcon.fr/img/people/me.jpg"
         },
         {
-            "id": "nabilhachicha",
-            "bio": "Developer of SnappyDB.com which is a NoSQL database for Android, Nabil works as an Android software engineer at The App Business in London.",
-            "name": "Nabil Hachicha",
-            "company": "The App Business",
-            "plusoneUrl": "https://plus.google.com/110610526826489061446",
-            "website": "",
-            "twitter": "https://twitter.com/nabil_hachicha",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Nabil-Hachicha-222x222.jpg"
-        },
-        {
-            "id": "geoffreydorne",
-            "bio": "Geoffrey will be presenting how design impacts our lives while creating products, services or experiences.",
-            "name": "Geoffrey Dorne",
-            "company": "Design & Human",
-            "plusoneUrl": "https://plus.google.com/116718314329691158716",
-            "website": "http://designandhuman.com/",
-            "twitter": "https://twitter.com/GeoffreyDorne",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Geoffrey-Dorne-222x222.jpg"
+            "id": "madispink",
+            "bio": "Madis is currently working on JRebel for Android at ZeroTurnaround.\nHe started hacking on Android apps on a T-Mobile G1 more than 6 years ago\nand quickly grew a particular interest in build systems and developer tooling.\n\nHis previous experience includes working on the Android Platform team at Spotify\nand producing multiple apps at Mobi Lab. During his free time he likes to dabble\naround with guitars and home recording.",
+            "name": "Madis Pink",
+            "company": "ZeroTurnaround",
+            "plusoneUrl": "",
+            "website": "https://zeroturnaround.com/software/jrebel-for-android/",
+            "twitter": "https://twitter.com/@madisp",
+            "thumbnailUrl": "http://droidcon.fr/img/people/b5b43736709fb47edc3ee649618d84f7"
         },
         {
             "id": "marcdecourville",
-            "bio": "Archos is a French company and has been a player in the Android arena since Android 1.5. The company was the first one to introduce Android tablets onto the market and a Google certified Android TV (Archos TV Connect). Archos is now a recognized brand for Android based tablets, phones and recently for Android based connected home solutions.",
+            "bio": "Archos is a company that is manufacturing Google certified phone and tablets and has a comprehensive Android based Home connected solution. Apart from purely hardware based solutions, Archos is also making Android applications such has Archos Video Player and seeds some Archos differentiating software included in all their devices such as Archos Fusion Software.",
             "name": "Marc de Courville",
             "company": "Archos",
             "plusoneUrl": "https://plus.google.com/+MarcdeCourville",
             "website": "",
             "twitter": "https://twitter.com/marcdecourville",
-            "thumbnailUrl": "https://lh6.googleusercontent.com/-gW61S7OilRU/Ukrbut8uhqI/AAAAAAAAAMk/tvCi34Iq8JM/w661-h655-no/MarcDeCourville_3.jpg"
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.5"
         },
         {
-            "id": "jbkempf",
-            "bio": "Jean-Baptiste Kempf is the president of the VideoLAN non-profit organization and one of the main developers of VLC. Jean-Baptiste led some of the ports of VLC on mobile devices, including the Android port, and is the current release manager of VLC.",
-            "name": "Jean-Baptiste Kempf",
-            "company": "VideoLAN",
-            "plusoneUrl": "https://plus.google.com/100674486160360423322",
-            "website": "",
-            "twitter": "",
-            "thumbnailUrl": "https://lh5.googleusercontent.com/-M1Mwx3wQnB0/T6ptwS8gRiI/AAAAAAAAAEQ/eV7RBejAH48/w652-h655-no/JB-IMG_1103_DxO_1-Resize.jpg"
-        },
-        {
-            "id": "timmesserschmidt",
-            "bio": "As a long time mobile and web developer, Tim channels his knowledge and experience as PayPal’s Lead Developer Evangelist in EMEA. He is passionate about startups and serves as mentor at multiple incubators and accelerators. Prior joining PayPal Tim used to work with Neofonie Mobile and Samsung focussing on several mobile projects. In his spare time, he leads and creates training classes in all sorts of developer-oriented topics, contributes to Open Source projects and is one of the authors of the Mobile Developer’s Guide to the Galaxy, as well as numerous articles published in print magazines.",
-            "name": "Tim Messerschmidt",
-            "company": "PayPal",
-            "plusoneUrl": "https://plus.google.com/+TimMesserschmidt",
-            "website": "",
-            "twitter": "https://twitter.com/SeraAndroid",
-            "thumbnailUrl": "https://lh4.googleusercontent.com/-G0EKTKz1vGI/UW6XHy-ncVI/AAAAAAAALbQ/quBFmBndiD4/w654-h655-no/IMG_0843_web.jpg"
-        },
-        {
-            "id": "hoilam",
-            "bio": "Hoi is a Senior Developer Advocate at Google for Wearables including both Android Wear and Google Glass. He previously worked on Google Cast where he was part of the launch team for both the Google Cast SDK and Chromecast in Europe. Prior to joining Google, he founded Exahive to disrupt the mobile commerce marketplace with new technology and business models. Hoi was an Equity Research VP at Deutsche Bank and Citigroup between 2007-2012 advising technology CEOs, CFOs on corporate strategy and institutional investors on technology investments. Before banking, he was an enterprise architect at Accenture heading up product management for large client programmes. Hoi holds a Master and Bachelor degree in Space Engineering from the University of Cambridge.",
-            "name": "Hoi Lam",
-            "company": "Google",
-            "plusoneUrl": "https://plus.google.com/+HoiLam",
-            "website": "",
-            "twitter": "https://twitter.com/hcl21",
-            "thumbnailUrl": "https://lh4.googleusercontent.com/-VUBOaPF8tcM/UV3-2sDPqhI/AAAAAAAAU-E/GHTsNmt2__o/w653-h655-no/20090802-DSC_8688.png"
-        },
-        {
-            "id": "marioviviani",
-            "bio": "Mario Viviani, Android Developer since 2010, has been nominated Google Developer Expert (GDE) for Android by Google in 2013. Mario has published more than 90 apps on Google Play. In 2011 Mario decided to create the startup Mariux Apps, based in Milan, Italy, focused on Mobile Applications Development. He is member of Talent Garden, a network of co-working spaces focused on digital and innovation. As Mariux Apps his products received 12.000.000+ total downloads and are currently ranked in the Top 100 apps in a lot of Categories in Google Play. At Mariux Apps he is also working with cutting edge technologies like Google Glass and Leap Motion. Mario is really active in the Android community, attending a lot of events worldwide, helping Android developers build new, compelling and well-received apps.",
-            "name": "Mario Viviani",
-            "company": "Mariux Apps",
-            "plusoneUrl": "https://plus.google.com/+MarioViviani",
-            "website": "",
-            "twitter": "https://twitter.com/Mariuxtheone",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Mario-Viviani-222x222.jpg"
-        },
-        {
-            "id": "cedriccreusot",
-            "bio": "Cédric has always been fond of Mobile Development and he has a few years experience in the development of Android applications but he also wanted to try the “freelance experience” by creating video games himself. After that, he joined Meetic and he now is in charge of the development of Android applications, convinced that working in a team is more efficient and fun than on his own!",
-            "name": "Cédric Creusot",
-            "company": "Meetic",
+            "id": "markscheel",
+            "bio": "Mark lives in Colorado, USA where he works on a consumer medical application with over 6 million Play Store downloads. He wrote a book on Google Glass software development, likes open source contributions and snowboarding, and enjoys speaking around the world about Google technology.",
+            "name": "Mark Scheel",
+            "company": "Digital Construction",
             "plusoneUrl": "",
-            "website": "",
-            "twitter": "",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/C%C3%A9dric-Creusot-222x222.jpg"
-        },
-        {
-            "id": "jeanloupyu",
-            "bio": "Jean-Loup is fond of new technologies and he has been specializing in Mobile for a few years. He is currently the Head of Development for Mobile Applications at Meetic. Prior to Meetic, he worked as a consultant for many influential companies in the Media and Internet world. He joined Meetic to implement the Mobile Strategy of the group.",
-            "name": "Jean-Loup Yu",
-            "company": "Meetic",
-            "plusoneUrl": "https://plus.google.com/112882583085432640120",
-            "website": "",
-            "twitter": "https://twitter.com/djelmen",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Jean-Loup-Yu-222x222.jpg"
-        },
-        {
-            "id": "thomasguerin",
-            "bio": "Consultant at Xebia since 2011, Thomas is fond of Android development and enthusiastic of good development practices. He is really interested in continuous deployment on Mobile phones.",
-            "name": "Thomas Guerin",
-            "company": "Xebia",
-            "plusoneUrl": "https://plus.google.com/112041335454373673694",
-            "website": "",
-            "twitter": "https://twitter.com/Tom404_",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Thomas-Guerin-222x222.jpg"
-        },
-        {
-            "id": "benjaminaugustin",
-            "bio": "Benjamin is an aspiring Software Craftsman and Android developer at Novoda. He is convinced that functional programming has a lot to teach us on our everyday work.",
-            "name": "Benjamin Augustin",
-            "company": "Novoda",
-            "plusoneUrl": "https://plus.google.com/113116875847268618115",
-            "website": "",
-            "twitter": "https://twitter.com/Dorvaryn",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Benjamin-Augustin-222x222.jpg"
-        },
-        {
-            "id": "sebastianopoggi",
-            "bio": "A self-taught and strong OSS believer who loves beautiful and simple UX and UI, where “less is more”, Sebastiano spends a big chunk of his spare time reading and writing about Android development. He also creates and maintains some FOSS apps and libraries, that span from the fun, smaller projects to the more serious (and, perhaps, useful) work. Sebastiano worked some time in AKQA as a Senior Software Engineer. Before moving to London, he also worked at i’m Spa (an Italian smartwatch startup) for two years, playing with the Android platform and handling their Developer Relations. He’s been toying with the Android SDK since 2010.",
-            "name": "Sebastiano Poggi",
-            "company": "Novoda",
-            "plusoneUrl": "https://plus.google.com/+SebastianoPoggi",
-            "website": "",
-            "twitter": "https://twitter.com/seebrock3r",
-            "thumbnailUrl": "https://lh3.googleusercontent.com/-uhZ-3UFgzzo/T4XR5D4VHiI/AAAAAAABBp4/PNiNGfhEHUs/w354-h352-no/Face_malga.jpg"
+            "website": "http://www.digitalconstruction.com/",
+            "twitter": "https://twitter.com/@5280mark",
+            "thumbnailUrl": "http://droidcon.fr/img/people/e552215dd726801c644470feae8bb41c"
         },
         {
             "id": "mathieucalba",
-            "bio": "Mathieu is a Mobile Software Developer at Capitaine Train and GDG leader at Lyon with the GDG Lyon Android. Mathieu is fond of new technologies, and particularly with Android. He loves to create applications that integrate seamlessly with the system and spread his love for Android by giving some talks.",
+            "bio": "Mathieu is a Mobile Software Developer at Captain Train, and GDG leader at Lyon with the Lyon Android User Group. Mathieu is fond of new technologies, and particularly with Android. He loves to create applications that integrate seamlessly with the system and spread his love for Android by giving some talks.",
             "name": "Mathieu Calba",
-            "company": "Capitaine Train",
+            "company": "Captain Train",
             "plusoneUrl": "https://plus.google.com/+MathieuCalba",
             "website": "",
             "twitter": "https://twitter.com/Mathieu_Calba",
             "thumbnailUrl": "https://lh4.googleusercontent.com/-8hq7bSTRUjk/U8-lC8_87tI/AAAAAAAASXI/ZCwhRO7DtvI/s655-no/MathieuCalba_Profile.jpg"
         },
         {
-            "id": "pyricau",
-            "bio": "Pierre-Yves Ricau is Android Software Engineer at Square, an innovative company that creates sleek, reliable instruments of commerce. He contributes to several open source projects, and created the AndroidAnnotations framework in 2010.",
-            "name": "Pierre-Yves Ricau",
-            "company": "Square",
-            "plusoneUrl": "https://plus.google.com/+PierreYvesRicau",
+            "id": "mounirboudraa",
+            "bio": "Mounir Boudraa is a software engineer passionate about code craftsmanship.\nHe worked at Xebia as a mobile engineer, Android trainer and recruiter. He is now making technology disappear at snips since 4 months",
+            "name": "Mounir Boudraa",
+            "company": "Snips",
+            "plusoneUrl": "https://plus.google.com/101079866497704610685/posts",
             "website": "",
-            "twitter": "https://twitter.com/Piwai",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Pierre-Yves-Ricau-222x222.jpg"
+            "twitter": "https://twitter.com/@_mboudraa",
+            "thumbnailUrl": "http://droidcon.fr/img/people/e139aa7ae2b6c738a42bc6f0303df361"
         },
         {
-            "id": "nicolasklein",
-            "bio": "Nicolas Klein is an engineer working on Google Play Games as well as working on building services to help make it easy to add awesome features to your games.",
-            "name": "Nicolas Klein",
-            "company": "Google",
-            "plusoneUrl": "https://plus.google.com/+NicolasKlein86",
-            "website": "http://www.foxykeep.com/homepage/",
-            "twitter": "https://twitter.com/foxykeep",
-            "thumbnailUrl": "https://lh4.googleusercontent.com/-4sigh6so5Xk/UuqYNIa-AXI/AAAAAAAABGo/UYflVH4bQ2w/w654-h655-no/fox_irl2_centered.png"
-        },
-        {
-            "id": "chprunier",
-            "bio": "Charles-Henry is a Development & Design Engineer at Genymobile and he is specialized in ROM customization that are destined for professionals.",
-            "name": "Charles-Henry Prunier",
-            "company": "Genymobile",
-            "plusoneUrl": "https://plus.google.com/113947333441309712266",
+            "id": "nabilhachicha",
+            "bio": "Nabil is an avid Android fan who enjoys speaking at community-oriented conferences like Droidcon & GDG. His work as the developer behind SnappyDB helped him hone his open source development skills. He previously worked on apps in France & UK for companies like Renault, Bouygues-Telecom, Michelin, NewsUK, Unilever, and Go-Ahead. Currently, Nabil is an Android developer at Realm, replacement for SQLite & Core Data.",
+            "name": "Nabil Hachicha",
+            "company": "Realm",
+            "plusoneUrl": "https://plus.google.com/110610526826489061446",
             "website": "",
-            "twitter": "",
-            "thumbnailUrl": "https://lh6.googleusercontent.com/-Xku8jvfCRRY/UvJ84ze_BBI/AAAAAAAAAPg/wW1jyNGkaBw/w656-h655-no/Charly.jpg"
+            "twitter": "https://twitter.com/nabil_hachicha",
+            "thumbnailUrl": "http://droidcon.fr/img/people/8ec22ebc6cddbfbe097a580b8d685f75"
         },
         {
-            "id": "remygottschalk",
-            "bio": "Rémy is a Development & Design Engineer at Genymobile and he is specialized in ROM customization that are destined for professionals.",
-            "name": "Rémy Gottschalk",
-            "company": "Genymobile",
-            "plusoneUrl": "https://plus.google.com/115906133301850752077",
-            "website": "",
-            "twitter": "",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/R%C3%A9my-Gottschak-222x222.jpg"
+            "id": "pierrebenayoun",
+            "bio": "Pierre est fondateur du Cabinet Numérique et président du Bordeaux Android User Group à Bordeaux.\n\nIl travaille actuellement sur plusieurs projets Android liés à l'Activity Tracking.",
+            "name": "Pierre Benayoun",
+            "company": "Le cabinet numérique",
+            "plusoneUrl": "",
+            "website": "http://www.frandroid.com/blogs/vmvdd/",
+            "twitter": "https://twitter.com/@Pierre_Benayoun",
+            "thumbnailUrl": "http://droidcon.fr/img/people/5e5dd32f5540646a77252f90a5650952"
         },
         {
-            "id": "jeanmaisonnial",
-            "bio": "Jean has been working at Google for more than 3 years. He is a Mobile Apps Consultant and works with French developers to help them to grow, distribute and monetize their applications.",
-            "name": "Jean Maisonnial",
-            "company": "Google",
-            "plusoneUrl": "https://plus.google.com/102884676049998981590",
+            "id": "pierrecrepieux",
+            "bio": "Après plusieurs années passées du coté des infrastructures réseau (Réseau Intelligent, H.323, IMS), je suis aujourd'hui développeur senior sur Android. Mon sujet de prédilection du moment: l’impact que peuvent avoir les applications sur le terminal mobile et le réseau.",
+            "name": "Pierre Crépieux",
+            "company": "Orange",
+            "plusoneUrl": "",
             "website": "",
             "twitter": "",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Jean-Maisonnial-222x222.jpg"
+            "thumbnailUrl": "http://droidcon.fr/img/people/db950a4adf54b7a13cd3c70fdcd7e334"
         },
         {
-            "id": "simonstewart",
-            "bio": "Often described as a “fire hazard” and sporting more hair than most primates, Simon is a Software Engineer on Facebook's internal tools team. He has best known for having turned his hairy hands to the invention of WebDriver, the open source web application testing tool, as well as leading the Selenium project. When he is not saving kittens from fires, or rescuing Granny’s from micro perms, he enjoys talking incessantly about Facebook's commitment to OSS and how we organize our git repo. Please ask him what makes for a truly pleasurable London bus experience.",
-            "name": "Simon Stewart",
-            "company": "Facebook",
-            "plusoneUrl": "https://plus.google.com/104565969450039850531",
+            "id": "pod",
+            "bio": "I am the Mario Kart undisputed champion of the company.\nMy motto: Do one thing but do it well\n\nMy favorite movie: Johnny Mnemonic\nBecause information matters.",
+            "name": "Pierre-Olivier Dybman",
+            "company": "Sidereo",
+            "plusoneUrl": "https://plus.google.com/113008087135852546098/posts",
             "website": "",
-            "twitter": "https://twitter.com/shs96c",
-            "thumbnailUrl": "https://lh6.googleusercontent.com/-N47hWFi5frI/TW9OX3t6YFI/AAAAAAAACh4/FbryZVBQ278/w500-h499-no/headshot.jpeg"
-        },
-        {
-            "id": "amritsanjeev",
-            "bio": "Google Developer Expert - Android\nOrganizer of GDG Blrdroid\nIntel Influencer - Android \nWorks at Digital Insight as Mobile Staff Engineer. \nPreviously worked as a Research engineer at Philips and Architect at IBM ",
-            "name": "Amrit Sanjeev",
-            "company": "Digital Insight",
-            "plusoneUrl": "https://plus.google.com/+AmritSanjeev",
-            "website": "http://amsanjeev.wordpress.com/",
-            "twitter": "https://twitter.com/amsanjeev",
-            "thumbnailUrl": "https://lh5.googleusercontent.com/-hsv3-3ocI5c/U3miCl0UcTI/AAAAAAAADrU/6lqih6PX7wk/s348-no/045A1927.JPG"
+            "twitter": "",
+            "thumbnailUrl": "http://droidcon.fr/img/people/tumblr_inline_naj6huWLqb1sa6hof.jpg"
         },
         {
             "id": "quentinsallat",
-            "bio": "Android Developer for more than three years, I'm a huge fan of mobile and web development. I've been blogging for years about .NET, HTML5 and Java development, and I'm now a Professional Android developer.\n\nI'm especially interested in app design, and with more than fifteen apps published under my personal account, Aerilys, I've some things I'd like to share with my fellow developers!",
+            "bio": "I'm Android developer at iD.apps. I've been passionate about mobile development for several years, and I love to create smart and user-centric apps, focusing on user experience and little design details.",
             "name": "Quentin Sallat",
             "company": "iD.apps",
             "plusoneUrl": "https://plus.google.com/u/0/114162543563319129793",
             "website": "http://blog.aerilys.fr/",
             "twitter": "https://twitter.com/aerilys",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Quentin-Sallat-222x222.jpg"
+            "thumbnailUrl": "http://droidcon.fr/img/people/BnzgLRW.jpg"
         },
         {
-            "id": "luwenhui",
-            "bio": "Wenhui Lu has 12 years’ experience in software development on mobile devices. He has been in different positions at Nokia and Microsoft for various projects ranging from product development to research oriented.\n\nCurrently working as a Technology Wizard, Wenhui promotes the developer ecosystem of Microsoft mobile platforms (Nokia X and Windows Phone) by providing developers with technical consultancy, training, evangelism, and other facilities to help them to succeed with Microsoft.",
-            "name": "Lu Wenhui",
-            "company": "Microsoft",
+            "id": "rannachmany",
+            "bio": "Google Dev Rel by day and sw poet by night. Ran compiled his first program when he was 8y/o and has been moving bits since.",
+            "name": "Ran Nachmany",
+            "company": "Google",
+            "plusoneUrl": "",
+            "website": "http://developer.android.com/intl/zh-cn/index.html",
+            "twitter": "https://twitter.com/@shed2k",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.7"
+        },
+        {
+            "id": "benjaminaugustin",
+            "bio": "Benjamin is a Software Craftsman and Android developer at Novoda.\n\nBen might have started thinking functionally when, as a kid, he got hit on his head by a ladder while doing maths homework. Suddenly, he could see functions everywhere, and now he's sharing his visions with the world. Or maybe this is just one of those crazy made up back stories, who knows?\n\nOne thing is sure, he is convinced that functional programming has a lot to teach us on our everyday work.",
+            "name": "Benjamin Augustin",
+            "company": "Novoda",
+            "plusoneUrl": "https://plus.google.com/113116875847268618115",
+            "website": "",
+            "twitter": "https://twitter.com/Dorvaryn",
+            "thumbnailUrl": "http://droidcon.fr/img/people/ac3bc024116d41a21bcb99be7b2c4954.jpg"
+        },
+        {
+            "id": "romainpiel",
+            "bio": "Romain is a passionate Android developer who has been building apps since Android Froyo. He is currently working for Songkick as a happy Android developer. In the past he worked for Microsoft as well as building useless/fun apps with GIFs and animations.",
+            "name": "Romain Piel",
+            "company": "Songkick",
+            "plusoneUrl": "https://plus.google.com/+RomainPiel/posts",
+            "website": "",
+            "twitter": "https://twitter.com/@_rpiel",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.8"
+        },
+        {
+            "id": "stankocken",
+            "bio": "Android developer since 2010. I had the chance to work to be the lead developer on many projects such as Eurostar, Crédit Agricole, La Chaine Météo Marine or Dailymotion while I was working at Backelite until the end of 2012. This experience helped to join PrePlay until this summer, an American startup building a predictive game for American sport with the official support of the NHL (hockey) and the MLB (baseball). I'm now a freelance working into a famous dating website who want to improve his visibility on mobile.",
+            "name": "Stan Kocken",
+            "company": "Freelance",
+            "plusoneUrl": "https://plus.google.com/+StanKOCKEN",
+            "website": "",
+            "twitter": "https://twitter.com/@stan_kocken",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.8"
+        },
+        {
+            "id": "svetlanaisakova",
+            "bio": "Svetlana is working on the Kotlin language (http://kotlinlang.org/) at JetBrains since 2011. She is one of the authors of \"Kotlin in Action\" and a frequent conference speaker.",
+            "name": "Svetlana Isakova",
+            "company": "JetBrains",
+            "plusoneUrl": "",
+            "website": "http://kotlin.jetbrains.org",
+            "twitter": "https://twitter.com/sveta_isakova",
+            "thumbnailUrl": "http://droidcon.fr/img/people/SvetlanaIsakova.png"
+        },
+        {
+            "id": "turhanoz",
+            "bio": "Entrepreneur et développeur dans la région parisienne. Passionné par Android. Membre actif du Paug",
+            "name": "Turhan Oz",
+            "company": "Socosmoz",
+            "plusoneUrl": "",
+            "website": "http://turhanoz.com",
+            "twitter": "https://twitter.com/@turhanoz",
+            "thumbnailUrl": "http://droidcon.fr/img/people/ky0MYY5V.jpg"
+        },
+        {
+            "id": "volkerleck",
+            "bio": "Volker is a Java veteran and an early adopter of the Android platform. He works at Novoda where he develops Android Apps of all sizes, flavours and colours.",
+            "name": "Volker Leck",
+            "company": "Novoda",
+            "plusoneUrl": "https://plus.google.com/+VolkerLeck",
+            "website": "https://github.com/devisnik",
+            "twitter": "https://twitter.com/devisnik",
+            "thumbnailUrl": "http://droidcon.fr/img/people/volker_small_square_0.png"
+        },
+        {
+            "id": "xavierhallade",
+            "bio": "Xavier Hallade is a software engineer at Intel Software and Services Group in Paris, France, where he works on a wide range of Android frameworks, libraries and applications, helping developers to improve their support for new hardware and technologies.\nHe's a Google Developer Expert in Android, with a focus on the Android NDK and Android TV.",
+            "name": "Xavier Hallade",
+            "company": "Intel",
+            "plusoneUrl": "https://plus.google.com/+XavierHallade",
+            "website": "http://ph0b.com/",
+            "twitter": "https://twitter.com/ph0b",
+            "thumbnailUrl": "http://droidcon.fr/img/people/photo.jpg.10"
+        },
+        {
+            "id": "benjaminlacroix",
+            "bio": "Craftsman Android",
+            "name": "Benjamin Lacroix",
+            "company": "Xebia",
             "plusoneUrl": "",
             "website": "",
-            "twitter": "https://twitter.com/ui_lu",
-            "thumbnailUrl": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Wenhui-Lu-222x222.png"
+            "twitter": "https://twitter.com/@benjlacroix",
+            "thumbnailUrl": "http://droidcon.fr/img/people/3721841ae671405b7bcec504d47da671"
         },
         {
-            "id": "damienmehers",
-            "bio": "Damian is a Senior Software Engineer at Evernote, based out of Geneva, Switzerland.  He created the original Evernote Windows Phone client, and worked on Evernote Food for Android, and is now focused on Evernote and wearable technology, having created Evernote for the Samsung Galaxy Gear, the Pebble Smartwatch, and Android Wear.\n\nPrior to joining Evernote, Damian released an app he’d created in his spare time, which used Evernote’s open API.  Evernote noticed, and he got a call from the CEO asking if he’d join the company to help build Evernote’s next generation of products.  It wasn’t a hard decision.\nHe has founded several successful software product companies, and loves the magic that is programming: turning something imagined into something real.",
-            "name": "Damien Mehers",
-            "company": "Evernote",
-            "plusoneUrl": "https://plus.google.com/+DamianMehers0",
-            "website": "http://damianblog.com/",
-            "twitter": "https://twitter.com/DamianMehers",
-            "thumbnailUrl": "https://lh3.googleusercontent.com/-q6WOniTjhcc/UmMYwC0a_6I/AAAAAAAFFIU/OnvdujXUHd0/w487-h486-no/DamianPortait25%25.JPG"
+            "id": "thomasguerin",
+            "bio": "Passionné de développement Android et adepte des bonnes pratiques de développement.",
+            "name": "Thomas Guerin",
+            "company": "Deezer",
+            "plusoneUrl": "https://plus.google.com/112041335454373673694",
+            "website": "",
+            "twitter": "https://twitter.com/Tom404_",
+            "thumbnailUrl": "http://droidcon.fr/img/people/742c61e904b91c905521a640c2dc0427"
         },
         {
-            "id": "alexdanvy",
-            "bio": "Developer Evangelist at Microsoft",
-            "name": "Alex Danvy",
+            "id": "jsdupuy",
+            "bio": "Evangéliste développeur chez Microsoft France. Passionné par le développement d'applications mobiles et les objets connectés, Jean-Sébastien anime les relations techniques avec les développeurs depuis plusieurs années.",
+            "name": "Jean-Sébastien Dupuy",
             "company": "Microsoft",
-            "plusoneUrl": "https://plus.google.com/u/0/107150265059028646442",
-            "website": "http://danvy.tv/",
-            "twitter": "https://twitter.com/danvy",
-            "thumbnailUrl": "https://lh3.googleusercontent.com/-2aSmCUqOIc8/TXNd9hoSjsI/AAAAAAAAAyE/yUzxsbHRPrk/s399-no/Alex.jpg"
-        },
-        {
-            "id": "cedricpointel",
-            "bio": "Cédric Pointel est consultant dans l’équipe mobilité chez OCTO Technology depuis 4 ans. Il réalise des applications mobiles principalement sur iOS dans différents secteurs comme la banque, l’assurance, le luxe ou encore les réseaux sociaux . Il effectue également des missions d’accompagnement et de conseil sur les sujets autour de la mobilité, la qualité des développements et l’intégration continue. Intéressé par la robotique et les objets connectés, il s’est naturellement mis à tester les nouveaux terminaux dont les Google Glass depuis le début de l’année.",
-            "name": "Cédric Pointel",
-            "company": "Octo Technology",
-            "plusoneUrl": "https://plus.google.com/113903980522545486925",
-            "website": "",
-            "twitter": "https://twitter.com/cpointel",
-            "thumbnailUrl": ""
-        },
-        {
-            "id": "mathieuhausherr",
-            "bio": "Mathieu Hausherr est développeur d’applications mobiles chez Octo Technology. Il réalise des applications iOS et Android. Il croit en l’industrialisation des devs mobiles, aux tests unitaires et à l’intégration continue. Il teste de nouveaux terminaux, de la lunette à la montre connectée.",
-            "name": "Mathieu Hausherr",
-            "company": "Octo Technology",
-            "plusoneUrl": "https://plus.google.com/111393145937875554935",
-            "website": "",
-            "twitter": "https://twitter.com/mhausherr",
-            "thumbnailUrl": "https://lh3.googleusercontent.com/-QqtML0wa6pA/Tqaipgj0lqI/AAAAAAAABWA/MQjejWlP_x8/w905-h902-no/MHA.jpg"
+            "plusoneUrl": "",
+            "website": "http://blogs.msdn.com/b/jdupuy",
+            "twitter": "https://twitter.com/@dupuyjs",
+            "thumbnailUrl": "http://droidcon.fr/img/people/dupuyjs.jpg"
         }
     ],
     "sessions": [
         {
             "id": "__keynote__",
             "description": "Droidcon Paris Keynote Day 1",
-            "photoUrl": "http://danvy.tv/wp/wp-content/header-images/header07.jpg",
-            "url": "",
-            "startTimestamp": "2014-09-22T07:15:00Z",
-            "title": "Keynote Day 1",
-            "youtubeUrl": "",
-            "mainTag": "FLAG_KEYNOTE",
-            "endTimestamp": "2014-09-22T07:45:00Z",
-            "color": "",
-            "hashtag": "keynote",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "auditorium",
-            "speakers": [
-                "alexdanvy"
-            ],
-            "tags": [
-                "FLAG_KEYNOTE",
-                "THEME_EN"
-            ]
-        },
-        {
-            "id": "__keynote2__",
-            "description": "Droidcon Paris Keynote Day 2",
             "photoUrl": "",
             "url": "",
-            "startTimestamp": "2014-09-23T07:00:00Z",
-            "title": "Keynote Day 2",
+            "startTimestamp": "2015-11-09T08:30:00Z",
+            "title": "Keynote",
             "youtubeUrl": "",
             "mainTag": "FLAG_KEYNOTE",
-            "endTimestamp": "2014-09-23T08:00:00Z",
+            "endTimestamp": "2015-11-09T09:00:00Z",
             "color": "",
             "hashtag": "keynote",
             "isLivestream": false,
@@ -377,15 +394,177 @@
             ]
         },
         {
-            "id": "session_cyril_mottier_1",
-            "description": "Cyril will be presenting how Android saves state in general in order to be able to restore an application in the exact same state the process was prior being killed because of a low memory condition or a configuration change. In this talk he will mainly focus on the Parcelable and Parcel objects and how Android uses them to save or restore some important stateful information such as the complete UI state.",
-            "photoUrl": "https://lh5.googleusercontent.com/-CMq7fMXIyUA/UcNRnJC7T4I/AAAAAAAAFeY/8qS5ZHd3n0U/w956-h636-no/DSC01326.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Deep+Dive+Into+State+Restoration",
-            "startTimestamp": "2014-09-22T07:55:00Z",
-            "title": "Deep Dive into State restoration",
+            "id": "__keynote2__",
+            "description": "This week thousands of Airbnb hosts from around the world will descend on Paris. How can Android help them differentiate and what can that teach us about our very own App development? The connected home, apps that use predictive technology, beacons, NFC, Cardboard, Chromecast, advanced notifications, and more! Android gives the developer so many options to explore. This presentation will include code examples woven into a persuasive story about the power of Android to awaken surprise and delight in our users.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-32",
+            "startTimestamp": "2015-11-10T08:30:00Z",
+            "title": "The Sharing Economy made Amazing by Android",
+            "youtubeUrl": "",
+            "mainTag": "FLAG_KEYNOTE",
+            "endTimestamp": "2015-11-10T09:00:00Z",
+            "color": "",
+            "hashtag": "keynote",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "auditorium",
+            "speakers": [
+                "markscheel"
+            ],
+            "tags": [
+                "FLAG_KEYNOTE",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_ran",
+            "description": "In ideal world our apps will run forever, work at the speed of light and will always provide a delightful experience to our users. In reality we have limited memory, battery, connectivity and computing power. In this talk we will see how we can optimize our memory footprint, required computing power and battery consumption.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-25",
+            "startTimestamp": "2015-11-09T09:30:00Z",
+            "title": "Performance Matter",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-22T08:35:00Z",
+            "endTimestamp": "2015-11-09T10:20:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "auditorium",
+            "speakers": [
+                "rannachmany"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_florian",
+            "description": "With the release of the new Gradle-based Build System, Android finally has a flexible and highly customizable build toolchain that allows for tweaks at all stages of development, from code generation to deployment on the Google Play Store.\n\nWe assume that by now the community is familiar with the basic capabilities of the Android build tool. This talk aims to provide some more advanced tricks and techniques of how to extend and customize your build employing the wide and growing range of Gradle plugins.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-3",
+            "startTimestamp": "2015-11-09T09:30:00Z",
+            "title": "Level up your Android Build",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-09T10:20:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "leparisien",
+            "speakers": [
+                "florianmierzejewski",
+                "volkerleck"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_pod",
+            "description": "Constructeur, opérateur, grosse entreprise avec une flotte d'objets connectés ou tout simplement curieux, Pierre-Olivier soulève le capot et vous explique comment une OTA fonctionne de A à Z : - le recovery - le paquet de mise à jour - le service de mise à jour - les chinois - etc.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-13",
+            "startTimestamp": "2015-11-09T09:30:00Z",
+            "title": "Mettre à jour un device Android, ok mais comment ça marche ? Les secrets de l'OTA",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_EVERYWHERE",
+            "endTimestamp": "2015-11-09T10:20:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "salon",
+            "speakers": [
+                "pod"
+            ],
+            "tags": [
+                "TOPIC_EVERYWHERE",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_francois",
+            "description": "Framework classes like RelativeLayout are extremely powerful but their first goal is to be versatile. This comes with significant performances costs that can prevent your app from being fast and smooth, especially in constrained areas like list scrolling. Let's see how we can remedy this by writing our own layouting and drawing logic where it matters.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-16",
+            "startTimestamp": "2015-11-09T10:50:00Z",
+            "title": "Let's sprinkle some #PerfMatters on our ViewGroups",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_UI_UX",
+            "endTimestamp": "2015-11-09T11:40:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "auditorium",
+            "speakers": [
+                "francoisblavoet"
+            ],
+            "tags": [
+                "TOPIC_UI_UX",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_eyal_lezmy",
+            "description": "It's now a long time Gradle is the official build system for Android. And as a very good developer you already switched to it, and you customize it depending on your needs.\n\nMost of the time, the cleaner way to manage all these customizations is to build Gradle plugins.\n\nDuring this talk we will see best practices about building your plugin to make it a good citizen, more efficient, and more famous!\n\nWe will explain how to:\n- interact with the Android Gradle Plugin;\n- build Gradly DSLs;\n- use incremental builds;\n- test your plugin on a good way;\n- publish your plugin;\n- and many other things!",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-29",
+            "startTimestamp": "2015-11-09T10:50:00Z",
+            "title": "Gradle plugins: take it to the next level",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-09T11:40:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "leparisien",
+            "speakers": [
+                "eyallezmy"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_marc_de_courville",
+            "description": "On affordable devices, storage is scarce and currently on Android, adding an external SD card is not the solution. In this contribution, the technical details of Archos Fusion Storage is presented in details which consists in a user friendly expansion of Android phone/tablet storage space proposed at external SD card insertion. Principle is to dedicate all internal storage to /data applications and do not let /data/media interfere by pushing it to external muSD through a transparent fusion process. A migration step is proposed and there is no file size limit even on FAT32 muSD.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-14",
+            "startTimestamp": "2015-11-09T10:50:00Z",
+            "title": "Archos Fusion Storage: a flexible and innovative mean to extend your Android products storage",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-09T11:40:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "salon",
+            "speakers": [
+                "marcdecourville"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_cyrilmottier",
+            "description": "Scrolling is one of the most important gesture on mobile platforms. Indeed, it easily allows users to access a fairly large amount of content just by swiping their fingers on screen. In order to implement such gestures, the Android SDK comes with a bunch of scrolling containers: View, ListView, RecyclerView, ScrollView, etc. While using these components independently is relatively simple it starts getting complicated when nesting them… In this session we will go though a complete overview how Android deals with scrolling in general and how to master the scrolling mechanism to create compelling mobile user experience.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-5",
+            "startTimestamp": "2015-11-09T11:40:00Z",
+            "title": "Advanced Scrolling Techniques on Android",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-09T12:30:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
@@ -396,44 +575,203 @@
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
+                "THEME_FR"
             ]
         },
         {
-            "id": "session_jan_chong_1",
-            "description": "In January 2012, nearly all Twitter for Android code was written by three engineers. As of January 2014, Twitter for Android has several dozens unique contributors from over ten different teams. In this talk, Jan will be presenting how Twitter moved to develop at scale from a single team-based development model to a project based development model that welcomes contributions from across the company and highlight some of the challenges that they ran into on the way.",
+            "id": "session_madispink",
+            "description": "As developers we spend way too much time waiting for things. We all know waiting is no fun and we’d rather spend time developing and testing our app. Sometimes we’re waiting on our integration test suite, sometimes it’s our app, but quite often Gradle is the time waster. The latter is often regarded as a black box that’s way slower than Ant/Eclipse ever was, and that’s saying something!\n\nIn this session we’ll see how having a deeper understanding of your Gradle build can help you identify major bottlenecks. We’ll look at how minimizing the configuration and dependency resolution overhead helps to reduce your cycle times when using host-based tools, like the new unit testing support, Robolectric or JRebel for Android. We’ll also explore ways of structuring your project in a way that takes advantage of Gradle incremental builds.",
             "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Scaling+Android+Development+at+Twitter",
-            "startTimestamp": "2014-09-22T07:55:00Z",
-            "title": "Scaling Android Development at Twitter",
+            "url": "http://droidcon.fr/schedule/#session-18",
+            "startTimestamp": "2015-11-09T11:40:00Z",
+            "title": "Squeezing the last drop of performance out of your Gradle builds",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-22T08:35:00Z",
+            "endTimestamp": "2015-11-09T12:30:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
             "room": "leparisien",
             "speakers": [
-                "janchong"
+                "madispink"
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
+                "THEME_EN"
             ]
         },
         {
-            "id": "session_xavier_hallade_1",
-            "description": "The Android SDK is set to use some content displayed on connected screen from Android 4.2 Discover how to display a different content from your application when your Android is connected to a second screen through HDMI/MHL/SlimPort or wireless through Miracast or Chromecast with equipments that allow the screencasting support.",
-            "photoUrl": "https://lh5.googleusercontent.com/-h2pUMAG4J5g/UrP7s0TyUcI/AAAAAAAAGtg/KvfI2REynKk/w956-h717-no/IMG_20131219_194826.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Ajouter+le+support+du+multi-%C3%A9cran+dans+une+application+Android",
-            "startTimestamp": "2014-09-22T07:55:00Z",
-            "title": "Ajouter le support du multi-écran dans une application Android",
+            "id": "session_alexisfogel",
+            "description": "This talk presents the new 'experiments' feature of the Play Store and how to make to most of it. The presentation includes an explanation of how using experiments can have a very high return on investment compared to in-app testing, and gives tips and feedback based on our own experience with the Experiments tool. We will cover what worked and what did not work, as well as common mistakes to avoid. We will also explain how to extend learning from the experiments to other part of the business.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-4",
+            "startTimestamp": "2015-11-09T11:40:00Z",
+            "title": "Improve your app metrics in weeks with Play Store Experiments",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_UI_UX",
+            "endTimestamp": "2015-11-09T12:30:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "salon",
+            "speakers": [
+                "alexisfogel"
+            ],
+            "tags": [
+                "TOPIC_UI_UX",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_corey_1",
+            "description": "In TDD, tests lead our implementation. We start by writing a failing test and then code to make the test pass. Once we have a passing test, then we are free to refactor the system with high confidence that we didn't break other things. We continue this process until the feature is finished.\n\nThe best way to practice test driven development (TDD) is through katas (http://en.wikipedia.org/wiki/Kata_(programming)). These are small programs or exercises that you complete over and over again to build testing muscle memory and improve the speed that we write applications.\n\nBy the end of this workshop, you will be comfortable with the major types of tests that you will encounter in your day to day coding with Robolectric as well as the best testing practices.\n\nOnly through practice will you become comfortable and find your programming flow!",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-2",
+            "startTimestamp": "2015-11-09T13:30:00Z",
+            "title": "Android Katas",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-22T08:35:00Z",
+            "endTimestamp": "2015-11-09T15:30:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "workshop",
+            "speakers": [
+                "coreylatislaw"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_svetlana",
+            "description": "Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin.\n\nKotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable.\n\nIn this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-1",
+            "startTimestamp": "2015-11-10T09:00:00Z",
+            "title": "Kotlin on Android",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T09:50:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "auditorium",
+            "speakers": [
+                "svetlanaisakova"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_jeremiemartinez",
+            "description": "Dagger 2 est sorti en avril dernier et permet enfin de réaliser l'injection de dépendances de vos applications complètement à la compilation. Cette présentation reviendra sur les bases et les concepts de l'injection de dépendances, présentera en détails l'API par des exemples concrets et démystifiera le fonctionnement interne de Dagger 2.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-17",
+            "startTimestamp": "2015-11-10T09:00:00Z",
+            "title": "Dagger 2 - Back to basics",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T09:50:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "leparisien",
+            "speakers": [
+                "jeremiemartinez"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_pierre_crepieux",
+            "description": "Vous avez surement déjà entendu parler des projets Volta ou Doze qui visent à améliorer l'autonomie des smartphones Android. La batterie est un composant primordial de votre téléphone. Venez découvrir comment l'énergie qu'elle stocke est consommée et quels sont les pièges à éviter afin de ne pas la gaspiller grâce à ARO et Battery Historian. Au programme : un peu de physique, du code, et des mesures.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-22",
+            "startTimestamp": "2015-11-10T09:00:00Z",
+            "title": "Pourquoi la batterie de mon smartphone se vide en une journée ? voir moins :-/",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T09:50:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "salon",
+            "speakers": [
+                "pierrecrepieux"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_mounir",
+            "description": "Dans ce talk nous verrons comment développer une application de geolocalisation en affichant les points d'interêts autour de notre trajectoire, en temps réeel, en moins de 200 lignes et en 45 minutes grâce à Kotlin.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-7",
+            "startTimestamp": "2015-11-10T10:20:00Z",
+            "title": "Comment développer une app en moins d'1h et en moins de 200 lignes avec Kotlin",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T11:10:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "auditorium",
+            "speakers": [
+                "mounirboudraa"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_pierre_benayoun",
+            "description": "Google Fit est une API qui vous permet de jouer avec les données liées à vos activités.\n\nEn théorie elle vous permet de créer des statistiques sur le nombre de pas, jouer avec les calories calculées et même trouver le nombre record de tours de pédales par minutes en vélo effectués par un utilisateur.\n\nMais qu'en est-il en pratique ?\n\nGoogle Fit récupère-t-il bien les données ?\n\nEst-il facile de les manipuler ?\n\nQu'est-ce qui intéresse vraiment les utilisateurs ?\n\nEn s'appuyant sur son expérience avec son application Fit Plus, Pierre Benayoun échangera avec vous sur le sujet.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-11",
+            "startTimestamp": "2015-11-10T10:20:00Z",
+            "title": "Comment j'ai retrouvé un code d'athlète avec Google Fit API",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T11:10:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "leparisien",
+            "speakers": [
+                "pierrebenayoun"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_xavierhallade",
+            "description": "The Android NDK (Native Development Kit) is used to integrate C/C++/asm code into Android applications and libraries.\n\nAfter a quick overview of the NDK, you'll get to see how you can use it with the new Android Studio and the gradle-experimental plugin, and how to migrate already existing projects and integrate 3rd party libraries while avoiding many pitfalls.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-31",
+            "startTimestamp": "2015-11-10T10:20:00Z",
+            "title": "The Android NDK and its new support in Android Studio/gradle-experimental plugin",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T11:10:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
@@ -444,381 +782,42 @@
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_FR",
-                "THEME_BEGINNER"
+                "THEME_EN"
             ]
         },
         {
-            "id": "session_taylorling_1",
-            "description": "There are an increasing number of apps that come with great design nowadays, and most of the carefully crafted apps resonate with the Android users due to their great and consistent User Experience (UX) design. Many developers and designers try hard to create an app with great UX by largely referring to the Android Design Guideline, however, to make remarkable UX design is certainly more than that, and often they missed certain important items from their check list. If you want to check if your app(s) is heading the right direction to awesomeness, be sure to check out this ‘advanced’ check list in making awesome Android apps.",
-            "photoUrl": "https://lh3.googleusercontent.com/-27sA4D_8yqs/UmqK6Mrg6eI/AAAAAAAAfc4/2FPmQd-79Hk/w3264-h2448/IMG_20131025_161402.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Ingredients+of+Awesome+App",
-            "startTimestamp": "2014-09-22T08:35:00Z",
-            "title": "Ingredients for an Awesome App",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_UI_UX",
-            "endTimestamp": "2014-09-22T09:25:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "auditorium",
-            "speakers": [
-                "taylorling"
-            ],
-            "tags": [
-                "TOPIC_UI_UX",
-                "THEME_EN",
-                "THEME_BEGINNER"
-            ]
-        },
-        {
-            "id": "session_stephanenicolas_1",
-            "description": "During the last few years, we have all assisted or participated to a small revolution on Android: annotation processing. Most libs now rely on annotation processing during build to pre-compute a lot of stuff that will boost them at runtime. Let’s think about Dagger, ButerKnife, Hugo, RoboGuice, BoundBox, Memento, IcePick etc.\n\nNevertheless, writing an annotation processor is far from obvious as it offers an API that is very difficult to understand. The main idea of this session is to suggest an alternative technology (or a complement in some cases): post-compilation processing and byte code manipulation.\n\nThis session is an in-depth review of byte code manipulation in Java and its limitations on Android. Stéphane will also explore a few techniques and librairies that make it simple to write a post compiler byte code processor, with gradle and maven examples. He will be presenting two librairies during his session: AfterBurner and Mimic.\n\nSee how to eliminate all boiler plate from your favorite librairies and boost your applications.",
+            "id": "session_guillaumebernard",
+            "description": "Une révolution se prépare au sein du développement Android: le Data Binding. Révélé sous la forme d'une bibliothèque en béta depuis plusieurs mois, que vaut cet outil et comment modifie-t'il notre façon de développer des applications? Cette présentation vous permettra de découvrir le fonctionnement de cette bibliothèque, son potentiel et ses éventuelles limites.",
             "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Byte+code+manipulation+for+Android+",
-            "startTimestamp": "2014-09-22T08:35:00Z",
-            "title": "Byte code manipulation for Android",
+            "url": "http://droidcon.fr/schedule/#session-24",
+            "startTimestamp": "2015-11-10T11:10:00Z",
+            "title": "Le Data Binding sur Android",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-22T09:25:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "salon",
-            "speakers": [
-                "stephanenicolas"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_EXPERT"
-            ]
-        },
-        {
-            "id": "session_fabiendevos_1",
-            "description": "A lot have ideas but only few realize their potential. In this talk, Fabien will present how to develop an application within four months from start to launch.\n\nThis session won’t be about RSS feed or another Flappy bird. It will tackle complex issues involving not only UI but also development and strategy.  These are few questions that will be raised during the session:\n\n- How can you choose and confirm an idea?\n\n- How can you make an UI intuitive ?\n\n- How can you tackle and solve complex development issues ?\n\n- How can you set and reach goals?",
-            "photoUrl": "https://lh3.googleusercontent.com/-IZAlWCdh0IM/UcDK6v6hvSI/AAAAAAAAFCY/oyf_5oLW4gg/w783-h440-no/20130618_112256.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=The+making+of+an+app%3A+from+having+an+idea+to+shipping+it",
-            "startTimestamp": "2014-09-22T09:55:00Z",
-            "title": "The making of an app: from having an idea to shipping it",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-22T10:45:00Z",
+            "endTimestamp": "2015-11-10T12:00:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
             "room": "auditorium",
             "speakers": [
-                "fabiendevos"
+                "guillaumebernard"
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
+                "THEME_FR"
             ]
         },
         {
-            "id": "session_nabilhachicha_1",
-            "description": "Gradle is becoming more & more adopted by developers as their main build system especially after the release of Android Studio. Thanks to the plugins architecture, Gradle allows users to reuse patterns and practices, avoiding boilerplate build code.\n\nIn this session, Nabil will be focusing on creating a Plugin that cooperates with the existing “android plugin”, in order to demonstrate some key concepts like: tasks, lifecycle, defining a custom DSL, incremental build and testing…",
-            "photoUrl": "https://lh6.googleusercontent.com/-br4iTdrftuk/Uq4kerLpQnI/AAAAAAAABUQ/4GJz5m4JdfY/w2048-h1365/_MG_4762.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Android+tools%3A+Create+your+custom+Gradle+plugin",
-            "startTimestamp": "2014-09-22T09:55:00Z",
-            "title": "Android Tools: create your custom Gradle plugin",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-22T10:45:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "leparisien",
-            "speakers": [
-                "nabilhachicha"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_guillaumelaforge_1",
-            "description": "For the past 10 years, Groovy has vastly improved the productivity of Java developers. With its unique features, like closures, builders, code transformations, traits, static compilation and many others, Groovy has become a very competitive language on the JVM platform. Compared to other alternative JVM languages, Groovy has the advantage of offering the best interoperability story with Java, while still keeping a concise syntax familiar to Java developers.\nWhat about the mobile story? In particular, with Android, developers basically only hava Java as sole choice.\nCouldn’t they too benefit from advantages provided by Groovy?\nCan’t we make Android developers life less painful too?\nIn this session, Guillaume will show how you can use Groovy to develop Android applications, bringing all the productivity and modernity Groovy provides on the Android platform.\nHe will also explain the potential issues you might be encountering, but if you are jealous of your iOS friends with Swift, get your smile back, Groovy is there for you!",
-            "photoUrl": "http://blog.smartbear.com/wp-content/uploads/imports/guillaume_laforge.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Groovy+sur+Android",
-            "startTimestamp": "2014-09-22T09:55:00Z",
-            "title": "Groovy sur Android",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-22T10:45:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "leparisien",
-            "speakers": [
-                "guillaumelaforge"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_FR",
-                "THEME_BEGINNER"
-            ]
-        },
-        {
-            "id": "session_geoffreydorne_1",
-            "description": "How is design useful in our lives? Design is used not only to make things beautiful but also to promote innovation and improvement in humain beings individually, collectively and collaboratively. Using examples and key elements, Geoffrey invites you to discover how the creation of services, products, objects and experiences may change our lives.",
+            "id": "session_mathieucalba",
+            "description": "Tasks are the plumbing of Android apps: you use them every day when developing. But the Task API in Android is one of the most difficult API to apprehend. The behaviour fragmentation between the Android versions does not help us either: taskAffinity, launchMode, flags, etc. In addition to the Task API, Android 5.0 introduced the Document Task API. This new feature is a big upheaval on how we manage tasks as Android developers and users.\n\nIn this presentation, we will have an in depth look at these APIs. We will see how to use them in typical use cases: an application with some restricted content to user connected with account but not all, an application with multiple documents opened in parallel, etc.",
             "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Petit+design+pour+grande+humanit%C3%A9",
-            "startTimestamp": "2014-09-23T08:15:00Z",
-            "title": "Petit design pour grande Humanité",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_UI_UX",
-            "endTimestamp": "2014-09-23T09:05:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "leparisien",
-            "speakers": [
-                "geoffreydorne"
-            ],
-            "tags": [
-                "TOPIC_UI_UX",
-                "THEME_FR",
-                "THEME_BEGINNER"
-            ]
-        },
-        {
-            "id": "session_marcdecourville_1",
-            "description": "Archos has just launched a full connected home solution based on a Android tablet and relying on Bluetooth Low Energy accessories. The purpose of the talk:\n\n- how Android can play a major role in the connected home revolution\n\n- the overall system architecture based on Android BLE, Google Cloud Messaging, Google Apps Engine, STUN/ICE remote connection\n\n- the strategy to open up the Archos applications and accessories.",
-            "photoUrl": "https://lh6.googleusercontent.com/-E1Gd-d7h-ZY/TrvyAFJcTTI/AAAAAAAAAFk/udyRHHP4uac/w956-h717-no/2011-10-26%2B20.49.50.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Archos+Android+based+connected+home+solution",
-            "startTimestamp": "2014-09-23T08:15:00Z",
-            "title": "Archos Android based connected home solutions",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
-            "endTimestamp": "2014-09-23T09:05:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "auditorium",
-            "speakers": [
-                "marcdecourville"
-            ],
-            "tags": [
-                "TOPIC_EVERYWHERE",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_jbkempf_1",
-            "description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, discs and streams. VLC runs on most platforms and is developed by volunteers.\n\nThis talk will explain how we ported VLC to Android using the NDK, the issues we faced and how we solved most of them. It will also detail the future of VLC on the Android platform.",
-            "photoUrl": "http://www.namac.org/sites/default/files/Baptiste.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Porting+VLC+on+Android",
-            "startTimestamp": "2014-09-23T09:35:00Z",
-            "title": "Porting VLC on Android",
+            "url": "http://droidcon.fr/schedule/#session-8",
+            "startTimestamp": "2015-11-10T11:10:00Z",
+            "title": "Task & Document API",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T10:25:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "salon",
-            "speakers": [
-                "jbkempf"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_timmesserschmidt_1",
-            "description": "User authentication in mobile applications is a very common and integral use case. Implementing regular passwords is an easy solution for developers but comes with several pitfalls that impair user experience like (re-)entering passwords, the need to create a new unique password or even just the input of personal data on a flaky keyboard while registering a new account.\n\nIn this talk the security flaws and UX implications of passwords will be discussed and highlighted which different techniques exist that are able to offer a more mobile friendly flow. Highlighting authorization and authentication techniques like OAuth, OpenID Connect and even hardware features like Bluetooth Low Energy. This talk will be interesting for anyone who’s facing a situation where creating and storing user accounts matters.",
-            "photoUrl": "https://lh5.googleusercontent.com/-Xa8nBAMVABI/Uk8f8FVQ5lI/AAAAAAAAPZQ/mMxV4UqCTlQ/w956-h637/plus.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Death+to+Passwords",
-            "startTimestamp": "2014-09-23T09:35:00Z",
-            "title": "Death to Passwords",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_UI_UX",
-            "endTimestamp": "2014-09-23T10:25:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "leparisien",
-            "speakers": [
-                "timmesserschmidt"
-            ],
-            "tags": [
-                "TOPIC_UI_UX",
-                "THEME_EN",
-                "THEME_BEGINNER"
-            ]
-        },
-        {
-            "id": "session_hoilam_1",
-            "description": "Outline the key considerations while designing and building for Android Wear. In addition, Hoi will talk about some of the lessons learnt from experiences and give developer an opportunity to ask questions.",
-            "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Android+Wear",
-            "startTimestamp": "2014-09-23T09:35:00Z",
-            "title": "Android Wear",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
-            "endTimestamp": "2014-09-23T10:25:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "auditorium",
-            "speakers": [
-                "hoilam"
-            ],
-            "tags": [
-                "TOPIC_EVERYWHERE",
-                "THEME_EN",
-                "THEME_BEGINNER"
-            ]
-        },
-        {
-            "id": "session_marioviviani_1",
-            "description": "With the addition of Android Wear to the Android ecosystem, the “wearables era” is officially opened. Android apps can now extend beyond the limits of smartphone and tablets, providing to the user a new kind of interaction where “less is more” and opening new ways for developers to engage users within their apps.\n\nHowever, the approach to Wear development is slightly different from handheld Android coding, and different are also the types of applications developers can design, develop and distribute for Wear devices.\n\nIn this talk, Mario will be presenting how to easily setup and include Android Wear features within your Android App in just a few minutes, an overview of Android Studio tools for Wear development, what are the best practices of Wear APIs you should keep in mind and what are the main difference between “classic” Android handheld development and Wear.",
-            "photoUrl": "http://www.androidiani.com/wp-content/uploads/2014/01/TAG-Evento-473x355.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Kick-start+your+experience+with+Android+Wear",
-            "startTimestamp": "2014-09-23T10:25:00Z",
-            "title": "Kick-start your experience with Android Wear",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
-            "endTimestamp": "2014-09-23T11:15:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "auditorium",
-            "speakers": [
-                "marioviviani"
-            ],
-            "tags": [
-                "TOPIC_EVERYWHERE",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_cedriccreusot_jeanloupyu_1",
-            "description": "Mobile is becoming slowly but surely the future of our habits. European Leader of Dating website, Meetic is a pioneer in the French Web which is deeply transforming to adapt to new functions. One of the main painful issues that you can meet before releasing an app: is it ready to be released? Did we break a feature while building this new version? In short, do we have the right to launch the application ?\n\nThis is for this reason and their wish to tackle this painful issue that thet have worked on automatical functional tests for mobile applications and the tool Calaba.sh in particular. Why and how can we write high level automatical tests? What executive strategy can we opt for?\n\nIn this talk, Cédric and Jean-Loup will be answering these questions. They will give feedback on their experience and will show you how they integrated this tool to their development cycle.",
-            "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Feu+vert+pour+les+apps+avec+Calaba.sh+%21",
-            "startTimestamp": "2014-09-23T10:25:00Z",
-            "title": "Green light for the apps with Calaba.sh!",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T11:15:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "leparisien",
-            "speakers": [
-                "cedriccreusot",
-                "jeanloupyu"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_FR",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_benjaminaugustin_1",
-            "description": "Ever had to deal with a terribly designed API or spent hours re-factoring your code to deal with an updated API? You have also hard about RxJava but can’t see how it could benefit your project? In his talk, Benjamin will take the practical approach of a complex API to explain how RxJava and Functional Reactive Programming (FRP) can be used on every projects to make your life easier.",
-            "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Rx-Fy+all+the+things%21",
-            "startTimestamp": "2014-09-23T10:25:00Z",
-            "title": "Rx-Fy all the things!",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T11:15:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "salon",
-            "speakers": [
-                "benjaminaugustin"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_EXPERT"
-            ]
-        },
-        {
-            "id": "session_thomasguerin_1",
-            "description": "Ladies and gentlemen, get prepared. In the red corner, with a 104KB – weight, the most popular among all Test Frameworks: Robotium. In the blue corner, with a 262KB-weight and supporting by Google Teams, there is the one qualified by “new comer”: Espresso. Let’s the battle start!!\n\nThomas will be presenting, with code, how the latter works, the pros and cons. Plus, he will talk about Calabash Android and UI Automator.",
-            "photoUrl": "https://pbs.twimg.com/media/BlWvZFhCYAA9-ft.jpg:large",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Robotium+vs+Espresso%3A+Get+ready+to+rumble+%21",
-            "startTimestamp": "2014-09-23T12:15:00Z",
-            "title": "Robotium vs Espresso: Get ready to rumble !",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T13:05:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "salon",
-            "speakers": [
-                "thomasguerin"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_FR",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_sebastianopoggi_1",
-            "description": "In his talk, Sebastiano will guide you through a topic that is often ignored: the Canvas API. Even if there’s only scarce documentation for it, the Canvas API is at the heart of everything that shows a UI on Android. You’ll need to tame this powerful and mysterious creature if you want to create great custom views and brilliant, lightweight UIs for your apps.\n\nWhat is a Canvas? How do you Paint? Can you draw Paths? What is Skia, and who invited it anyway? What actually happens during a drawing pass? What are Shaders? What are Filters? Is it true that text is basically impossible to measure correctly? What shape does a Shape have if noone’s painting it? These are some of the questions which will be answered during the session.\n\nConnect the dots in the spotty documentation the Android team has assembled, and become a true pixel pusher!",
-            "photoUrl": "https://lh6.googleusercontent.com/-ttdqnrv8Ytw/UcIcQYqzYzI/AAAAAAAAGWw/oyiPR0KayuI/w783-h440-no/20130618_181340.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Framing+the+Canvas",
-            "startTimestamp": "2014-09-23T12:15:00Z",
-            "title": "Framing the Canvas",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_UI_UX",
-            "endTimestamp": "2014-09-23T13:05:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "auditorium",
-            "speakers": [
-                "sebastianopoggi"
-            ],
-            "tags": [
-                "TOPIC_UI_UX",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_mathieucalba_1",
-            "description": "Almost every mobile application needs to synchronise data with a server, on Android too. Nonetheless their are many ways to do it : Alert Managers & Services or SyncAdapter  … and each ones has its pros & cons. Recently Google added a new way to do asynchronous work on Android in the L preview release : JobScheduler.\n\nIn his talk, Mathieu will be presenting how each technique works and how they have done it in the Capitaine Train Android application for a feedback with a complex data model.",
-            "photoUrl": "https://lh3.googleusercontent.com/-U8KcFiwcGPI/Ub-S3Qeb68I/AAAAAAAAEHs/-DbWM02-38w/w783-h440-no/20130617_163828.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=The+Death+of+the+Refresh+Button",
-            "startTimestamp": "2014-09-23T12:15:00Z",
-            "title": "The Death of the Refresh Button",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T13:05:00Z",
+            "endTimestamp": "2015-11-10T12:00:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
@@ -829,446 +828,530 @@
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
+                "THEME_EN"
             ]
         },
         {
-            "id": "session_pyricau_1",
-            "description": "At Droidcon Paris, Pierre-Yves will be talking about how to remove Fragments from your appplications by splitting the logic into reusable Views and Presenters, with the help of the Mortar Library.",
-            "photoUrl": "https://lh3.googleusercontent.com/-EPm72rfCtqE/UkHvwNNYrwI/AAAAAAAAHZg/UnVbtXVECgs/w956-h538-no/20130920_193942.JPG",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=D%C3%A9fragmentez+vos+apps+avec+Mortar+%21",
-            "startTimestamp": "2014-09-23T13:05:00Z",
-            "title": "Défragmentez vos apps avec Mortar !",
+            "id": "session_etiennecaron",
+            "description": "When I started making a Cardboard App, I had a lot to learn. I didn't know much about OpenGL, things kept breaking when I changed little details... it was painful.\n\nNot being a very sensible person, I kept going, and I'd like to share with you some of the things I found out:\n\n- OpenGL: How to use as little of it as possible.\n- Fill the scene: How to programatically create and design fun and simple 3D models.\n- Shaders: Math is fun, or, How to impress your friends with parallel processing.\n- Avoiding Death by Build: Use scripting and live shader editing to get instant feedback.\n- Look Ma, no Hands: Solving the VR input problem with Android Wear.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-10",
+            "startTimestamp": "2015-11-10T11:10:00Z",
+            "title": "Let's Play! Build your first Cardboard App",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T13:55:00Z",
+            "endTimestamp": "2015-11-10T12:00:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "salon",
+            "speakers": [
+                "etiennecaron"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_brianegan",
+            "description": "Unidirectional data flow is a simple architecture used to design applications that are easy to reason about. It opens the doors to interesting possibilities. Namely, time travel debugging, improved testing, and the ability to deterministically reproduce bugs.\n\nWe’ll start with a tour of existing approaches and demo a current web implementation. Then, we’ll discuss the history. Afterwards, we’ll introduce a Java library for writing Android apps and present a demo with code examples. Finally, we’ll present a few more interesting avenues of exploration: Hot Reloading, better bug reporting, etc.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-15",
+            "startTimestamp": "2015-11-10T13:30:00Z",
+            "title": "Exploring the possibilities of Unidirectional Data Flow Architectures on Android",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T14:20:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
             "room": "auditorium",
             "speakers": [
-                "pyricau"
+                "brianegan",
+                "guillaumelung"
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_FR",
-                "THEME_INTERMEDIATE"
+                "THEME_FR"
             ]
         },
         {
-            "id": "session_nicolasklein_1",
-            "description": "",
+            "id": "session_etiennemargraff",
+            "description": "Pendant ce talk, nous vous proposons de faire un tour d'horizon des différents services proposés par Microsoft pour les développeurs. Microsoft Azure Mobile Apps, Application Insights, et Oxford seront au rendez-vous ainsi que bien d'autres.\n\nIl y aura peu de slides, du code, de la passion et des barbus. Viendez!",
             "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=A+Quest+for+Engaged%2C+Happy+Players%3A+Google+Play+Game+Services+Year+2",
-            "startTimestamp": "2014-09-23T13:05:00Z",
-            "title": "A Quest for Engaged, Happy Players: Google Play Game Services Year 2",
+            "url": "http://droidcon.fr/schedule/#session-30",
+            "startTimestamp": "2015-11-10T13:30:00Z",
+            "title": "Microsoft, c'est aussi des services pour vos Apps Android (si, si!)",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T13:55:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "salon",
-            "speakers": [
-                "nicolasklein"
-            ],
-            "tags": [
-                "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
-            ]
-        },
-        {
-            "id": "session_chprunier_remygottschalk_1",
-            "description": "##\n## This module is about android build system, especially its makefiles and how to use them well\n##\n## @authors : Remy Gottschalk, Charles-Henry Prunier\\n\\nLOCAL_PATH:= $(call for-paper)\\ninclude $(CLEAR_VARS)\n\nLOCAL_MODULE := buildsystem.mk\nLOCAL_SRC_FILES := \\\\\n  Android.mk \\\\\n  BoardConfig.mk \\\\\n  AndroidProducts.mk \\\\\n  CleanSpec.mk \\\\\n  device.mk\n\nLOCAL_CONF_FLAGS := -Obuild_system\nLOCAL_CONF_FLAGS += -DHAVE_CUSTOM_ROM -IRomCooking\\n\\nLOCAL_CONF_INCLUDES += \\\\\n  definitions \\\\\n  fonctionnement \\\\\n  mots_cles \\\\\n  utilisation \\\\\n  modifications \\\\\n  bonnes_pratiques\n\nLOCAL_MODULE_PATH := $(TARGET_OUT_BRAIN)\nLOCAL_MODULE_TAGS := eng\n\nnclude $(BUILD_CONFERENCE)",
-            "photoUrl": "https://lh6.googleusercontent.com/-ybpGl7DV12M/U2-5uwyMJrI/AAAAAAAAH4M/i1CDu45aK-c/w956-h637-no/IMG_5888.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=buildsystem.mk",
-            "startTimestamp": "2014-09-23T15:15:00Z",
-            "title": "buildsystem.mk",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
-            "endTimestamp": "2014-09-23T16:00:00Z",
-            "color": "",
-            "hashtag": "",
-            "isLivestream": false,
-            "captionsUrl": "",
-            "room": "salon",
-            "speakers": [
-                "chprunier",
-                "remygottschalk"
-            ],
-            "tags": [
-                "TOPIC_EVERYWHERE",
-                "THEME_FR",
-                "THEME_EXPERT"
-            ]
-        },
-        {
-            "id": "session_jeanmaisonnial_1",
-            "description": "Every day, more than 2,5k applications are added to app stores globally. Less than 50% of these will become sustainable businesses. To turn mobile apps into a business, a successful revenue strategy is essential.\nIn this session, Jean will cover:\n- Mobile app monetization models and industry trends.\n- Valuable users and how to identify them\n- Driving engagement and focusing on the long term value of users\n- Monetizing your audience using different revenue channels.",
-            "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Maximize+App+engagement+and+monetization",
-            "startTimestamp": "2014-09-23T13:55:00Z",
-            "title": "Maximize App engagement and monetization",
-            "youtubeUrl": "",
-            "mainTag": "TOPIC_UI_UX",
-            "endTimestamp": "2014-09-23T14:45:00Z",
+            "endTimestamp": "2015-11-10T14:20:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
             "room": "leparisien",
             "speakers": [
-                "jeanmaisonnial"
+                "etiennemargraff",
+                "jsdupuy"
             ],
             "tags": [
-                "TOPIC_UI_UX",
-                "THEME_EN",
-                "THEME_BEGINNER"
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
             ]
         },
         {
-            "id": "session_simonstewart_1",
-            "description": "There are hundreds of software engineers working on Facebook’s Android application. The codebase is large, and the pace of change is unrelenting. Despite the complexity of size and rapid development, a new alpha release that’s known to be solid is shipped three times a week. We’d not be able to go this fast, or scale our development team this effectively, without using large amounts of OSS.\n\nIn this talk, I’ll discuss the Open Source tools that help us build Facebook for Android, how we contribute technology to OSS, and how we do our best to be good citizens in the broader OSS world. I’ll do this by looking at the full life cycle of a release, going from how we organize our source, do code reviews in phabricator, through building using tools such as Buck, to how we’ve improved the quality of our releases using OSS testing tools such as Selendroid.",
-            "photoUrl": "https://i.ytimg.com/vi/5o6Rb8W9_Do/maxresdefault.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=How+Open+Source+Powers+Facebook+on+Android",
-            "startTimestamp": "2014-09-22T08:35:00Z",
-            "title": "How Open Source Powers Facebook on Android",
+            "id": "session_damiencavailles",
+            "description": "Android Auto est une nouvelle extension de la plateforme Android. A l'image d'Android Wear, il s'agit d'une interface pour proposer des notifications et des interactions rapides ou faibles à l'utilisateur. La particularité est que les traditionnellement flexibles guidelines de Google sont devenues des contraintes fermes. Nous vous proposons ici une analyse complète de ce nouvel horizon pour Android.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-28",
+            "startTimestamp": "2015-11-10T13:30:00Z",
+            "title": "Android Auto : Rolling Droid gather no moss",
             "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
-            "endTimestamp": "2014-09-22T09:25:00Z",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T14:20:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
-            "room": "leparisien",
+            "room": "salon",
             "speakers": [
-                "simonstewart"
+                "damiencavailles"
             ],
             "tags": [
-                "TOPIC_EVERYWHERE",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
             ]
         },
         {
-            "id": "session_amrit_sanjeev_1",
-            "description": "Talk will do a deep dive into the following \n- general architecture of event bus\n- when, how and why to use event bus\n- advantages and disadvantages of using it\n- comparison of different event bus libraries and features",
-            "photoUrl": "https://lh5.googleusercontent.com/-VBGIXC3BUXo/UsaCSuP135I/AAAAAAAABds/YpDDYsUV9Z8/w877-h655-no/IMG_20140103_145231.jpg",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Architecting+applications+using+Event+Bus+",
-            "startTimestamp": "2014-09-23T13:55:00Z",
-            "title": "Architecting applications using Event Bus ",
+            "id": "session_nabil",
+            "description": "Managing memory & concurrency are one of the biggest challenges we face when it comes to writing testable & efficient apps. Based on the experience of building Realm database, We'll dig into some patterns & tricks used to control memory footprint & multithreading.\n\nSome of the topics this talks will cover are:\n- How to use the Java Reference API (WeakReference & ReferenceQueue) to work with the GC\n- Writing tests involving the GC\n- Working & testing code using the Handler/Looper api\n- Alternative asynchronous models (Messenger/ResultReceiver)\n- Threadpool customisation & pitfalls\n- Handler (mocking & testing, using IdleHandler)",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-6",
+            "startTimestamp": "2015-11-10T14:20:00Z",
+            "title": "Advanced techniques for concurrency & memory management",
             "youtubeUrl": "",
             "mainTag": "TOPIC_DEVELOPMENT",
-            "endTimestamp": "2014-09-23T14:45:00Z",
+            "endTimestamp": "2015-11-10T15:10:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
             "room": "auditorium",
             "speakers": [
-                "amritsanjeev"
+                "nabilhachicha"
             ],
             "tags": [
                 "TOPIC_DEVELOPMENT",
-                "THEME_EN",
-                "THEME_INTERMEDIATE"
+                "THEME_EN"
             ]
         },
         {
-            "id": "session_quentin_sallat_1",
-            "description": "With Android L coming, Google has decided to bring a brand new set of design rules called Material Design. However, it is not required to change all your application design to respect these new guidelines.\n\nn his talk, Quentin will show you through an example how to make the transistion from Holo to Marerial through an application. You will learn everything about floating buttons, cards and new animation APIs to make a smooth design transition.",
+            "id": "session_stan",
+            "description": "Tester son application Android a très longtemps été négligé. Il y a des bonnes raisons pour ça. Ou plutôt il y avait. Avec les dernières version du plugin Android pour Gradle, la situation a bien changé.\n\nCette présentation est pour vous si vous vous posez les questions suivantes : - Comment créer et faire tourner des tests sur Android Studio, en ligne de commande et sur mon integration continue ? - Comment faire tourner des tests sans avoir besoin de téléphone connecté ou d'émulateur et de manière très rapide ? - Comment augmenter la couverture de mon code, notamment la UI que je n'arrive pas à tester avec de simple tests unitaires ?\n\nA travers mes retours d'expériences, d'exemples concrets, je vais tenter de répondre à ses questions. Pour la partie sur le test unitaire de l'interface utilisateur, il sera question d'utilisation de patron d'architecture proche du modèle MVP qui m'aide également à mieux structurer et alléger mon code.\n\nLa partie orale de cette présentation est en français. Le code et les slides de support sont en anglais.",
             "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Holo+Material+Design+Transition",
-            "startTimestamp": "2014-09-23T13:55:00Z",
-            "title": "Holo -> Material Design\ntransition",
+            "url": "http://droidcon.fr/schedule/#session-20",
+            "startTimestamp": "2015-11-10T14:20:00Z",
+            "title": "Testez unitairement votre code, même votre UI !",
             "youtubeUrl": "",
-            "mainTag": "TOPIC_UI_UX",
-            "endTimestamp": "2014-09-23T14:45:00Z",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T15:10:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "leparisien",
+            "speakers": [
+                "stankocken"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_turhan",
+            "description": "Back mid july 2015, Google has announced Eddystone, an open BLE beacon format. In this session, we'll cover how to develop with beacons. We'll dive into the core of the protocol format as well as the higher APIs (i.e Nearby API and the Proximity Beacon API) for better semantic context and higher location.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-9",
+            "startTimestamp": "2015-11-10T14:20:00Z",
+            "title": "Eddystone™, the open beacon format from Google",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_EVERYWHERE",
+            "endTimestamp": "2015-11-10T15:10:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
             "room": "salon",
+            "speakers": [
+                "turhanoz"
+            ],
+            "tags": [
+                "TOPIC_EVERYWHERE",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_billphillips",
+            "description": "Fragments are a regular subject of controversy in the Android community. They're big and unwieldy, difficult to test, and complicate a controller lifecycle that wasn't particularly simple in the first place. In this talk, Bill will come clean on why he continues to choose to emphasize fragments to beginners.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-23",
+            "startTimestamp": "2015-11-10T15:10:00Z",
+            "title": "What To Do About Fragments?",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T16:00:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "auditorium",
+            "speakers": [
+                "billphillips"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_thomasguerin",
+            "description": "A partir d'une feuille blanche (Android), découvrez quelles stratégies de tests mettre en place pour garantir le bon fonctionnement, la résilience et la maintenabilité de l'application.\n\nNous commencerons par un bref rappel de ce qu'est un test, puis nous plongerons dans une session live coding. A la fin de cette présentation, le TDD (oui, sur Android), les tests d'intégrations et les rapports associés n'auront plus de secret pour vous.",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-26",
+            "startTimestamp": "2015-11-10T15:10:00Z",
+            "title": "Comment tester (vraiment) une application Android",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T16:00:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "leparisien",
+            "speakers": [
+                "thomasguerin",
+                "benjaminlacroix"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
+            ]
+        },
+        {
+            "id": "session_alizee",
+            "description": "In the current context where customers are more sensible about protecting their privacy, our duty as developers is to consider security in our developments.\n\nGoogle did understand this global problematic and provides in Android OS different kinds of security systems : selinux, permissions system, etc.\n\nThroughout this talk, we are going to present how the Android permission system is implemented, all the way from the kernel to the application layer.\n\nHow Android low layers use the concepts of the Linux kernel users and groups in order to provide its own permission system? What is the communication flow in the framework when an access to a specific device is asked by an Android application?",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-12",
+            "startTimestamp": "2015-11-10T15:10:00Z",
+            "title": "Striptease of The Android Permissions System",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T16:00:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "salon",
+            "speakers": [
+                "alizeepenel",
+                "alexisrosovsky"
+            ],
+            "tags": [
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
+            ]
+        },
+        {
+            "id": "session_quentinsallat",
+            "description": "So now you have published your app on the Play Store. You certainly have some bugs to fix, and features to refine. And then, what? How do you transform your app into something really, really great? This talk is all about this: making your app astonishing.\n\nBased on simple Interaction design principles, you'll discover how to make your app considerate and smart, and bring it to the next level. From search to machine learning, from social networks to common UX hints, it contains everything your app needs to become amazing!",
+            "photoUrl": "",
+            "url": "http://droidcon.fr/schedule/#session-27",
+            "startTimestamp": "2015-11-10T16:30:00Z",
+            "title": "From Nice To Astonishing",
+            "youtubeUrl": "",
+            "mainTag": "TOPIC_UI_UX",
+            "endTimestamp": "2015-11-10T17:20:00Z",
+            "color": "",
+            "hashtag": "",
+            "isLivestream": false,
+            "captionsUrl": "",
+            "room": "auditorium",
             "speakers": [
                 "quentinsallat"
             ],
             "tags": [
                 "TOPIC_UI_UX",
-                "THEME_FR",
-                "THEME_BEGINNER"
+                "THEME_FR"
             ]
         },
         {
-            "id": "session_octo",
-            "description": "Vous êtes prèts à réaliser votre première application Google Glass ? Vous vous posez les mêmes que questions que nous nous sommes posées sur toutes nos applications :\n\n• Comment faire de l'authentification sur un device sans clavier ? \n• Comment scanner ou reconnaitre un objet en le regardant ?\n• Comment proposer une navigation intuitive et dynamique ?\n• Comment échanger avec votre SI et partager du contenu avec d'autres utilisateurs ?\n\nNous vous montrerons les différentes dépendances à ajouter dans votre build.gradle afin de combler les rêves les plus fous de vos utilisateurs en leur offrant une application adaptée aux lunettes connectées.\n\nVous n'êtes pas encore près ? Pas de panique, vous repartirez avec assez d'idées pour vous convaincre d'acheter des Glass. Et vous découvrirez, grâce à notre code, qu'une application Google Glass ce n'est finalement qu'une simple application Android.",
+            "id": "session_romainpiel",
+            "description": "Your app lives around monolithic Activities/Fragments? You think that singletons are amazing or you can’t get away from them? You find your app hard to test?\n\nWriting robust and maintainable software is complex and we know that designing the general architecture of an app is complicated. The goal of this talk is to give you ingredients to build a healthy codebase for your Android app. By going through the entire stack from the data layer to the presentation layer, we will see how to make it maintainable and testable.",
             "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Google+Glass%2C+quels+Frameworks+pour+quels+usages%3F",
-            "startTimestamp": "2014-09-23T15:15:00Z",
-            "title": "Google Glass, quels Frameworks pour quels usages?",
+            "url": "http://droidcon.fr/schedule/#session-21",
+            "startTimestamp": "2015-11-10T16:30:00Z",
+            "title": "Ingredients for a healthy codebase",
             "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
-            "endTimestamp": "2014-09-23T16:00:00Z",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T17:20:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
             "room": "leparisien",
             "speakers": [
-                "cedricpointel",
-                "mathieuhausherr"
+                "romainpiel"
             ],
             "tags": [
-                "TOPIC_EVERYWHERE",
-                "THEME_FR",
-                "THEME_INTERMEDIATE"
+                "TOPIC_DEVELOPMENT",
+                "THEME_EN"
             ]
         },
         {
-            "id": "session_damian_mehers",
-            "description": "Come to this session for a walk-though of real world app architecture on Android Wear. See what’s involved in creating a production-level wearable app, including code and debug walkthroughs, and concrete suggestions for new Android Wear developers.\n\nHaving developed Evernote for the Samsung Galaxy Gear, the Pebble and Android Wear, Damian Mehers has experience not only developing for wearables, but also thinking about what user-experience makes sense for wearables.",
+            "id": "session_benjaminaugustin",
+            "description": "Ever tried functional languages? Ever been annoyed that every time you see the same Fibonacci examples or yet another maths problem?\n\nSo what can functional languages really teach us on our day to day life as Java developers?\n\nThis talk will focus on what we can learn from functional languages and how to apply those concepts to any language. We will take some concrete examples and see how some functional approaches can make your life easier.\n\nSo let me take you into a journey towards a more functional Java.",
             "photoUrl": "",
-            "url": "http://fr.droidcon.com/2014/agenda/detail?title=Extending+your+app+to+your+wrist%3A+lessons+from+the+front",
-            "startTimestamp": "2014-09-23T15:15:00Z",
-            "title": "Extending your app to your wrist: lessons from the front",
+            "url": "http://droidcon.fr/schedule/#session-19",
+            "startTimestamp": "2015-11-10T16:30:00Z",
+            "title": "Let's get Functional",
             "youtubeUrl": "",
-            "mainTag": "TOPIC_EVERYWHERE",
-            "endTimestamp": "2014-09-23T16:00:00Z",
+            "mainTag": "TOPIC_DEVELOPMENT",
+            "endTimestamp": "2015-11-10T17:20:00Z",
             "color": "",
             "hashtag": "",
             "isLivestream": false,
             "captionsUrl": "",
-            "room": "auditorium",
+            "room": "salon",
             "speakers": [
-                "damienmehers"
+                "benjaminaugustin"
             ],
             "tags": [
-                "TOPIC_EVERYWHERE",
-                "THEME_EN",
-                "THEME_BEGINNER"
+                "TOPIC_DEVELOPMENT",
+                "THEME_FR"
             ]
         }
     ],
     "blocks": [
         {
-            "start": "2014-09-22T06:30:00.000Z",
-            "end": "2014-09-22T07:15:00.000Z",
+            "start": "2015-11-09T07:30:00.000Z",
+            "end": "2015-11-09T08:30:00.000Z",
             "title": "Welcome & Breakfast",
             "type": "break",
             "subtitle": "Main Hall, Level 1"
         },
         {
-            "start": "2014-09-22T07:15:00.000Z",
-            "end": "2014-09-22T07:45:00.000Z",
+            "start": "2015-11-09T08:30:00.000Z",
+            "end": "2015-11-09T09:00:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T07:55:00.000Z",
-            "end": "2014-09-22T08:35:00.000Z",
+            "start": "2015-11-09T09:00:00.000Z",
+            "end": "2015-11-09T09:30:00.000Z",
+            "title": "Pitch for Barcamp sessions",
+            "type": "break",
+            "subtitle": "Auditorium"
+        },
+        {
+            "start": "2015-11-09T09:30:00.000Z",
+            "end": "2015-11-09T10:20:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T08:35:00.000Z",
-            "end": "2014-09-22T09:25:00.000Z",
-            "title": "",
-            "type": "free",
-            "subtitle": ""
-        },
-        {
-            "start": "2014-09-22T09:25:00.000Z",
-            "end": "2014-09-22T09:55:00.000Z",
+            "start": "2015-11-09T10:20:00.000Z",
+            "end": "2015-11-09T10:50:00.000Z",
             "title": "Break",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T09:55:00.000Z",
-            "end": "2014-09-22T10:45:00.000Z",
+            "start": "2015-11-09T10:50:00.000Z",
+            "end": "2015-11-09T11:40:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T10:45:00.000Z",
-            "end": "2014-09-22T11:05:00.000Z",
-            "title": "Barcamp start",
-            "type": "break",
-            "subtitle": "Auditorium"
+            "start": "2015-11-09T11:40:00.000Z",
+            "end": "2015-11-09T12:30:00.000Z",
+            "title": "",
+            "type": "free",
+            "subtitle": ""
         },
         {
-            "start": "2014-09-22T11:05:00.000Z",
-            "end": "2014-09-22T12:20:00.000Z",
+            "start": "2015-11-09T12:30:00.000Z",
+            "end": "2015-11-09T13:30:00.000Z",
             "title": "Lunch",
             "type": "break",
             "subtitle": "Main Hall, Level 1"
         },
         {
-            "start": "2014-09-22T11:20:00.000Z",
-            "end": "2014-09-22T12:20:00.000Z",
-            "title": "",
-            "type": "free",
-            "subtitle": ""
-        },
-        {
-            "start": "2014-09-22T12:20:00.000Z",
-            "end": "2014-09-22T12:50:00.000Z",
+            "start": "2015-11-09T13:30:00.000Z",
+            "end": "2015-11-09T14:00:00.000Z",
             "title": "Barcamp session",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T12:50:00.000Z",
-            "end": "2014-09-22T13:20:00.000Z",
+            "start": "2015-11-09T14:00:00.000Z",
+            "end": "2015-11-09T14:30:00.000Z",
             "title": "Barcamp session",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T13:20:00.000Z",
-            "end": "2014-09-22T13:50:00.000Z",
+            "start": "2015-11-09T14:30:00.000Z",
+            "end": "2015-11-09T15:00:00.000Z",
             "title": "Barcamp session",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T13:50:00.000Z",
-            "end": "2014-09-22T14:20:00.000Z",
+            "start": "2015-11-09T15:00:00.000Z",
+            "end": "2015-11-09T15:30:00.000Z",
             "title": "Barcamp session",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T14:20:00.000Z",
-            "end": "2014-09-22T14:50:00.000Z",
+            "start": "2015-11-09T15:30:00.000Z",
+            "end": "2015-11-09T16:00:00.000Z",
+            "title": "Break",
+            "type": "break",
+            "subtitle": ""
+        },
+        {
+            "start": "2015-11-09T16:00:00.000Z",
+            "end": "2015-11-09T16:30:00.000Z",
             "title": "Barcamp session",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T14:50:00.000Z",
-            "end": "2014-09-22T15:20:00.000Z",
+            "start": "2015-11-09T16:30:00.000Z",
+            "end": "2015-11-09T17:00:00.000Z",
             "title": "Barcamp session",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T15:30:00.000Z",
-            "end": "2014-09-22T16:30:00.000Z",
+            "start": "2015-11-09T17:00:00.000Z",
+            "end": "2015-11-09T17:30:00.000Z",
             "title": "Barcamp session",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-22T17:00:00.000Z",
-            "end": "2014-09-22T22:00:00.000Z",
+            "start": "2015-11-09T17:30:00.000Z",
+            "end": "2015-11-09T18:00:00.000Z",
+            "title": "Barcamp session",
+            "type": "break",
+            "subtitle": ""
+        },
+        {
+            "start": "2015-11-09T18:00:00.000Z",
+            "end": "2015-11-09T21:00:00.000Z",
             "title": "Party",
             "type": "break",
             "subtitle": "La Petite Louise"
         },
         {
-            "start": "2014-09-23T06:30:00.000Z",
-            "end": "2014-09-23T07:00:00.000Z",
+            "start": "2015-11-10T07:30:00.000Z",
+            "end": "2015-11-10T08:30:00.000Z",
             "title": "Welcome & Breakfast",
             "type": "break",
             "subtitle": "Main Hall, Level 1"
         },
         {
-            "start": "2014-09-23T07:00:00.000Z",
-            "end": "2014-09-23T08:00:00.000Z",
+            "start": "2015-11-10T08:30:00.000Z",
+            "end": "2015-11-10T09:00:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T08:00:00.000Z",
-            "end": "2014-09-23T08:15:00.000Z",
+            "start": "2015-11-10T09:00:00.000Z",
+            "end": "2015-11-10T09:50:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T08:15:00.000Z",
-            "end": "2014-09-23T09:05:00.000Z",
-            "title": "",
-            "type": "free",
-            "subtitle": ""
-        },
-        {
-            "start": "2014-09-23T09:05:00.000Z",
-            "end": "2014-09-23T09:35:00.000Z",
+            "start": "2015-11-10T09:50:00.000Z",
+            "end": "2015-11-10T10:20:00.000Z",
             "title": "Break",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T09:35:00.000Z",
-            "end": "2014-09-23T10:25:00.000Z",
+            "start": "2015-11-10T10:20:00.000Z",
+            "end": "2015-11-10T11:10:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T10:25:00.000Z",
-            "end": "2014-09-23T11:15:00.000Z",
+            "start": "2015-11-10T11:10:00.000Z",
+            "end": "2015-11-10T12:00:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T11:15:00.000Z",
-            "end": "2014-09-23T12:15:00.000Z",
+            "start": "2015-11-10T12:00:00.000Z",
+            "end": "2015-11-10T13:30:00.000Z",
             "title": "Lunch",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T12:15:00.000Z",
-            "end": "2014-09-23T13:05:00.000Z",
+            "start": "2015-11-10T13:30:00.000Z",
+            "end": "2015-11-10T14:20:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T13:05:00.000Z",
-            "end": "2014-09-23T13:55:00.000Z",
+            "start": "2015-11-10T14:20:00.000Z",
+            "end": "2015-11-10T15:10:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T13:55:00.000Z",
-            "end": "2014-09-23T14:45:00.000Z",
+            "start": "2015-11-10T15:10:00.000Z",
+            "end": "2015-11-10T16:00:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T14:45:00.000Z",
-            "end": "2014-09-23T15:15:00.000Z",
+            "start": "2015-11-10T16:00:00.000Z",
+            "end": "2015-11-10T16:30:00.000Z",
             "title": "Break",
             "type": "break",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T15:15:00.000Z",
-            "end": "2014-09-23T16:00:00.000Z",
+            "start": "2015-11-10T16:30:00.000Z",
+            "end": "2015-11-10T17:20:00.000Z",
             "title": "",
             "type": "free",
             "subtitle": ""
         },
         {
-            "start": "2014-09-23T16:00:00.000Z",
-            "end": "2014-09-23T16:30:00.000Z",
-            "title": "",
-            "type": "free",
-            "subtitle": ""
+            "start": "2015-11-10T17:20:00.000Z",
+            "end": "2015-11-10T18:00:00.000Z",
+            "title": "Closing ceremony",
+            "type": "break",
+            "subtitle": "Auditorium"
         }
     ],
     "video_library": [
@@ -1441,6 +1524,416 @@
             "year": 2013,
             "thumbnailUrl": "http://img.youtube.com/vi/cSGHecvZhuQ/hqdefault.jpg",
             "desc": "Conférence d'introduction à Google Glass, réalisée pendant la Droidcon Paris 2013 par Alain Regnier le premier GlassExplorer français"
+        },
+        {
+            "id": "H0GaQH9QBDQ",
+            "speakers": "Jean Maisonnial",
+            "vid": "H0GaQH9QBDQ",
+            "title": "Maximize App engagement and monetization (EN)",
+            "topic": "Monetization",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/H0GaQH9QBDQ/hqdefault.jpg",
+            "desc": "Learn how you can turn your app into a business. Discover the different mobile apps monetization models and trends"
+        },
+        {
+            "id": "Zo4lfNG7b3o",
+            "speakers": "Andreas Vourkos",
+            "vid": "Zo4lfNG7b3o",
+            "title": "Mobile monetization mistakes and tips (EN)",
+            "topic": "Monetization",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/Zo4lfNG7b3o/hqdefault.jpg",
+            "desc": "Mobile monetization mistakes and tips (en) - Andreas Vourkos, Pollfish"
+        },
+        {
+            "id": "5e-euRhIIFE",
+            "speakers": "Maciej Gorski",
+            "vid": "5e-euRhIIFE",
+            "title": "Hrisey: Android without boilerplate (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/5e-euRhIIFE/hqdefault.jpg",
+            "desc": "Hrisey: Android without boilerplate (en) - Maciej Gorski, El Passion"
+        },
+        {
+            "id": "JmshNL7r6SU",
+            "speakers": "Remy Gottschalk & Charles-Henry Prunier",
+            "vid": "JmshNL7r6SU",
+            "title": "buildsystem.mk (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/JmshNL7r6SU/hqdefault.jpg",
+            "desc": "buildsystem.mk (fr) - Remy Gottschalk & Charles-Henry Prunier, Genymobile"
+        },
+        {
+            "id": "ekN2zvFytZk",
+            "speakers": "Cyril Mottier",
+            "vid": "ekN2zvFytZk",
+            "title": "Deep Dive Into State Restoration (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/ekN2zvFytZk/hqdefault.jpg",
+            "desc": "Deep Dive Into State Restoration (en) - Cyril Mottier, Capitaine Train"
+        },
+        {
+            "id": "G6i6wcCTKlo",
+            "speakers": "Alexander Weggerle",
+            "vid": "G6i6wcCTKlo",
+            "title": "The Android Native Development Kit (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/G6i6wcCTKlo/hqdefault.jpg",
+            "desc": "The Android Native Development Kit (en) - Alexander Weggerle, Intel"
+        },
+        {
+            "id": "maH4AG0WVtE",
+            "speakers": "Vitaliy Zasadnyy",
+            "vid": "maH4AG0WVtE",
+            "title": "Extending your apps to wearables (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/maH4AG0WVtE/hqdefault.jpg",
+            "desc": "Extending your apps to wearables - Vitaliy Zasadnyy, GDG Lviv"
+        },
+        {
+            "id": "az5LAMAIycs",
+            "speakers": "Thomas Guerin",
+            "vid": "az5LAMAIycs",
+            "title": "Robotium vs Espresso: Get ready to rumble ! (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/az5LAMAIycs/hqdefault.jpg",
+            "desc": "Robotium vs Espresso: Get ready to rumble ! (fr) - Thomas Guerin, Xebia"
+        },
+        {
+            "id": "jHjDt4J-dCU",
+            "speakers": "Fabien Devos",
+            "vid": "jHjDt4J-dCU",
+            "title": "The Making of an App: from having an idea to shipping it (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/jHjDt4J-dCU/hqdefault.jpg",
+            "desc": "The Making of an App: from having an idea to shipping it (fr) - Fabien Devos, Upthere"
+        },
+        {
+            "id": "T5qEnillTHc",
+            "speakers": "Jan Chong",
+            "vid": "T5qEnillTHc",
+            "title": "Scaling Android Development at Twitter (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/T5qEnillTHc/hqdefault.jpg",
+            "desc": "Scaling Android Development at Twitter (en) - Jan Chong, Twitter"
+        },
+        {
+            "id": "LRSr1KFqwt4",
+            "speakers": "Marc de Courville",
+            "vid": "LRSr1KFqwt4",
+            "title": "Archos Android based connected home solution (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/LRSr1KFqwt4/hqdefault.jpg",
+            "desc": "Archos Android based connected home solution (en) - Marc de Courville, Archos"
+        },
+        {
+            "id": "6XZP8nnLZ5A",
+            "speakers": "Mario V., Sebastiano P., Eyal L., Taylor L., Benjamin A., Tim M., Roberto O.",
+            "vid": "6XZP8nnLZ5A",
+            "title": "App Clinic (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/6XZP8nnLZ5A/hqdefault.jpg",
+            "desc": "App Clinic (en) - Mario V., Sebastiano P., Eyal L., Taylor L., Benjamin A., Tim M., Roberto O."
+        },
+        {
+            "id": "VMlQeAelZjI",
+            "speakers": "Thierry Vazzoler & Stéphane Goudeau",
+            "vid": "VMlQeAelZjI",
+            "title": "News Republic how they do it with Microsoft Cloud (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/VMlQeAelZjI/hqdefault.jpg",
+            "desc": "News Republic how they do it with Microsoft Cloud (fr) - Thierry Vazzoler & Stéphane Goudeau"
+        },
+        {
+            "id": "IiXW3If8JXY",
+            "speakers": "Mounir Boudraa",
+            "vid": "IiXW3If8JXY",
+            "title": "Monitoring applications in real time (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/IiXW3If8JXY/hqdefault.jpg",
+            "desc": "Monitoring applications in real time (fr) - Mounir Boudraa, Xebia"
+        },
+        {
+            "id": "NoWV2JdoNnc",
+            "speakers": "Jean-Baptiste Kempf",
+            "vid": "NoWV2JdoNnc",
+            "title": "Porting VLC on Android (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/NoWV2JdoNnc/hqdefault.jpg",
+            "desc": "Porting VLC on Android (en) - Jean-Baptiste Kempf, VideoLan"
+        },
+        {
+            "id": "MlJhyW-w4xM",
+            "speakers": "Taylor Ling",
+            "vid": "MlJhyW-w4xM",
+            "title": "Ingredients of Awesome App (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/MlJhyW-w4xM/hqdefault.jpg",
+            "desc": "Ingredients of Awesome App (en) - Taylor Ling, androiduiux.com"
+        },
+        {
+            "id": "MT6bU9ofJDE",
+            "speakers": "Simon Stewart",
+            "vid": "MT6bU9ofJDE",
+            "title": "How Open Source Powers Facebook on Android (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/MT6bU9ofJDE/hqdefault.jpg",
+            "desc": "How Open Source Powers Facebook on Android (en) - Simon Stewart, Facebook"
+        },
+        {
+            "id": "kOVxiob9ZgQ",
+            "speakers": "Guillaume Laforge",
+            "vid": "kOVxiob9ZgQ",
+            "title": "Groovy sur Android (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/kOVxiob9ZgQ/hqdefault.jpg",
+            "desc": "Groovy sur Android (en) Guillaume Laforge, Pivotal"
+        },
+        {
+            "id": "y5Bm4xUu2vg",
+            "speakers": "Stéphane NICOLAS",
+            "vid": "y5Bm4xUu2vg",
+            "title": "Byte code manipulation for Android (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/y5Bm4xUu2vg/hqdefault.jpg",
+            "desc": "Byte code manipulation for Android (en) - Stéphane NICOLAS, Groupon"
+        },
+        {
+            "id": "v6AQJ2Ufq7g",
+            "speakers": "Ali Parr",
+            "vid": "v6AQJ2Ufq7g",
+            "title": "The secret to building cross platform Mobile Apps: How the big guys do it (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/v6AQJ2Ufq7g/hqdefault.jpg",
+            "desc": "The secret to building cross platform Mobile Apps: How the big guys do it (en) - Ali Parr, Parse"
+        },
+        {
+            "id": "pEol2Htsy-Y",
+            "speakers": "Guillaume Laforge",
+            "vid": "pEol2Htsy-Y",
+            "title": "How to improve Android with Groovy? (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/pEol2Htsy-Y/hqdefault.jpg",
+            "desc": "How to improve Android with Groovy? (en) - Guillaume Laforge, Pivotal"
+        },
+        {
+            "id": "INQsZbgcN8Q",
+            "speakers": "Steve Hughes",
+            "vid": "INQsZbgcN8Q",
+            "title": "Optimizing your game on x86 devices (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/INQsZbgcN8Q/hqdefault.jpg",
+            "desc": "Optimizing your game on x86 devices (en) - Steve Hughes, Intel"
+        },
+        {
+            "id": "zaHXVKX8VRU",
+            "speakers": "David Isbitski",
+            "vid": "zaHXVKX8VRU",
+            "title": "Reaching new customers with your existing Android apps through the Amazon Appstore (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/zaHXVKX8VRU/hqdefault.jpg",
+            "desc": "Reaching new customers with your existing Android apps through the Amazon Appstore (en) - David I."
+        },
+        {
+            "id": "gs2irb0f-7o",
+            "speakers": "Benjamin Augustin",
+            "vid": "gs2irb0f-7o",
+            "title": "Rx-Fy all the things! (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/gs2irb0f-7o/hqdefault.jpg",
+            "desc": "Rx-Fy all the things! (en) - Benjamin Augustin, Novoda"
+        },
+        {
+            "id": "k6qD96NsSm8",
+            "speakers": "Julien Lesai",
+            "vid": "k6qD96NsSm8",
+            "title": "How Facebook is fuelling the next generation of mobile startups (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/k6qD96NsSm8/hqdefault.jpg",
+            "desc": "How Facebook is fuelling the next generation of mobile startups (en) - Julien Lesai, Facebook"
+        },
+        {
+            "id": "F3ps9AsdM6I",
+            "speakers": "Quentin Sallat",
+            "vid": "F3ps9AsdM6I",
+            "title": "Holo to Material Design Transition (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/F3ps9AsdM6I/hqdefault.jpg",
+            "desc": "Holo to Material Design Transition (fr) - Quentin Sallat, iD.apps"
+        },
+        {
+            "id": "mwF4qk9OMe8",
+            "speakers": "Geoffrey Dorne",
+            "vid": "mwF4qk9OMe8",
+            "title": "Petit design pour grande humanité (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/mwF4qk9OMe8/hqdefault.jpg",
+            "desc": "Petit design pour grande humanité (fr) - Geoffrey Dorne, Design & Human"
+        },
+        {
+            "id": "aFIz6I5nzXo",
+            "speakers": "Eyal Lezmy & Charles-Henry Prunier",
+            "vid": "aFIz6I5nzXo",
+            "title": "Genymotion: the leak session (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/aFIz6I5nzXo/hqdefault.jpg",
+            "desc": "Genymotion: the leak session (en) - Eyal Lezmy & Charles-Henry Prunier, Genymobile"
+        },
+        {
+            "id": "xoSkz0ICWG4",
+            "speakers": "Nabil Hachicha",
+            "vid": "xoSkz0ICWG4",
+            "title": "Android tools: Create your custom Gradle plugin (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/xoSkz0ICWG4/hqdefault.jpg",
+            "desc": "Android tools: Create your custom Gradle plugin (en) - Nabil Hachicha, TheAppBusiness.com"
+        },
+        {
+            "id": "sfFkzigp3Q8",
+            "speakers": "Pierre-Yves Ricau",
+            "vid": "sfFkzigp3Q8",
+            "title": "Défragmentez vos apps avec Mortar ! (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/sfFkzigp3Q8/hqdefault.jpg",
+            "desc": "Défragmentez vos apps avec Mortar ! (fr) - Pierre-Yves Ricau, Square"
+        },
+        {
+            "id": "9kLRtCYmI2s",
+            "speakers": "Anthony Reboul & Cyril Cathala",
+            "vid": "9kLRtCYmI2s",
+            "title": "Xamarin: cross-platform development for Google Glass and so much more (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/9kLRtCYmI2s/hqdefault.jpg",
+            "desc": "Xamarin: cross-platform development for Google Glass and so much more (fr) - Anthony R. & Cyril C."
+        },
+        {
+            "id": "p3g4PJcyrWs",
+            "speakers": "Cédric Pointel & Mathieu Hausherr",
+            "vid": "p3g4PJcyrWs",
+            "title": "Google Glass: which framework depending for which usage (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/p3g4PJcyrWs/hqdefault.jpg",
+            "desc": "Google Glass: which framework depending for which usage (fr) - Cédric Pointel & Mathieu Hausherr"
+        },
+        {
+            "id": "EKsYxjzZbR8",
+            "speakers": "Cédric Creusot & Jean-Loup Yu",
+            "vid": "EKsYxjzZbR8",
+            "title": "Green light for the apps with Calaba.sh! (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/EKsYxjzZbR8/hqdefault.jpg",
+            "desc": "Green light for the apps with Calaba.sh! (fr) - Cédric Creusot & Jean-Loup Yu, Meetic"
+        },
+        {
+            "id": "6ODdmBZUdAQ",
+            "speakers": "Tim Messerschmidt",
+            "vid": "6ODdmBZUdAQ",
+            "title": "Death to Passwords (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/6ODdmBZUdAQ/hqdefault.jpg",
+            "desc": "Death to Passwords (en) - Tim Messerschmidt, Paypal"
+        },
+        {
+            "id": "uqqmzMlfUJQ",
+            "speakers": "Eyal Lezmy",
+            "vid": "uqqmzMlfUJQ",
+            "title": "Android app bashing, learn from the biggest fails (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/uqqmzMlfUJQ/hqdefault.jpg",
+            "desc": "Android app bashing, learn from the biggest fails (en) - Eyal LEZMY, Genymobile"
+        },
+        {
+            "id": "x2a9xBw2U6w",
+            "speakers": "Mario Viviani",
+            "vid": "x2a9xBw2U6w",
+            "title": "Kick-start your experience with Android Wear (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/x2a9xBw2U6w/hqdefault.jpg",
+            "desc": "Kick-start your experience with Android Wear (en) - Mario Viviani, Mariuxx Apps"
+        },
+        {
+            "id": "IO_ckHYZv8U",
+            "speakers": "Sebastiano Poggi",
+            "vid": "IO_ckHYZv8U",
+            "title": "Framing the Canvas (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/IO_ckHYZv8U/hqdefault.jpg",
+            "desc": "Framing the Canvas (en) - Sebastiano Poggi, Novoda"
+        },
+        {
+            "id": "Dvshiz9pbUc",
+            "speakers": "Mathieu Calba ",
+            "vid": "Dvshiz9pbUc",
+            "title": "The Death of the Refresh Button (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/Dvshiz9pbUc/hqdefault.jpg",
+            "desc": "The Death of the Refresh Button (en) - Mathieu Calba, Capitaine Train"
+        },
+        {
+            "id": "Ou67KYo53hA",
+            "speakers": "Guillaume Vaudaux-Ruth",
+            "vid": "Ou67KYo53hA",
+            "title": "Comment impliquer l'utilisateur dans le développement ? (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/Ou67KYo53hA/hqdefault.jpg",
+            "desc": "Comment impliquer l'utilisateur dans le développement ? (fr) - Guillaume Vaudaux-Ruth, FastConnect"
+        },
+        {
+            "id": "W0KSPc_R14g",
+            "speakers": "Xavier Delplanque",
+            "vid": "W0KSPc_R14g",
+            "title": "Experimental redesign (EN)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/W0KSPc_R14g/hqdefault.jpg",
+            "desc": "Experimental redesign (en) - Xavier Delplanque"
+        },
+        {
+            "id": "IwVDp4kK1o4",
+            "speakers": "Xavier Hallade",
+            "vid": "IwVDp4kK1o4",
+            "title": "Ajouter le support du multi-écran dans une application Android (FR)",
+            "topic": "Dev",
+            "year": 2014,
+            "thumbnailUrl": "http://img.youtube.com/vi/IwVDp4kK1o4/hqdefault.jpg",
+            "desc": "Ajouter le support du multi-écran dans une application Android (fr) - Xavier Hallade, Intel"
         }
     ],
     "hashtags": [
@@ -1478,12 +1971,17 @@
         {
             "originalid": "leparisien",
             "id": "leparisien",
-            "name": "1st Floor"
+            "name": "Le Parisien"
         },
         {
             "originalid": "salon",
             "id": "salon",
-            "name": "2nd Floor"
+            "name": "L'Européen"
+        },
+        {
+            "originalid": "workshop",
+            "id": "workshop",
+            "name": "Workshop"
         }
     ],
     "tags": [
@@ -1571,15 +2069,6 @@
     ],
     "partners": [
         {
-            "id": "microsoft",
-            "name": "Microsoft",
-            "desc": "",
-            "website": "http://msdn.microsoft.com/fr-fr/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/microsoft-logo-e1409750592884.png",
-            "level": 1,
-            "levelLabel": "Platinum"
-        },
-        {
             "id": "intel",
             "name": "Intel",
             "desc": "",
@@ -1589,20 +2078,29 @@
             "levelLabel": "Gold"
         },
         {
-            "id": "evernote",
-            "name": "Evernote",
+            "id": "microsoft",
+            "name": "Microsoft",
             "desc": "",
-            "website": "https://evernote.com/intl/fr/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/09/logo-evernote-e1409750304612.png",
+            "website": "http://msdn.microsoft.com/fr-fr/",
+            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/microsoft-logo-e1409750592884.png",
             "level": 2,
             "levelLabel": "Gold"
         },
         {
-            "id": "octo",
-            "name": "Octo",
+            "id": "genymobile",
+            "name": "Genymobile",
             "desc": "",
-            "website": "http://www.octo.com/fr",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/octo-e1408631768123.png",
+            "website": "http://www.genymobile.com/en/",
+            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/09/a-e1409847200106.png",
+            "level": 2,
+            "levelLabel": "Gold"
+        },
+        {
+            "id": "blablacar",
+            "name": "BlaBlaCar",
+            "desc": "",
+            "website": "https://www.blablacar.fr/",
+            "logo": "http://droidcon.fr/img/partners/blablacar.png",
             "level": 3,
             "levelLabel": "Silver"
         },
@@ -1616,15 +2114,6 @@
             "levelLabel": "Silver"
         },
         {
-            "id": "alcatel",
-            "name": "Alcatel One Touch",
-            "desc": "",
-            "website": "http://www.alcatelonetouch.com/fr/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/Alcatel-one-Touch-e1407320479604.png",
-            "level": 3,
-            "levelLabel": "Silver"
-        },
-        {
             "id": "idapps",
             "name": "iD.apps",
             "desc": "",
@@ -1634,56 +2123,83 @@
             "levelLabel": "Silver"
         },
         {
-            "id": "paypal",
-            "name": "PayPal",
+            "id": "couchbase",
+            "name": "Couchbase",
             "desc": "",
-            "website": "https://developer.paypal.com/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/paypal2-e1408631882653.png",
+            "website": "http://www.couchbase.com/",
+            "logo": "http://droidcon.fr/img/partners/couchbase.png",
             "level": 3,
             "levelLabel": "Silver"
         },
         {
-            "id": "amazon",
-            "name": "Amazon",
+            "id": "octo",
+            "name": "Octo",
             "desc": "",
-            "website": "https://developer.amazon.com/appsandservices/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/amazon-logo1-e1409071753101.png",
+            "website": "http://www.octo.com/fr",
+            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/octo-e1408631768123.png",
             "level": 3,
             "levelLabel": "Silver"
         },
         {
-            "id": "parse",
-            "name": "Parse",
+            "id": "parrot",
+            "name": "Parrot",
             "desc": "",
-            "website": "https://parse.com/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/09/Parse-logo1-e1409837171359.png",
+            "website": "http://www.parrot.com/fr/",
+            "logo": "http://droidcon.fr/img/partners/parrot.png",
             "level": 3,
             "levelLabel": "Silver"
         },
         {
-            "id": "genymobile",
-            "name": "Genymobile",
+            "id": "deezer",
+            "name": "Deezer",
             "desc": "",
-            "website": "http://www.genymobile.com/en/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/09/a-e1409847200106.png",
+            "website": "http://www.deezer.com/",
+            "logo": "http://droidcon.fr/img/partners/deezer.png",
             "level": 3,
             "levelLabel": "Silver"
         },
         {
-            "id": "meilleurmobile",
-            "name": "MeilleurMobile",
+            "id": "maddyness",
+            "name": "Maddyness",
             "desc": "",
-            "website": "http://www.meilleurmobile.com/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/MeilleurMobile-e1408610813256.jpg",
+            "website": "http://www.maddyness.com/",
+            "logo": "http://droidcon.fr/img/partners/maddyness.jpg",
             "level": 4,
             "levelLabel": "Media Partners"
         },
         {
-            "id": "begeek",
-            "name": "BeGeek",
+            "id": "droidsoft",
+            "name": "DroidSoft",
             "desc": "",
-            "website": "http://www.begeek.fr/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/begeek-e1407148264929.png",
+            "website": "http://droidsoft.fr/",
+            "logo": "http://droidcon.fr/img/partners/droidsoft.png",
+            "level": 4,
+            "levelLabel": "Media Partners"
+        },
+        {
+            "id": "erenumerique",
+            "name": "Ère Numérique",
+            "desc": "",
+            "website": "http://www.erenumerique.fr/",
+            "logo": "http://droidcon.fr/img/partners/erenumerique.png",
+            "level": 4,
+            "levelLabel": "Media Partners"
+        },
+        {
+            "id": "programmez",
+            "name": "Programmez",
+            "desc": "",
+            "website": "http://www.programmez.com/",
+            "logo": "http://droidcon.fr/img/partners/programmez.png",
+            "level": 4,
+            "levelLabel": "Media Partners"
+        },
+        {
+            "id": "startupvillage",
+            "name": "Startup Village",
+            "desc": "",
+            "website": "http://www.startupvillage.fr/",
+            "logo": "http://droidcon.fr/img/partners/startupvillage.png",
             "level": 4,
             "levelLabel": "Media Partners"
         },
@@ -1697,31 +2213,13 @@
             "levelLabel": "Media Partners"
         },
         {
-            "id": "developpez",
-            "name": "Developpez.com",
+            "id": "itespresso",
+            "name": "IT Espresso",
             "desc": "",
-            "website": "http://www.developpez.com/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/logo-dvp-200x82-fond-blanc.png",
+            "website": "http://inscription.itespresso.fr/profile/new-profile-1.php?utm_source=droidcon2015",
+            "logo": "http://droidcon.fr/img/partners/itespresso.jpg",
             "level": 4,
             "levelLabel": "Media Partners"
-        },
-        {
-            "id": "jbmm",
-            "name": "JBMM",
-            "desc": "",
-            "website": "http://www.jbmm.fr/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/jbmm1-e1407515996871.jpg",
-            "level": 5,
-            "levelLabel": "Other Partners"
-        },
-        {
-            "id": "korben",
-            "name": "Korben",
-            "desc": "",
-            "website": "http://korben.info/",
-            "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/08/korben-e1407515682613.png",
-            "level": 5,
-            "levelLabel": "Other Partners"
         },
         {
             "id": "paug",
@@ -1729,7 +2227,7 @@
             "desc": "",
             "website": "http://www.paug.fr/",
             "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/Logo-PAUG-e1405428862647.png",
-            "level": 6,
+            "level": 5,
             "levelLabel": "Organizers"
         },
         {
@@ -1738,7 +2236,7 @@
             "desc": "",
             "website": "http://events.bemyapp.com/",
             "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/07/bemyapp1-e1405428927648.png",
-            "level": 6,
+            "level": 5,
             "levelLabel": "Organizers"
         }
     ]
