@@ -41,7 +41,7 @@ public abstract class DriveTask {
     private static final String TAG = makeLogTag(DriveTask.class);
     private Drive mDriveService = null;
 
-    final public static String FILE_NAME = "starred_sessions.json";
+    final public static String FILE_NAME = "starred_sessions2015.json";
     final public static String FILE_MIME_TYPE = "application/json";
 
     /**

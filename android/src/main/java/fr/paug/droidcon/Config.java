@@ -33,13 +33,13 @@ public class Config {
     public static final String DOGFOOD_BUILD_WARNING_TEXT = "This is a test build.";
 
     // Public data manifest URL
-    public static final String PROD_CONFERENCE_DATA_MANIFEST_URL = "http://droidcon.parseapp.com/manifest.json";
-    public static final String PREPROD_CONFERENCE_DATA_MANIFEST_URL = "http://droidconpreprod.parseapp.com/manifest.json";
+    public static final String PROD_CONFERENCE_DATA_MANIFEST_URL = "http://droidcon2015.parseapp.com/manifest.json";
+    public static final String PREPROD_CONFERENCE_DATA_MANIFEST_URL = "http://droidcon2015preprod.parseapp.com/manifest.json";
 
     // Manifest URL override for Debug (staging) builds:
-    public static final String MANIFEST_URL = PROD_CONFERENCE_DATA_MANIFEST_URL;
+    public static final String MANIFEST_URL = PREPROD_CONFERENCE_DATA_MANIFEST_URL;
 
-    public static final String BOOTSTRAP_DATA_TIMESTAMP = "Thu, 10 Apr 2014 00:01:03 GMT";
+    public static final String BOOTSTRAP_DATA_TIMESTAMP = "Mon, 9 Nov 2015 00:01:03 GMT";
 
     // Conference hashtag
     public static final String CONFERENCE_HASHTAG = "#droidconparis";
@@ -51,15 +51,15 @@ public class Config {
 
     // Hard-coded conference dates. This is hardcoded here instead of extracted from the conference
     // data to avoid the Schedule UI breaking if some session is incorrectly set to a wrong date.
-    public static final int CONFERENCE_YEAR = 2014;
+    public static final int CONFERENCE_YEAR = 2015;
 
     public static final long[][] CONFERENCE_DAYS = new long[][] {
             // start and end of day 1
-            { ParserUtils.parseTime("2014-09-22T06:30:00.000Z"),
-              ParserUtils.parseTime("2014-09-23T06:29:59.999Z") },
+            { ParserUtils.parseTime("2015-11-09T06:30:00.000Z"),
+              ParserUtils.parseTime("2015-11-10T06:29:59.999Z") },
             // start and end of day 2
-            { ParserUtils.parseTime("2014-09-23T06:30:00.000Z"),
-              ParserUtils.parseTime("2014-09-24T06:59:59.999Z") },
+            { ParserUtils.parseTime("2015-11-10T06:30:00.000Z"),
+              ParserUtils.parseTime("2015-11-11T06:59:59.999Z") },
         };
 
     public static final TimeZone CONFERENCE_TIMEZONE = TimeZone.getTimeZone("Europe/Paris");
@@ -74,7 +74,7 @@ public class Config {
     public static final long DAY_MILLIS = 24 * HOUR_MILLIS;
 
     // OAuth 2.0 related config
-    public static final String APP_NAME = "Droidcon Paris 2014";
+    public static final String APP_NAME = "Droidcon Paris 2015";
     public static final String API_KEY = "";
 
     // Announcements
@@ -91,7 +91,7 @@ public class Config {
 
     // Conference public WiFi AP parameters
     public static final String WIFI_SSID = "droidcon"; //TODO
-    public static final String WIFI_PASSPHRASE = "paris2014"; //TODO
+    public static final String WIFI_PASSPHRASE = "paris2015"; //TODO
 
     // GCM config
     public static final String GCM_SERVER_PROD_URL = "";
