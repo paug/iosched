@@ -2090,7 +2090,7 @@
             "id": "genymobile",
             "name": "Genymobile",
             "desc": "",
-            "website": "http://www.genymobile.com/en/",
+            "website": "http://www.genymobile.com/",
             "logo": "http://fr.droidcon.com/2014/wp-content/uploads/2014/09/a-e1409847200106.png",
             "level": 2,
             "levelLabel": "Gold"
@@ -2144,7 +2144,7 @@
             "id": "parrot",
             "name": "Parrot",
             "desc": "",
-            "website": "http://www.parrot.com/fr/",
+            "website": "http://www.parrot.com/",
             "logo": "http://droidcon.fr/img/partners/parrot.png",
             "level": 3,
             "levelLabel": "Silver"
