@@ -278,7 +278,7 @@
             "plusoneUrl": "https://plus.google.com/113116875847268618115",
             "website": "",
             "twitter": "https://twitter.com/Dorvaryn",
-            "thumbnailUrl": "http://droidcon.fr/img/people/ac3bc024116d41a21bcb99be7b2c4954.jpg"
+            "thumbnailUrl": ""
         },
         {
             "id": "romainpiel",
@@ -419,7 +419,7 @@
         {
             "id": "session_ran",
             "description": "In ideal world our apps will run forever, work at the speed of light and will always provide a delightful experience to our users. In reality we have limited memory, battery, connectivity and computing power. In this talk we will see how we can optimize our memory footprint, required computing power and battery consumption.",
-            "photoUrl": "",
+            "photoUrl": "http://image.slidesharecdn.com/androidperformancematters-public-150618123515-lva1-app6891/95/android-performance-matters-ran-nachmany-google-1-638.jpg?cb=1434631802",
             "url": "http://droidcon.fr/schedule/#session-25",
             "startTimestamp": "2015-11-09T09:30:00Z",
             "title": "Performance Matter",
@@ -512,7 +512,7 @@
         {
             "id": "session_eyal_lezmy",
             "description": "It's now a long time Gradle is the official build system for Android. And as a very good developer you already switched to it, and you customize it depending on your needs.\n\nMost of the time, the cleaner way to manage all these customizations is to build Gradle plugins.\n\nDuring this talk we will see best practices about building your plugin to make it a good citizen, more efficient, and more famous!\n\nWe will explain how to:\n- interact with the Android Gradle Plugin;\n- build Gradly DSLs;\n- use incremental builds;\n- test your plugin on a good way;\n- publish your plugin;\n- and many other things!",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/HIlWrIEnhQQ/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-29",
             "startTimestamp": "2015-11-09T10:50:00Z",
             "title": "Gradle plugins: take it to the next level",
@@ -650,7 +650,7 @@
         {
             "id": "session_svetlana",
             "description": "Apple has introduced “a better language” for iOS developers. But what options do we have for Android? Surely Kotlin should be under consideration! Android Studio is now based on Intellij Idea, the “native” environment for Kotlin.\n\nKotlin is a modern language for industry. It can help you reduce the amount of code you write for Android applications and at the same time make it readable and more maintainable.\n\nIn this session we are going to talk a bit why JetBrains sees the potential in Kotlin comparing to other JVM languages. Then we’ll see how certain language constructs can be used to make Android more enjoyable. Also we’ll look at a DSL for type-safe dynamic layouts and a simple extension plugin that helps to avoid writing ‘findViewById()’ all the time.",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/-BvN0X5tqjw/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-1",
             "startTimestamp": "2015-11-10T09:00:00Z",
             "title": "Kotlin on Android",
@@ -719,7 +719,7 @@
         {
             "id": "session_mounir",
             "description": "Dans ce talk nous verrons comment développer une application de geolocalisation en affichant les points d'interêts autour de notre trajectoire, en temps réeel, en moins de 200 lignes et en 45 minutes grâce à Kotlin.",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/IiXW3If8JXY/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-7",
             "startTimestamp": "2015-11-10T10:20:00Z",
             "title": "Comment développer une app en moins d'1h et en moins de 200 lignes avec Kotlin",
@@ -788,7 +788,7 @@
         {
             "id": "session_guillaumebernard",
             "description": "Une révolution se prépare au sein du développement Android: le Data Binding. Révélé sous la forme d'une bibliothèque en béta depuis plusieurs mois, que vaut cet outil et comment modifie-t'il notre façon de développer des applications? Cette présentation vous permettra de découvrir le fonctionnement de cette bibliothèque, son potentiel et ses éventuelles limites.",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/s7cBW7cGmFg/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-24",
             "startTimestamp": "2015-11-10T11:10:00Z",
             "title": "Le Data Binding sur Android",
@@ -811,7 +811,7 @@
         {
             "id": "session_mathieucalba",
             "description": "Tasks are the plumbing of Android apps: you use them every day when developing. But the Task API in Android is one of the most difficult API to apprehend. The behaviour fragmentation between the Android versions does not help us either: taskAffinity, launchMode, flags, etc. In addition to the Task API, Android 5.0 introduced the Document Task API. This new feature is a big upheaval on how we manage tasks as Android developers and users.\n\nIn this presentation, we will have an in depth look at these APIs. We will see how to use them in typical use cases: an application with some restricted content to user connected with account but not all, an application with multiple documents opened in parallel, etc.",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/Dvshiz9pbUc/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-8",
             "startTimestamp": "2015-11-10T11:10:00Z",
             "title": "Task & Document API",
@@ -881,7 +881,7 @@
         {
             "id": "session_etiennemargraff",
             "description": "Pendant ce talk, nous vous proposons de faire un tour d'horizon des différents services proposés par Microsoft pour les développeurs. Microsoft Azure Mobile Apps, Application Insights, et Oxford seront au rendez-vous ainsi que bien d'autres.\n\nIl y aura peu de slides, du code, de la passion et des barbus. Viendez!",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/z-AAXqN7D0Q/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-30",
             "startTimestamp": "2015-11-10T13:30:00Z",
             "title": "Microsoft, c'est aussi des services pour vos Apps Android (si, si!)",
@@ -905,7 +905,7 @@
         {
             "id": "session_damiencavailles",
             "description": "Android Auto est une nouvelle extension de la plateforme Android. A l'image d'Android Wear, il s'agit d'une interface pour proposer des notifications et des interactions rapides ou faibles à l'utilisateur. La particularité est que les traditionnellement flexibles guidelines de Google sont devenues des contraintes fermes. Nous vous proposons ici une analyse complète de ce nouvel horizon pour Android.",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/tYx9qwiEriU/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-28",
             "startTimestamp": "2015-11-10T13:30:00Z",
             "title": "Android Auto : Rolling Droid gather no moss",
@@ -928,7 +928,7 @@
         {
             "id": "session_nabil",
             "description": "Managing memory & concurrency are one of the biggest challenges we face when it comes to writing testable & efficient apps. Based on the experience of building Realm database, We'll dig into some patterns & tricks used to control memory footprint & multithreading.\n\nSome of the topics this talks will cover are:\n- How to use the Java Reference API (WeakReference & ReferenceQueue) to work with the GC\n- Writing tests involving the GC\n- Working & testing code using the Handler/Looper api\n- Alternative asynchronous models (Messenger/ResultReceiver)\n- Threadpool customisation & pitfalls\n- Handler (mocking & testing, using IdleHandler)",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/xoSkz0ICWG4/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-6",
             "startTimestamp": "2015-11-10T14:20:00Z",
             "title": "Advanced techniques for concurrency & memory management",
@@ -1044,7 +1044,7 @@
         {
             "id": "session_alizee",
             "description": "In the current context where customers are more sensible about protecting their privacy, our duty as developers is to consider security in our developments.\n\nGoogle did understand this global problematic and provides in Android OS different kinds of security systems : selinux, permissions system, etc.\n\nThroughout this talk, we are going to present how the Android permission system is implemented, all the way from the kernel to the application layer.\n\nHow Android low layers use the concepts of the Linux kernel users and groups in order to provide its own permission system? What is the communication flow in the framework when an access to a specific device is asked by an Android application?",
-            "photoUrl": "",
+            "photoUrl": "http://img.youtube.com/vi/bcPzNRyiEdo/0.jpg",
             "url": "http://droidcon.fr/schedule/#session-12",
             "startTimestamp": "2015-11-10T15:10:00Z",
             "title": "Striptease of The Android Permissions System",
@@ -1114,7 +1114,7 @@
         {
             "id": "session_benjaminaugustin",
             "description": "Ever tried functional languages? Ever been annoyed that every time you see the same Fibonacci examples or yet another maths problem?\n\nSo what can functional languages really teach us on our day to day life as Java developers?\n\nThis talk will focus on what we can learn from functional languages and how to apply those concepts to any language. We will take some concrete examples and see how some functional approaches can make your life easier.\n\nSo let me take you into a journey towards a more functional Java.",
-            "photoUrl": "",
+            "photoUrl": "http://i.ytimg.com/vi/B4qbQ1wGpNM/maxresdefault.jpg",
             "url": "http://droidcon.fr/schedule/#session-19",
             "startTimestamp": "2015-11-10T16:30:00Z",
             "title": "Let's get Functional",
