@@ -40,6 +40,7 @@ import fr.paug.droidcon.util.AnalyticsManager;
 import fr.paug.droidcon.util.PrefUtils;
 import fr.paug.droidcon.util.UIUtils;
 
+import io.fabric.sdk.android.Fabric;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -83,7 +84,7 @@ public class BrowseSessionsActivity extends BaseActivity implements SessionsFrag
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Crashlytics.start(this);
+        Fabric.with(this, new Crashlytics());
 
         setContentView(R.layout.activity_browse_sessions);
         getLPreviewUtils().trySetActionBar();
