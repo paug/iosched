@@ -31,14 +31,14 @@ repositories {
 }
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         version "${version_code}"
         versionName "${version_name}"
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 25
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         buildConfigField("boolean", "ENABLE_DEBUG_TOOLS", "false")
@@ -169,7 +169,7 @@ dependencies {
     compile 'com.google.code.findbugs:jsr305:2.0.1'
 
     // Needed to implement the IdlingResource interface on certain async models.
-    compile 'com.android.support.test.espresso:espresso-idling-resource:2.0'
+    compile 'com.android.support.test.espresso:espresso-idling-resource:2.2.1'
 
     compile 'com.google.guava:guava:18.0'
 }
