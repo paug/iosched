@@ -31,11 +31,11 @@ repositories {
 }
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.google.samples.apps.iosched"
+        applicationId "fr.paug.androidmakers"
         versionCode = Integer.valueOf("" + appVersionCode).intValue()
         versionName "${appVersionName}"
         minSdkVersion 16
