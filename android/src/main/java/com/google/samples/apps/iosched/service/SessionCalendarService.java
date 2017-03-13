@@ -33,6 +33,7 @@ import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.Config;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
@@ -65,25 +66,25 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class SessionCalendarService extends IntentService {
     public static final String ACTION_ADD_SESSION_CALENDAR =
-            "com.google.samples.apps.iosched.action.ADD_SESSION_CALENDAR";
+            BuildConfig.APPLICATION_ID + ".action.ADD_SESSION_CALENDAR";
     public static final String ACTION_CLEAR_ALL_SESSIONS_CALENDAR =
-            "com.google.samples.apps.iosched.action.CLEAR_ALL_SESSIONS_CALENDAR";
+            BuildConfig.APPLICATION_ID + ".action.CLEAR_ALL_SESSIONS_CALENDAR";
     public static final String ACTION_REMOVE_SESSION_CALENDAR =
-            "com.google.samples.apps.iosched.action.REMOVE_SESSION_CALENDAR";
+            BuildConfig.APPLICATION_ID + ".action.REMOVE_SESSION_CALENDAR";
     public static final String ACTION_UPDATE_ALL_SESSIONS_CALENDAR =
-            "com.google.samples.apps.iosched.action.UPDATE_ALL_SESSIONS_CALENDAR";
+            BuildConfig.APPLICATION_ID + ".action.UPDATE_ALL_SESSIONS_CALENDAR";
     public static final String ACTION_UPDATE_ALL_SESSIONS_CALENDAR_COMPLETED =
-            "com.google.samples.apps.iosched.action.UPDATE_CALENDAR_COMPLETED";
+            BuildConfig.APPLICATION_ID + ".action.UPDATE_CALENDAR_COMPLETED";
     public static final String EXTRA_ACCOUNT_NAME =
-            "com.google.samples.apps.iosched.extra.ACCOUNT_NAME";
+            BuildConfig.APPLICATION_ID + ".extra.ACCOUNT_NAME";
     public static final String EXTRA_SESSION_END =
-            "com.google.samples.apps.iosched.extra.SESSION_BLOCK_END";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_BLOCK_END";
     public static final String EXTRA_SESSION_ROOM =
-            "com.google.samples.apps.iosched.extra.SESSION_ROOM";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_ROOM";
     public static final String EXTRA_SESSION_START =
-            "com.google.samples.apps.iosched.extra.SESSION_BLOCK_START";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_BLOCK_START";
     public static final String EXTRA_SESSION_TITLE =
-            "com.google.samples.apps.iosched.extra.SESSION_TITLE";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_TITLE";
     // TODO: localize
     private static final String CALENDAR_CLEAR_SEARCH_LIKE_EXPRESSION =
             "%added by Google I/O Android app%";

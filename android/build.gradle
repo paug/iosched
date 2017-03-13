@@ -99,6 +99,7 @@ android {
         buildConfigField("String", "PREF_SESSION_REMINDERS_ENABLED", "\"pref_session_reminders_enabled_${conf_version}\"")
 
         resValue("string", "pref_session_feedback_reminders_enabled", "pref_session_feedback_reminders_enabled_${conf_version}")
+        resValue("string", "oauth_client_id", System.getProperty("paugOAuthClientId", ""))
         buildConfigField("String", "PREF_SESSION_FEEDBACK_REMINDERS_ENABLED", "\"pref_session_feedback_reminders_enabled_${conf_version}\"")
 
         buildConfigField("String", "PREF_DATA_BOOTSTRAP_DONE", "\"pref_bootstrap_done_${conf_version}\"")
@@ -135,16 +136,8 @@ android {
     }
 
     productFlavors {
-        // Use this flavor to run automated tests.
-        targetSdk22 {
-            // Disables the dogfood warning to prevent issues with tests.
-            buildConfigField("boolean", "SUPPRESS_DOGFOOD_WARNING", "true")
-            // Targeting prevents runtime permission dialogs from being presented.
-            targetSdkVersion 22
-        }
         normal {
-            // Do no short-circuit the dogfood warning so it might display if appropriate.
-            buildConfigField("boolean", "SUPPRESS_DOGFOOD_WARNING", "false")
+            buildConfigField("boolean", "SUPPRESS_DOGFOOD_WARNING", "true")
             targetSdkVersion 23
         }
 
@@ -236,11 +229,17 @@ dependencies {
 
     // Google Play services split client libs.
     compile "com.google.android.gms:play-services-analytics:${google_play_services_client_library_version}"
-    compile "com.google.android.gms:play-services-appindexing:${google_play_services_client_library_version}"
-    compile "com.google.android.gms:play-services-auth:${google_play_services_client_library_version}"
-    compile "com.google.android.gms:play-services-gcm:${google_play_services_client_library_version}"
     compile "com.google.android.gms:play-services-maps:${google_play_services_client_library_version}"
-    compile "com.google.android.gms:play-services-plus:${google_play_services_client_library_version}"
+    compile "com.google.android.gms:play-services-auth:${google_play_services_client_library_version}"
+//    compile "com.google.android.gms:play-services-plus:${google_play_services_client_library_version}"
+
+    // Firebase libraries
+    compile "com.google.firebase:firebase-core:${google_play_services_client_library_version}"
+    compile "com.google.firebase:firebase-appindexing:${google_play_services_client_library_version}"
+    compile "com.google.firebase:firebase-crash:${google_play_services_client_library_version}"
+    compile "com.google.firebase:firebase-messaging:${google_play_services_client_library_version}"
+    compile "com.google.firebase:firebase-auth:${google_play_services_client_library_version}"
+    compile "com.google.firebase:firebase-database:${google_play_services_client_library_version}"
 
     // Android support libraries.
     compile "com.android.support:appcompat-v7:${android_support_lib_version}"
@@ -297,3 +296,5 @@ dependencies {
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.firebase:firebase-client-android:2.5.0'
 }
+
+apply plugin: 'com.google.gms.google-services'

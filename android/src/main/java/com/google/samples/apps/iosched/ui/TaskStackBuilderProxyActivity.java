@@ -23,12 +23,14 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.TaskStackBuilder;
 
+import com.google.samples.apps.iosched.BuildConfig;
+
 /**
  * Helper 'proxy' activity that simply accepts an activity intent and synthesize a back-stack
  * for it, per Android's design guidelines for navigation from widgets and notifications.
  */
 public class TaskStackBuilderProxyActivity extends Activity {
-    private static final String EXTRA_INTENTS = "com.google.samples.apps.iosched.extra.INTENTS";
+    private static final String EXTRA_INTENTS = BuildConfig.APPLICATION_ID + ".extra.INTENTS";
 
     public static Intent getTemplate(Context context) {
         return new Intent(context, TaskStackBuilderProxyActivity.class)

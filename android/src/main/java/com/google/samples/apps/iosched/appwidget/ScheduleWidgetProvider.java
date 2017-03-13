@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.widget.RemoteViews;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.sync.SyncHelper;
 import com.google.samples.apps.iosched.myschedule.MyScheduleActivity;
@@ -42,9 +43,9 @@ public class ScheduleWidgetProvider extends AppWidgetProvider {
     private static final String TAG = makeLogTag(ScheduleWidgetProvider.class);
 
     private static final String REFRESH_ACTION =
-            "com.google.samples.apps.iosched.appwidget.action.REFRESH";
+            BuildConfig.APPLICATION_ID + ".appwidget.action.REFRESH";
     private static final String EXTRA_PERFORM_SYNC =
-            "com.google.samples.apps.iosched.appwidget.extra.PERFORM_SYNC";
+            BuildConfig.APPLICATION_ID + ".appwidget.extra.PERFORM_SYNC";
 
     public static Intent getRefreshBroadcastIntent(Context context, boolean performSync) {
         return new Intent(REFRESH_ACTION)

@@ -43,6 +43,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.Config;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.model.TagMetadata;
@@ -73,15 +74,15 @@ public class ExploreSessionsActivity extends BaseActivity
         implements Toolbar.OnMenuItemClickListener, LoaderManager.LoaderCallbacks<Cursor> {
 
     public static final String EXTRA_FILTER_TAG =
-            "com.google.samples.apps.iosched.explore.EXTRA_FILTER_TAG";
+            BuildConfig.APPLICATION_ID + ".explore.EXTRA_FILTER_TAG";
     public static final String EXTRA_SHOW_LIVE_STREAM_SESSIONS =
-            "com.google.samples.apps.iosched.explore.EXTRA_SHOW_LIVE_STREAM_SESSIONS";
+            BuildConfig.APPLICATION_ID + ".explore.EXTRA_SHOW_LIVE_STREAM_SESSIONS";
 
     // The saved instance state filters
     private static final String STATE_FILTER_TAGS =
-            "com.google.samples.apps.iosched.explore.STATE_FILTER_TAGS";
+            BuildConfig.APPLICATION_ID + ".explore.STATE_FILTER_TAGS";
     private static final String STATE_CURRENT_URI =
-            "com.google.samples.apps.iosched.explore.STATE_CURRENT_URI";
+            BuildConfig.APPLICATION_ID + ".explore.STATE_CURRENT_URI";
 
     private static final String SCREEN_LABEL = "ExploreSessions";
 

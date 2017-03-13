@@ -29,9 +29,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
-import com.google.samples.apps.iosched.messaging.MessagingRegistrationWithGCM;
 import com.google.samples.apps.iosched.navigation.NavigationModel;
 import com.google.samples.apps.iosched.service.SessionCalendarService;
 import com.google.samples.apps.iosched.ui.BaseActivity;
@@ -165,11 +163,6 @@ public class SettingsActivity extends BaseActivity {
                     return;
                 }
                 scheduleCalendarSync(getActivity());
-            } else if (BuildConfig.PREF_CONF_MESSAGES_ENABLED.equals(key) ||
-                    BuildConfig.PREF_ATTENDEE_AT_VENUE.equals(key)) {
-                // This will activate re-registering with the correct GCM topic(s).
-                new MessagingRegistrationWithGCM(getActivity()).registerDevice();
-
             }
         }
 

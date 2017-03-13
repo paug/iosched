@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
 import com.google.samples.apps.iosched.util.AccountUtils;
 
@@ -33,7 +34,7 @@ import com.google.samples.apps.iosched.util.AccountUtils;
  * jittered syncs using {@link android.app.AlarmManager}.
  */
 public class TriggerSyncReceiver extends BroadcastReceiver {
-    public static final String EXTRA_USER_DATA_SYNC_ONLY = "com.google.samples.apps.iosched.EXTRA_USER_DATA_SYNC_ONLY";
+    public static final String EXTRA_USER_DATA_SYNC_ONLY = BuildConfig.APPLICATION_ID + ".EXTRA_USER_DATA_SYNC_ONLY";
 
     @Override
     public void onReceive(Context context, Intent intent) {

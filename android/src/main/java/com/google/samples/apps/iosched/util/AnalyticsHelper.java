@@ -16,31 +16,29 @@
 
 package com.google.samples.apps.iosched.util;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
-import com.google.samples.apps.iosched.settings.ConfMessageCardUtils;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
-
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 
 /**
- * Centralized Analytics interface to ensure proper initialization and
- * consistent analytics application across the app.
- *
- * For the purposes of this application, initialization of the Analytics tracker is broken
- * into two steps.  {@link #prepareAnalytics(Context)} is called upon app creation, which sets up
- * a listener for changes to shared settings_prefs.  When the user agrees to TOS, the listener triggers
- * the actual initialization step, setting up a Google Analytics tracker.  This ensures that
- * no data is collected or accidentally sent before the TOS step, and that campaign tracking data
- * isn't accidentally deleted by starting and immediately disabling a tracker upon app creation.
- *
+ * Centralized Analytics interface to ensure proper initialization and consistent analytics
+ * application across the app.
+ * <p>
+ * For the purposes of this application, initialization of the Analytics tracker is broken into two
+ * steps.  {@link #prepareAnalytics(Context)} is called upon app creation, which sets up a listener
+ * for changes to shared settings_prefs.  When the user agrees to TOS, the listener triggers the
+ * actual initialization step, setting up a Google Analytics tracker.  This ensures that no data is
+ * collected or accidentally sent before the TOS step, and that campaign tracking data isn't
+ * accidentally deleted by starting and immediately disabling a tracker upon app creation.
  */
 public class AnalyticsHelper {
 
@@ -50,7 +48,8 @@ public class AnalyticsHelper {
 
     private static Tracker mTracker;
 
-    /** Custom dimension slot number for the "attendee at venue" preference.
+    /**
+     * Custom dimension slot number for the "attendee at venue" preference.
      * There's a finite number of custom dimensions, and they need to consistently be sent
      * in the same index in order to be tracked properly.  For each custom dimension or metric,
      * always reserve an index.
@@ -79,8 +78,8 @@ public class AnalyticsHelper {
      * Log a specific event under the {@code category}, {@code action}, and {@code label}.
      */
     public static void sendEvent(String category, String action, String label, long value,
-                                 HitBuilders.EventBuilder eventBuilder) {
-        if(isInitialized()) {
+            HitBuilders.EventBuilder eventBuilder) {
+        if (isInitialized()) {
             mTracker.send(eventBuilder
                     .setCategory(category)
                     .setAction(action)
@@ -109,7 +108,7 @@ public class AnalyticsHelper {
      * a custom dimension using the provided {@code dimensionIndex} and {@code dimensionValue}
      */
     public static void sendEventWithCustomDimension(String category, String action, String label,
-                                                    int dimensionIndex, String dimensionValue) {
+            int dimensionIndex, String dimensionValue) {
         // Create a new HitBuilder, populate it with the custom dimension, and send it along
         // to the rest of the event building process.
         HitBuilders.EventBuilder eventBuilder = new HitBuilders.EventBuilder();
@@ -127,7 +126,7 @@ public class AnalyticsHelper {
      * that {@applicationContext} must be the Application level {@link Context} or this class will
      * leak the context.
      *
-     * @param applicationContext  The context that will later be used to initialize Analytics.
+     * @param applicationContext The context that will later be used to initialize Analytics.
      */
     public static void prepareAnalytics(Context applicationContext) {
         sAppContext = applicationContext;
@@ -135,11 +134,7 @@ public class AnalyticsHelper {
         // The listener will initialize Analytics when the TOS is signed, or enable/disable
         // Analytics based on the "anonymous data collection" setting.
         setupPreferenceChangeListener();
-
-        // If TOS hasn't been signed yet, it's the first run.  Exit.
-        if (SettingsUtils.isTosAccepted(sAppContext)) {
-            initializeAnalyticsTracker(sAppContext);
-        }
+        initializeAnalyticsTracker(sAppContext);
     }
 
     /**
@@ -196,7 +191,8 @@ public class AnalyticsHelper {
                         }
 
                         // Technically it's possible to just look up the values in the pref
-                        // object provided and enable/disable in here, but it's safer to have all the
+                        // object provided and enable/disable in here, but it's safer to have all
+                        // the
                         // "should analytics run" logic collected in one place.
                         enableOrDisableAnalyticsAsNecessary();
                     } else if (key.equals(SettingsUtils.PREF_LOCAL_TIMES)) {
@@ -209,7 +205,8 @@ public class AnalyticsHelper {
                         // how venue attendee behavior contrasts with remote attendee behavior.
                         boolean attending = prefs.getBoolean(key, true);
                         // ANALYTICS EVENT:  Updated "On-Site Attendee" preference.
-                        // Contains: Whether the attendee is identifying themselves as onsite or remote.
+                        // Contains: Whether the attendee is identifying themselves as onsite or
+                        // remote.
                         String attendeeType = attending ? "On-Site Attendee" : "Remote Attendee";
                         String label = "Will be at I/O";
 
@@ -259,6 +256,7 @@ public class AnalyticsHelper {
 
     /**
      * Performs the checks to determine if Analytics should be enabled.
+     *
      * @return whether or not it's safe to enable Analytics.
      */
     private static boolean shouldEnableAnalytics() {
@@ -267,7 +265,6 @@ public class AnalyticsHelper {
         // 2) The user has accepted TOS.
         // 3) "Anonymous usage data" is enabled in settings.
         return isInitialized() // Has Analytics been initialized?
-                && SettingsUtils.isTosAccepted(sAppContext) // User has accepted TOS.
                 && SettingsUtils.isAnalyticsEnabled(sAppContext); // Analytics enabled in settings.
     }
 
@@ -279,7 +276,6 @@ public class AnalyticsHelper {
         try {
             setAnalyticsEnabled(shouldEnableAnalytics());
             LOGD(TAG, "Analytics" + (isInitialized() ? "" : " not") + " initialized"
-                    + ", TOS" + (SettingsUtils.isTosAccepted(sAppContext) ? "" : " not") + " accepted"
                     + ", Setting is" + (SettingsUtils.isAnalyticsEnabled(sAppContext) ? "" : " not")
                     + " checked");
         } catch (Exception e) {
@@ -289,10 +285,11 @@ public class AnalyticsHelper {
 
     /**
      * Enables or disables Analytics.
+     *
      * @param enableAnalytics Whether analytics should be enabled.
      */
     private static void setAnalyticsEnabled(boolean enableAnalytics) {
-        GoogleAnalytics instance  = GoogleAnalytics.getInstance(sAppContext);
+        GoogleAnalytics instance = GoogleAnalytics.getInstance(sAppContext);
         if (instance != null) {
             instance.setAppOptOut(!enableAnalytics);
             LOGD(TAG, "Analytics enabled: " + enableAnalytics);

@@ -257,28 +257,28 @@ public class AccountUtils {
         }
     }
 
-    public static void setGcmKey(final Context context, final String accountName, final String gcmKey) {
-        SharedPreferences sp = getSharedPreferences(context);
-        sp.edit().putString(makeAccountSpecificPrefKey(accountName, PREFIX_PREF_GCM_KEY),
-                gcmKey).apply();
-        LOGD(TAG, "GCM key of account " + accountName + " set to: " + sanitizeGcmKey(gcmKey));
-    }
-
-    public static String getGcmKey(final Context context, final String accountName) {
-        SharedPreferences sp = getSharedPreferences(context);
-        String gcmKey = sp.getString(makeAccountSpecificPrefKey(accountName,
-                PREFIX_PREF_GCM_KEY), null);
-
-        // if there is no current GCM key, generate a new random one
-        if (TextUtils.isEmpty(gcmKey)) {
-            gcmKey = UUID.randomUUID().toString();
-            LOGD(TAG, "No GCM key on account " + accountName + ". Generating random one: "
-                    + sanitizeGcmKey(gcmKey));
-            setGcmKey(context, accountName, gcmKey);
-        }
-
-        return gcmKey;
-    }
+//    public static void setGcmKey(final Context context, final String accountName, final String gcmKey) {
+//        SharedPreferences sp = getSharedPreferences(context);
+//        sp.edit().putString(makeAccountSpecificPrefKey(accountName, PREFIX_PREF_GCM_KEY),
+//                gcmKey).apply();
+//        LOGD(TAG, "GCM key of account " + accountName + " set to: " + sanitizeGcmKey(gcmKey));
+//    }
+//
+//    public static String getGcmKey(final Context context, final String accountName) {
+//        SharedPreferences sp = getSharedPreferences(context);
+//        String gcmKey = sp.getString(makeAccountSpecificPrefKey(accountName,
+//                PREFIX_PREF_GCM_KEY), null);
+//
+//        // if there is no current GCM key, generate a new random one
+//        if (TextUtils.isEmpty(gcmKey)) {
+//            gcmKey = UUID.randomUUID().toString();
+//            LOGD(TAG, "No GCM key on account " + accountName + ". Generating random one: "
+//                    + sanitizeGcmKey(gcmKey));
+//            setGcmKey(context, accountName, gcmKey);
+//        }
+//
+//        return gcmKey;
+//    }
 
     public static String sanitizeGcmKey(String key) {
         if (key == null) {

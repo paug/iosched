@@ -31,6 +31,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.ui.BaseActivity;
 import com.google.samples.apps.iosched.util.AnalyticsHelper;
@@ -56,10 +57,10 @@ public class VideoLibraryFilteredActivity extends BaseActivity implements
     private static final String SCREEN_LABEL = "Filtered Video Library";
 
     protected static final String KEY_FILTER_TOPIC =
-            "com.google.samples.apps.iosched.KEY_FILTER_TOPIC";
+            BuildConfig.APPLICATION_ID + ".KEY_FILTER_TOPIC";
 
     protected static final String KEY_FILTER_YEAR =
-            "com.google.samples.apps.iosched.KEY_FILTER_YEAR";
+            BuildConfig.APPLICATION_ID + ".KEY_FILTER_YEAR";
 
     private DrawerLayout mDrawerLayout;
 

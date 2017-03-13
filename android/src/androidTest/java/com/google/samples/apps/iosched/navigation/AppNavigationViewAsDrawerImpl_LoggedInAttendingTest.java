@@ -50,8 +50,6 @@ public class AppNavigationViewAsDrawerImpl_LoggedInAttendingTest {
 
                 @Override
                 protected void beforeActivityLaunched() {
-                    // Make sure the EULA screen is not shown.
-                    SettingsUtils.markTosAccepted(InstrumentationRegistry.getTargetContext(), true);
 
                     // Set user as logged in and attending
                     SettingsUtils

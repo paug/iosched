@@ -31,6 +31,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.explore.ExploreSessionsModel.ExploreSessionsQuery;
 import com.google.samples.apps.iosched.model.TagMetadata;
@@ -54,16 +55,16 @@ public class ExploreSessionsFragment extends Fragment implements
     private static final int TAG_METADATA_TOKEN = 0x8;
 
     private static final String STATE_CURRENT_URI =
-            "com.google.samples.apps.iosched.explore.STATE_CURRENT_URI";
+            BuildConfig.APPLICATION_ID + ".explore.STATE_CURRENT_URI";
 
     private static final String STATE_SESSION_QUERY_TOKEN =
-            "com.google.samples.apps.iosched.explore.STATE_SESSION_QUERY_TOKEN";
+            BuildConfig.APPLICATION_ID + ".explore.STATE_SESSION_QUERY_TOKEN";
 
     private static final String STATE_SHOW_LIVESTREAMED_SESSIONS =
-            "com.google.samples.apps.iosched.explore.EXTRA_SHOW_LIVESTREAMED_SESSIONS";
+            BuildConfig.APPLICATION_ID + ".explore.EXTRA_SHOW_LIVESTREAMED_SESSIONS";
 
     public static final String EXTRA_SHOW_LIVESTREAMED_SESSIONS =
-            "com.google.samples.apps.iosched.explore.EXTRA_SHOW_LIVESTREAMED_SESSIONS";
+            BuildConfig.APPLICATION_ID + ".explore.EXTRA_SHOW_LIVESTREAMED_SESSIONS";
 
     /**
      * The delay before actual re-querying in milli seconds.

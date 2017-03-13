@@ -28,6 +28,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.navigation.NavigationModel;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
@@ -65,7 +66,7 @@ public class MapActivity extends BaseActivity
     public static final String EXTRA_ROOM = "com.google.android.iosched.extra.ROOM";
 
     public static final String EXTRA_DETACHED_MODE
-            = "com.google.samples.apps.iosched.EXTRA_DETACHED_MODE";
+            = BuildConfig.APPLICATION_ID + ".EXTRA_DETACHED_MODE";
 
     public static final String BUNDLE_STATE_MAPVIEW = "mapview";
 

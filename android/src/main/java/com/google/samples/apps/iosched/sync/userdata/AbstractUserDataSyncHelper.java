@@ -169,9 +169,6 @@ public abstract class AbstractUserDataSyncHelper {
 
         if (hasPendingLocalData) {
             resetDirtyFlag(actions);
-
-            // Notify other devices via GCM.
-            ServerUtilities.notifyUserDataChanged(mContext);
         }
         if (dataChanged) {
             LOGD(TAG, "Notifying changes on paths related to user data on Content Resolver.");

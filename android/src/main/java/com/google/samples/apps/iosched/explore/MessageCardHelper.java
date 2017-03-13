@@ -3,7 +3,6 @@ package com.google.samples.apps.iosched.explore;
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
-import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.support.annotation.Nullable;
@@ -11,8 +10,6 @@ import android.view.View;
 
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.explore.data.MessageData;
-import com.google.samples.apps.iosched.messaging.MessagingRegistration;
-import com.google.samples.apps.iosched.messaging.MessagingRegistrationWithGCM;
 import com.google.samples.apps.iosched.settings.ConfMessageCardUtils;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.util.WiFiUtils;
@@ -61,8 +58,8 @@ public class MessageCardHelper {
                 ConfMessageCardUtils.setConfMessageCardsEnabled(view.getContext(), false);
                 Activity activity;
                 if ((activity = getActivity(view)) != null) {
-                    // This will activate re-registering with the correct GCM topic(s).
-                    new MessagingRegistrationWithGCM(activity).registerDevice();
+                    // TODO This will activate re-registering with the correct GCM topic(s).
+
                 }
             }
         });
@@ -74,8 +71,7 @@ public class MessageCardHelper {
                 ConfMessageCardUtils.setConfMessageCardsEnabled(view.getContext(), true);
                 Activity activity;
                 if ((activity = getActivity(view)) != null) {
-                    // This will activate re-registering with the correct GCM topic(s).
-                    new MessagingRegistrationWithGCM(activity).registerDevice();
+                    // TODO This will activate re-registering with the correct GCM topic(s).
                 }
             }
         });

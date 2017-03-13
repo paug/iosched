@@ -34,7 +34,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
     private static final Pattern sSanitizeAccountNamePattern = Pattern.compile("(.).*?(.?)@");
     public static final String EXTRA_SYNC_USER_DATA_ONLY =
-            "com.google.samples.apps.iosched.EXTRA_SYNC_USER_DATA_ONLY";
+            BuildConfig.APPLICATION_ID + ".EXTRA_SYNC_USER_DATA_ONLY";
 
     private final Context mContext;
 

@@ -43,11 +43,9 @@ import com.google.android.gms.auth.GoogleAuthUtil;
 import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.injection.LoginAndAuthProvider;
-import com.google.samples.apps.iosched.injection.MessagingRegistrationProvider;
 import com.google.samples.apps.iosched.login.LoginAndAuth;
 import com.google.samples.apps.iosched.login.LoginAndAuthListener;
 import com.google.samples.apps.iosched.login.LoginStateListener;
-import com.google.samples.apps.iosched.messaging.MessagingRegistration;
 import com.google.samples.apps.iosched.navigation.AppNavigationViewAsDrawerImpl;
 import com.google.samples.apps.iosched.navigation.NavigationModel.NavigationItemEnum;
 import com.google.samples.apps.iosched.provider.ScheduleContract;
@@ -59,7 +57,6 @@ import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.ImageLoader;
 import com.google.samples.apps.iosched.util.LUtils;
 import com.google.samples.apps.iosched.util.RecentTasksStyler;
-import com.google.samples.apps.iosched.welcome.WelcomeActivity;
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
@@ -98,9 +95,6 @@ public abstract class BaseActivity extends AppCompatActivity implements
     // SwipeRefreshLayout allows the user to swipe the screen down to trigger a manual refresh
     private SwipeRefreshLayout mSwipeRefreshLayout;
 
-    // Registration with GCM for notifications
-    private MessagingRegistration mMessagingRegistration;
-
     // handle to our sync observer (that notifies us about changes in our sync state)
     private Object mSyncObserverHandle;
 
@@ -109,21 +103,7 @@ public abstract class BaseActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         RecentTasksStyler.styleRecentTasksEntry(this);
 
-        // Check if the EULA has been accepted; if not, show it.
-        if (WelcomeActivity.shouldDisplay(this)) {
-            Intent intent = new Intent(this, WelcomeActivity.class);
-            startActivity(intent);
-            finish();
-            return;
-        }
-
-        mMessagingRegistration = MessagingRegistrationProvider.provideMessagingRegistration(this);
-
         Account.createSyncAccount(this);
-
-        if (savedInstanceState == null) {
-            mMessagingRegistration.registerDevice();
-        }
 
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
         sp.registerOnSharedPreferenceChangeListener(this);
@@ -420,8 +400,6 @@ public abstract class BaseActivity extends AppCompatActivity implements
         if (mLoginAndAuthProvider != null) {
             LOGD(TAG, "Tearing down old Helper, was " + mLoginAndAuthProvider.getAccountName());
             if (mLoginAndAuthProvider.isStarted()) {
-                LOGD(TAG, "Unregister device from GCM");
-                mMessagingRegistration.unregisterDevice(mLoginAndAuthProvider.getAccountName());
                 LOGD(TAG, "Stopping old Helper");
                 mLoginAndAuthProvider.stop();
             }
@@ -497,7 +475,6 @@ public abstract class BaseActivity extends AppCompatActivity implements
         }
 
         mAppNavigationViewAsDrawer.updateNavigationItems();
-        mMessagingRegistration.registerDevice();
     }
 
     @Override
@@ -560,10 +537,6 @@ public abstract class BaseActivity extends AppCompatActivity implements
     @Override
     protected void onDestroy() {
         super.onDestroy();
-
-        if (mMessagingRegistration != null) {
-            mMessagingRegistration.destroy();
-        }
 
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(this);
         sp.unregisterOnSharedPreferenceChangeListener(this);

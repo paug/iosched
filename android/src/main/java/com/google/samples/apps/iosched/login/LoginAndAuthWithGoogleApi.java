@@ -21,25 +21,21 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentSender;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
 import com.google.android.gms.auth.GoogleAuthException;
 import com.google.android.gms.auth.GoogleAuthUtil;
 import com.google.android.gms.auth.GooglePlayServicesAvailabilityException;
 import com.google.android.gms.auth.UserRecoverableAuthException;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.Scopes;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.common.api.Scope;
-import com.google.android.gms.plus.People;
-import com.google.android.gms.plus.Plus;
-import com.google.android.gms.plus.model.people.Person;
-import com.google.android.gms.plus.model.people.PersonBuffer;
+import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.settings.SettingsUtils;
 import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.FirebaseUtils;
@@ -63,7 +59,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class LoginAndAuthWithGoogleApi
         implements LoginAndAuth, GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener, ResultCallback<People.LoadPeopleResult> {
+        GoogleApiClient.OnConnectionFailedListener{
 
     // Request codes for the UIs that we show
     private static final int REQUEST_AUTHENTICATE = 100;
@@ -134,7 +130,9 @@ public class LoginAndAuthWithGoogleApi
         }
     }
 
-    /** List of OAuth scopes to be requested from the Google sign-in API */
+    /**
+     * List of OAuth scopes to be requested from the Google sign-in API
+     */
     public static List<String> GetAuthScopes() {
         return AUTH_SCOPES;
     }
@@ -199,16 +197,17 @@ public class LoginAndAuthWithGoogleApi
         LOGD(TAG, "Helper starting. Connecting " + mAccountName);
         if (mGoogleApiClient == null) {
             LOGD(TAG, "Creating client.");
-
-            GoogleApiClient.Builder builder = new GoogleApiClient.Builder(activity);
-            for (String scope : AUTH_SCOPES) {
-                builder.addScope(new Scope(scope));
-            }
-            mGoogleApiClient = builder.addApi(Plus.API)
-                                      .addConnectionCallbacks(this)
-                                      .addOnConnectionFailedListener(this)
-                                      .setAccountName(mAccountName)
-                                      .build();
+            GoogleSignInOptions gso =
+                    new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                            .requestIdToken(mAppContext.getString(R.string.oauth_client_id))
+                            .requestEmail()
+                            .build();
+            mGoogleApiClient =
+                    new GoogleApiClient.Builder(this.mAppContext)
+                            .enableAutoManage((FragmentActivity) activity /* FragmentActivity */,
+                                    this /* OnConnectionFailedListener */)
+                            .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+                            .build();
         }
         LOGD(TAG, "Connecting client.");
         mGoogleApiClient.connect();
@@ -223,16 +222,6 @@ public class LoginAndAuthWithGoogleApi
         }
 
         LOGD(TAG, "Helper connected, account " + mAccountName);
-
-        // load user's Google+ profile, if we don't have it yet
-        if (!AccountUtils.hasPlusInfo(activity, mAccountName)) {
-            LOGD(TAG, "We don't have Google+ info for " + mAccountName + " yet, so loading.");
-            PendingResult<People.LoadPeopleResult> result =
-                    Plus.PeopleApi.load(mGoogleApiClient, "me");
-            result.setResultCallback(this);
-        } else {
-            LOGD(TAG, "No need for Google+ info, we already have it.");
-        }
 
         // try to authenticate, if we don't have a token yet
         if (!AccountUtils.hasToken(activity, mAccountName)) {
@@ -311,53 +300,53 @@ public class LoginAndAuthWithGoogleApi
         }
     }
 
-    // Called asynchronously -- result of loadPeople() call
-    @Override
-    public void onResult(People.LoadPeopleResult loadPeopleResult) {
-        LOGD(TAG, "onPeopleLoaded, status=" + loadPeopleResult.getStatus().toString());
-        if (loadPeopleResult.getStatus().isSuccess()) {
-            PersonBuffer personBuffer = loadPeopleResult.getPersonBuffer();
-            if (personBuffer != null && personBuffer.getCount() > 0) {
-                LOGD(TAG, "Got plus profile for account " + mAccountName);
-                Person currentUser = personBuffer.get(0);
-                personBuffer.close();
-
-                // Record profile ID, image URL and name
-                LOGD(TAG, "Saving plus profile ID: " + currentUser.getId());
-                AccountUtils.setPlusProfileId(mAppContext, mAccountName, currentUser.getId());
-                String imageUrl = currentUser.getImage().getUrl();
-                if (imageUrl != null) {
-                    imageUrl = Uri.parse(imageUrl)
-                                  .buildUpon().appendQueryParameter("sz", "256").build().toString();
-                }
-                LOGD(TAG, "Saving plus image URL: " + imageUrl);
-                AccountUtils.setPlusImageUrl(mAppContext, mAccountName, imageUrl);
-                LOGD(TAG, "Saving plus display name: " + currentUser.getDisplayName());
-                AccountUtils.setPlusName(mAppContext, mAccountName, currentUser.getDisplayName());
-                Person.Cover cover = currentUser.getCover();
-                if (cover != null) {
-                    Person.Cover.CoverPhoto coverPhoto = cover.getCoverPhoto();
-                    if (coverPhoto != null) {
-                        LOGD(TAG, "Saving plus cover URL: " + coverPhoto.getUrl());
-                        AccountUtils
-                                .setPlusCoverUrl(mAppContext, mAccountName, coverPhoto.getUrl());
-                    }
-                } else {
-                    LOGD(TAG, "Profile has no cover.");
-                }
-
-                LoginAndAuthListener callbacks;
-                if (null != (callbacks = mCallbacksRef.get())) {
-                    callbacks.onPlusInfoLoaded(mAccountName);
-                }
-            } else {
-                LOGE(TAG, "Plus response was empty! Failed to load profile.");
-            }
-        } else {
-            LOGE(TAG, "Failed to load plus proflie, error " +
-                    loadPeopleResult.getStatus().getStatusCode());
-        }
-    }
+//    // Called asynchronously -- result of loadPeople() call
+//    @Override
+//    public void onResult(People.LoadPeopleResult loadPeopleResult) {
+//        LOGD(TAG, "onPeopleLoaded, status=" + loadPeopleResult.getStatus().toString());
+//        if (loadPeopleResult.getStatus().isSuccess()) {
+//            PersonBuffer personBuffer = loadPeopleResult.getPersonBuffer();
+//            if (personBuffer != null && personBuffer.getCount() > 0) {
+//                LOGD(TAG, "Got plus profile for account " + mAccountName);
+//                Person currentUser = personBuffer.get(0);
+//                personBuffer.close();
+//
+//                // Record profile ID, image URL and name
+//                LOGD(TAG, "Saving plus profile ID: " + currentUser.getId());
+//                AccountUtils.setPlusProfileId(mAppContext, mAccountName, currentUser.getId());
+//                String imageUrl = currentUser.getImage().getUrl();
+//                if (imageUrl != null) {
+//                    imageUrl = Uri.parse(imageUrl)
+//                                  .buildUpon().appendQueryParameter("sz", "256").build().toString();
+//                }
+//                LOGD(TAG, "Saving plus image URL: " + imageUrl);
+//                AccountUtils.setPlusImageUrl(mAppContext, mAccountName, imageUrl);
+//                LOGD(TAG, "Saving plus display name: " + currentUser.getDisplayName());
+//                AccountUtils.setPlusName(mAppContext, mAccountName, currentUser.getDisplayName());
+//                Person.Cover cover = currentUser.getCover();
+//                if (cover != null) {
+//                    Person.Cover.CoverPhoto coverPhoto = cover.getCoverPhoto();
+//                    if (coverPhoto != null) {
+//                        LOGD(TAG, "Saving plus cover URL: " + coverPhoto.getUrl());
+//                        AccountUtils
+//                                .setPlusCoverUrl(mAppContext, mAccountName, coverPhoto.getUrl());
+//                    }
+//                } else {
+//                    LOGD(TAG, "Profile has no cover.");
+//                }
+//
+//                LoginAndAuthListener callbacks;
+//                if (null != (callbacks = mCallbacksRef.get())) {
+//                    callbacks.onPlusInfoLoaded(mAccountName);
+//                }
+//            } else {
+//                LOGE(TAG, "Plus response was empty! Failed to load profile.");
+//            }
+//        } else {
+//            LOGE(TAG, "Failed to load plus proflie, error " +
+//                    loadPeopleResult.getStatus().getStatusCode());
+//        }
+//    }
 
     /**
      * Handles an Activity result. Call this from your Activity's onActivityResult().

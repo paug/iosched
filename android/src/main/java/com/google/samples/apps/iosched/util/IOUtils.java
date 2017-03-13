@@ -18,7 +18,6 @@ package com.google.samples.apps.iosched.util;
 
 import android.content.Context;
 
-import com.google.android.gms.plus.Account;
 import com.google.common.base.Charsets;
 import com.google.samples.apps.iosched.BuildConfig;
 import com.turbomanage.httpclient.BasicHttpClient;

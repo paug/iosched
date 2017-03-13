@@ -54,8 +54,6 @@ public class BaseActivity_ActiveAccountSuccessfulLoginTest {
 
                 @Override
                 protected void beforeActivityLaunched() {
-                    // Make sure the EULA screen is not shown.
-                    SettingsUtils.markTosAccepted(InstrumentationRegistry.getTargetContext(), true);
 
                     mAccountName = LoginUtils.setFirstAvailableAccountAsActive(
                             InstrumentationRegistry.getTargetContext());

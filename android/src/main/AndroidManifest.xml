@@ -57,15 +57,9 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
-    <permission
-        android:name="com.google.samples.apps.iosched.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
-
-    <uses-permission android:name="com.google.samples.apps.iosched.permission.C2D_MESSAGE" />
-
     <!-- required for MapView v2 -->
     <permission
-        android:name="com.google.samples.apps.iosched.permission.MAPS_RECEIVE"
+        android:name="${applicationId}.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="${applicationId}.permission.MAPS_RECEIVE" />
@@ -262,11 +256,6 @@
         </activity>
 
         <activity
-            android:name=".welcome.WelcomeActivity"
-            android:exported="false"
-            android:theme="@style/Theme.IOSched.Welcome" />
-
-        <activity
             android:name=".login.SwitchUserActivity"
             android:exported="false"
             android:theme="@style/Theme.IOSched.Transparent" />
@@ -405,55 +394,17 @@
                  android:enabled="true"
                  android:exported="false"/>
 
-
-        <!--
-          This is a receiver provided by Google Play Services. It handles receiving
-          messages and passes them to GcmListenerService which offers a callback
-          that we will override to take action based on the content of the message received.
-
-          The com.google.android.c2dm.permission.SEND permission is necessary
-          so only GCM services can send data messages for the app.
-        -->
-        <receiver
-            android:name="com.google.android.gms.gcm.GcmReceiver"
-            android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-
-                <!-- Receives the actual messages. -->
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-
-                <category android:name="com.google.samples.apps.iosched" />
-            </intent-filter>
-        </receiver>
-
         <!--
           GCMMessageListenerService is the extension of the GcmListenerService,
           where we handle received GCM messages.
         -->
         <service
             android:name=".gcm.GCMMessageListenerService"
-            android:exported="false">
+            >
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-
-        <service
-            android:name=".gcm.GCMInstanceIDListenerService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID" />
-            </intent-filter>
-        </service>
-
-        <service
-            android:name=".gcm.GCMRegistrationIntentService"
-            android:exported="false" />
-
-        <service
-            android:name=".gcm.GCMUnregisterIntentService"
-            android:exported="false" />
 
         <!-- Data, sync and schedule editing components -->
 

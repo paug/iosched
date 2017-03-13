@@ -22,6 +22,7 @@ import android.provider.BaseColumns;
 import android.text.TextUtils;
 import android.text.format.DateUtils;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.util.ParserUtils;
 
 import java.util.List;
@@ -319,7 +320,7 @@ public final class ScheduleContract {
         String VIDEO_IMPORT_HASHCODE = "video_import_hashcode";
     }
 
-    public static final String CONTENT_AUTHORITY = "com.google.samples.apps.iosched";
+    public static final String CONTENT_AUTHORITY = BuildConfig.APPLICATION_ID + "";
 
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
 

@@ -49,7 +49,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
 public final class ServerUtilities {
     private static final String TAG = makeLogTag("GCMs");
 
-    private static final String PREFERENCES = "com.google.samples.apps.iosched.gcm";
+    private static final String PREFERENCES = BuildConfig.APPLICATION_ID + ".gcm";
     private static final String PROPERTY_REGISTERED_TS = "registered_ts";
     private static final String PROPERTY_REG_ID = "gcm_id";
     private static final String PROPERTY_GCM_KEY = "gcm_key";
@@ -151,29 +151,6 @@ public final class ServerUtilities {
             // if the server tries to send a message to the device, it will get
             // a "NotRegistered" error message and should unregister the device.
             LOGD(TAG, "Unable to unregister from application server", e);
-        }
-    }
-
-    /**
-     * Request user data sync.
-     *
-     * @param context Current context
-     */
-    public static void notifyUserDataChanged(final Context context) {
-        if (!checkGcmEnabled()) {
-            return;
-        }
-
-        LOGI(TAG, "Notifying GCM that user data changed");
-        String serverUrl = BuildConfig.GCM_SERVER_URL + "/send/self/sync_user";
-        try {
-            String gcmKey =
-                    AccountUtils.getGcmKey(context, AccountUtils.getActiveAccountName(context));
-            if (gcmKey != null) {
-                post(serverUrl, new HashMap<String, String>(), gcmKey);
-            }
-        } catch (IOException e) {
-            LOGE(TAG, "Unable to notify GCM about user data change", e);
         }
     }
 

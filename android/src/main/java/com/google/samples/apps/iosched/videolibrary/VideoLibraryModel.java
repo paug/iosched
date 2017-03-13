@@ -32,6 +32,7 @@ import android.support.annotation.Nullable;
 import android.text.TextUtils;
 
 import com.google.common.annotations.VisibleForTesting;
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.appwidget.ScheduleWidgetProvider;
 import com.google.samples.apps.iosched.archframework.Model;
@@ -87,11 +88,11 @@ public class VideoLibraryModel
 
     public static final int TRACK_ID_KEYNOTES = 1;
 
-    protected static final String KEY_YEAR = "com.google.samples.apps.iosched.KEY_YEAR";
+    protected static final String KEY_YEAR = BuildConfig.APPLICATION_ID + ".KEY_YEAR";
 
-    protected static final String KEY_TOPIC = "com.google.samples.apps.iosched.KEY_TOPIC";
+    protected static final String KEY_TOPIC = BuildConfig.APPLICATION_ID + ".KEY_TOPIC";
 
-    protected static final String KEY_VIDEO_ID = "com.google.samples.apps.iosched.KEY_VIDEO_ID";
+    protected static final String KEY_VIDEO_ID = BuildConfig.APPLICATION_ID + ".KEY_VIDEO_ID";
 
     protected static final int ALL_YEARS = 0;
 

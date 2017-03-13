@@ -44,7 +44,6 @@ import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.TimeUtils;
 import com.google.samples.apps.iosched.util.UIUtils;
 import com.google.samples.apps.iosched.util.WiFiUtils;
-import com.google.samples.apps.iosched.welcome.WelcomeActivity;
 
 import static com.google.samples.apps.iosched.util.LogUtils.LOGW;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
@@ -102,12 +101,8 @@ public class DebugFragment extends Fragment {
         tests.addView(createTestAction(new DebugAction() {
             @Override
             public void run(Context context, Callback callback) {
-                SettingsUtils.markTosAccepted(context, false);
-                SettingsUtils.markConductAccepted(context, false);
                 SettingsUtils.setAttendeeAtVenue(context, false);
-                SettingsUtils.markAnsweredLocalOrRemote(context, false);
                 AccountUtils.setActiveAccount(context, null);
-                context.startActivity(new Intent(context, WelcomeActivity.class));
             }
 
             @Override
@@ -119,10 +114,7 @@ public class DebugFragment extends Fragment {
         tests.addView(createTestAction(new DebugAction() {
             @Override
             public void run(Context context, Callback callback) {
-                SettingsUtils.markTosAccepted(context, false);
-                SettingsUtils.markConductAccepted(context, false);
                 SettingsUtils.setAttendeeAtVenue(context, false);
-                SettingsUtils.markAnsweredLocalOrRemote(context, false);
                 AccountUtils.setActiveAccount(context, null);
                 ConfMessageCardUtils.unsetStateForAllCards(context);
             }

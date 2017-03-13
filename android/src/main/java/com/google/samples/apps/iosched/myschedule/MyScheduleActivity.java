@@ -36,6 +36,7 @@ import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.Config;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.archframework.PresenterImpl;
@@ -75,18 +76,18 @@ public class MyScheduleActivity extends BaseActivity implements
      * MyScheduleSingleDayFragment}.
      */
     public static final String ARG_CONFERENCE_DAY_INDEX
-            = "com.google.samples.apps.iosched.ARG_CONFERENCE_DAY_INDEX";
+            = BuildConfig.APPLICATION_ID + ".ARG_CONFERENCE_DAY_INDEX";
 
     public static final String EXTRA_DIALOG_TITLE
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_TITLE";
+            = BuildConfig.APPLICATION_ID + ".EXTRA_DIALOG_TITLE";
     public static final String EXTRA_DIALOG_MESSAGE
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_MESSAGE";
+            = BuildConfig.APPLICATION_ID + ".EXTRA_DIALOG_MESSAGE";
     public static final String EXTRA_DIALOG_YES
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_YES";
+            = BuildConfig.APPLICATION_ID + ".EXTRA_DIALOG_YES";
     public static final String EXTRA_DIALOG_NO
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_NO";
+            = BuildConfig.APPLICATION_ID + ".EXTRA_DIALOG_NO";
     public static final String EXTRA_DIALOG_URL
-            = "com.google.samples.apps.iosched.EXTRA_DIALOG_URL";
+            = BuildConfig.APPLICATION_ID + ".EXTRA_DIALOG_URL";
 
     /**
      * Interval that a timer will redraw the UI during the conference, so that time sensitive

@@ -72,21 +72,19 @@ public class BaseActivityTestRule<T extends Activity> extends IntentsTestRule<T>
     protected void prepareActivityForRemoteAttendee() {
         bypassTOsAndConduct();
         SettingsUtils.setAttendeeAtVenue(InstrumentationRegistry.getTargetContext(), false);
-        SettingsUtils.markAnsweredLocalOrRemote(InstrumentationRegistry.getTargetContext(), false);
         selectFirstAccount();
     }
 
     protected void prepareActivityForInPersonAttendee() {
         bypassTOsAndConduct();
         SettingsUtils.setAttendeeAtVenue(InstrumentationRegistry.getTargetContext(), true);
-        SettingsUtils.markAnsweredLocalOrRemote(InstrumentationRegistry.getTargetContext(), true);
         selectFirstAccount();
         disableConferenceMessages();
     }
 
     private void bypassTOsAndConduct() {
-        SettingsUtils.markTosAccepted(InstrumentationRegistry.getTargetContext(), true);
-        SettingsUtils.markConductAccepted(InstrumentationRegistry.getTargetContext(), true);
+//        SettingsUtils.markTosAccepted(InstrumentationRegistry.getTargetContext(), true);
+//        SettingsUtils.markConductAccepted(InstrumentationRegistry.getTargetContext(), true);
     }
 
     private void selectFirstAccount() {

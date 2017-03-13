@@ -16,6 +16,8 @@ package com.google.samples.apps.iosched.sync.account;
 
 import android.app.Activity;
 
+import com.google.samples.apps.iosched.BuildConfig;
+
 import static android.content.Context.ACCOUNT_SERVICE;
 import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
 import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
@@ -26,7 +28,7 @@ import static com.google.samples.apps.iosched.util.LogUtils.makeLogTag;
  */
 public class Account {
     // An account type, in the form of a domain name
-    public static final String ACCOUNT_TYPE = "com.google.samples.apps.iosched";
+    public static final String ACCOUNT_TYPE = BuildConfig.APPLICATION_ID + "";
     // The account name
     public static final String ACCOUNT_NAME = "Sync Account";
 

@@ -24,7 +24,6 @@ import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.Config;
 import com.google.samples.apps.iosched.ui.BaseActivity;
 import com.google.samples.apps.iosched.util.TimeUtils;
-import com.google.samples.apps.iosched.welcome.WelcomeActivity;
 
 import java.util.TimeZone;
 
@@ -202,74 +201,6 @@ public class SettingsUtils {
     }
 
     /**
-     * Return true if the
-     * {@code com.google.samples.apps.iosched.welcome.WelcomeActivity.displayDogfoodWarningDialog() Dogfood Build Warning}
-     * has already been marked as shown, false if not.
-     *
-     * @param context Context to be used to lookup the {@link android.content.SharedPreferences}.
-     */
-    public static boolean wasDebugWarningShown(final Context context) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        return sp.getBoolean(PREF_DEBUG_BUILD_WARNING_SHOWN, false);
-    }
-
-    /**
-     * Mark the
-     * {@code com.google.samples.apps.iosched.welcome.WelcomeActivity.displayDogfoodWarningDialog() Dogfood Build Warning}
-     * shown to user.
-     *
-     * @param context Context to be used to edit the {@link android.content.SharedPreferences}.
-     */
-    public static void markDebugWarningShown(final Context context) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        sp.edit().putBoolean(PREF_DEBUG_BUILD_WARNING_SHOWN, true).apply();
-    }
-
-    /**
-     * Return true if user has accepted the
-     * {@link WelcomeActivity Tos}, false if they haven't (yet).
-     *
-     * @param context Context to be used to lookup the {@link android.content.SharedPreferences}.
-     */
-    public static boolean isTosAccepted(final Context context) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        return sp.getBoolean(PREF_TOS_ACCEPTED, false);
-    }
-
-    /**
-     * Return true if user has accepted the Code of
-     * {@link com.google.samples.apps.iosched.welcome.ConductFragment Conduct}, false if they haven't (yet).
-     *
-     * @param context Context to be used to lookup the {@link android.content.SharedPreferences}.
-     */
-    public static boolean isConductAccepted(final Context context) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        return sp.getBoolean(PREF_CONDUCT_ACCEPTED, false);
-    }
-
-    /**
-     * Mark {@code newValue whether} the user has accepted the TOS so the app doesn't ask again.
-     *
-     * @param context Context to be used to edit the {@link android.content.SharedPreferences}.
-     * @param newValue New value that will be set.
-     */
-    public static void markTosAccepted(final Context context, boolean newValue) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        sp.edit().putBoolean(PREF_TOS_ACCEPTED, newValue).apply();
-    }
-
-    /**
-     * Mark {@code newValue whether} the user has accepted the Code of Conduct so the app doesn't ask again.
-     *
-     * @param context Context to be used to edit the {@link android.content.SharedPreferences}.
-     * @param newValue New value that will be set.
-     */
-    public static void markConductAccepted(final Context context, boolean newValue) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        sp.edit().putBoolean(PREF_CONDUCT_ACCEPTED, newValue).apply();
-    }
-
-    /**
      * Return true if user has already declined WiFi setup, but false if they haven't yet.
      *
      * @param context Context to be used to lookup the {@link android.content.SharedPreferences}.
@@ -288,28 +219,6 @@ public class SettingsUtils {
     public static void markDeclinedWifiSetup(final Context context, boolean newValue) {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
         sp.edit().putBoolean(PREF_DECLINED_WIFI_SETUP, newValue).apply();
-    }
-
-    /**
-     * Returns true if user has already indicated whether they're a local or remote I/O attendee,
-     * false if they haven't answered yet.
-     *
-     * @param context Context to be used to lookup the {@link android.content.SharedPreferences}.
-     */
-    public static boolean hasAnsweredLocalOrRemote(Context context) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        return sp.getBoolean(PREF_ANSWERED_LOCAL_OR_REMOTE, false);
-    }
-
-    /**
-     * Mark that the user answered whether they're a local or remote I/O attendee.
-     *
-     * @param context  Context to be used to edit the {@link android.content.SharedPreferences}.
-     * @param newValue New value that will be set.
-     */
-    public static void markAnsweredLocalOrRemote(final Context context, boolean newValue) {
-        SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
-        sp.edit().putBoolean(PREF_ANSWERED_LOCAL_OR_REMOTE, newValue).apply();
     }
 
     /**

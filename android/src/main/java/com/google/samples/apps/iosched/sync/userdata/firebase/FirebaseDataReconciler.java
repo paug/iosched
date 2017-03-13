@@ -15,17 +15,14 @@
 package com.google.samples.apps.iosched.sync.userdata.firebase;
 
 import android.content.Context;
-import android.content.Intent;
 
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.FirebaseException;
-import com.google.samples.apps.iosched.gcm.GCMRegistrationIntentService;
 import com.google.samples.apps.iosched.sync.userdata.UserAction;
 import com.google.samples.apps.iosched.sync.userdata.util.UserData;
 import com.google.samples.apps.iosched.sync.userdata.util.UserDataHelper;
-import com.google.samples.apps.iosched.util.AccountUtils;
 import com.google.samples.apps.iosched.util.FirebaseUtils;
 
 import java.util.HashMap;
@@ -155,7 +152,6 @@ public class FirebaseDataReconciler {
      */
     public FirebaseDataReconciler buildLocalDataObject() {
         mLocalUserData = UserDataHelper.getUserData(mActions);
-        mLocalUserData.setGcmKey(AccountUtils.getGcmKey(mContext, mAccountName));
         return this;
     }
 
@@ -220,9 +216,7 @@ public class FirebaseDataReconciler {
     public FirebaseDataReconciler updateLocal() {
         if (mMergeHelper.isLocalGcmKeyUpdateNeeded()) {
             LOGI(TAG, "Updating local gcm key after sync");
-            AccountUtils.setGcmKey(mContext, mAccountName, mMergedUserData.getGcmKey());
             LOGI(TAG, "triggering GCM registration after sync");
-            mContext.startService(new Intent(mContext, GCMRegistrationIntentService.class));
         }
 
         if (localDataChanged()) {

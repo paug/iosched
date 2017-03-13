@@ -30,6 +30,7 @@ import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 
+import com.google.samples.apps.iosched.BuildConfig;
 import com.google.samples.apps.iosched.R;
 import com.google.samples.apps.iosched.explore.ExploreIOActivity;
 import com.google.samples.apps.iosched.feedback.FeedbackHelper;
@@ -61,25 +62,25 @@ public class SessionAlarmService extends IntentService {
     private static final String TAG = makeLogTag(SessionAlarmService.class);
 
     public static final String ACTION_NOTIFY_SESSION =
-            "com.google.samples.apps.iosched.action.NOTIFY_SESSION";
+            BuildConfig.APPLICATION_ID + ".action.NOTIFY_SESSION";
     public static final String ACTION_NOTIFY_SESSION_FEEDBACK =
-            "com.google.samples.apps.iosched.action.NOTIFY_SESSION_FEEDBACK";
+            BuildConfig.APPLICATION_ID + ".action.NOTIFY_SESSION_FEEDBACK";
     public static final String ACTION_SCHEDULE_FEEDBACK_NOTIFICATION =
-            "com.google.samples.apps.iosched.action.SCHEDULE_FEEDBACK_NOTIFICATION";
+            BuildConfig.APPLICATION_ID + ".action.SCHEDULE_FEEDBACK_NOTIFICATION";
     public static final String ACTION_SCHEDULE_STARRED_BLOCK =
-            "com.google.samples.apps.iosched.action.SCHEDULE_STARRED_BLOCK";
+            BuildConfig.APPLICATION_ID + ".action.SCHEDULE_STARRED_BLOCK";
     public static final String ACTION_SCHEDULE_ALL_STARRED_BLOCKS =
-            "com.google.samples.apps.iosched.action.SCHEDULE_ALL_STARRED_BLOCKS";
+            BuildConfig.APPLICATION_ID + ".action.SCHEDULE_ALL_STARRED_BLOCKS";
     public static final String EXTRA_SESSION_START =
-            "com.google.samples.apps.iosched.extra.SESSION_START";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_START";
     public static final String EXTRA_SESSION_END =
-            "com.google.samples.apps.iosched.extra.SESSION_END";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_END";
     public static final String EXTRA_SESSION_ALARM_OFFSET =
-            "com.google.samples.apps.iosched.extra.SESSION_ALARM_OFFSET";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_ALARM_OFFSET";
     public static final String EXTRA_SESSION_ID =
-            "com.google.samples.apps.iosched.extra.SESSION_ID";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_ID";
     public static final String EXTRA_SESSION_TITLE =
-            "com.google.samples.apps.iosched.extra.SESSION_TITLE";
+            BuildConfig.APPLICATION_ID + ".extra.SESSION_TITLE";
 
     public static final int NOTIFICATION_ID = 100;
     public static final int FEEDBACK_NOTIFICATION_ID = 101;
@@ -233,7 +234,7 @@ public class SessionAlarmService extends IntentService {
                 SessionAlarmService.class);
         // Setting data to ensure intent's uniqueness for different session start times.
         notifIntent.setData(
-                new Uri.Builder().authority("com.google.samples.apps.iosched")
+                new Uri.Builder().authority(BuildConfig.APPLICATION_ID + "")
                         .path(String.valueOf(sessionStart)).build()
         );
         notifIntent.putExtra(SessionAlarmService.EXTRA_SESSION_START, sessionStart);

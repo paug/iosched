@@ -13,9 +13,8 @@
  */
 package com.google.samples.apps.iosched.gcm;
 
-import android.os.Bundle;
-
-import com.google.android.gms.gcm.GcmListenerService;
+import com.google.firebase.messaging.FirebaseMessagingService;
+import com.google.firebase.messaging.RemoteMessage;
 import com.google.samples.apps.iosched.gcm.command.AnnouncementCommand;
 import com.google.samples.apps.iosched.gcm.command.NotificationCommand;
 import com.google.samples.apps.iosched.gcm.command.SyncCommand;
@@ -31,10 +30,10 @@ import static com.google.samples.apps.iosched.util.LogUtils.LOGD;
 import static com.google.samples.apps.iosched.util.LogUtils.LOGE;
 
 /**
- * Receive downstream GCM messages, examine the payload and determine what action
- * if any to take. Only known commands are executed.
+ * Receive downstream GCM messages, examine the payload and determine what action if any to take.
+ * Only known commands are executed.
  */
-public class GCMMessageListenerService extends GcmListenerService {
+public class GCMMessageListenerService extends FirebaseMessagingService {
 
     private static final String TAG = LogUtils.makeLogTag("MsgListenerService");
     private static final String ACTION = "action";
@@ -54,18 +53,16 @@ public class GCMMessageListenerService extends GcmListenerService {
     }
 
     /**
-     * Handle data in GCM message payload. The action field within the data determines the
-     * type of Command that is initiated and executed.
-     *
-     * @param from The message sender. This will either be your Google Developer Project number
-     *             or the name of a topic if topic messaging was used.
-     * @param data A Bundle containing the action and extra data associated with that action.
+     * Handle data in GCM message payload. The action field within the data determines the type of
+     * Command that is initiated and executed.
      */
     @Override
-    public void onMessageReceived(String from, Bundle data) {
+    public void onMessageReceived(RemoteMessage message) {
+//        final String from = message.getFrom();
+        final Map<String, String> data = message.getData();
         // Handle received GCM data messages.
-        String action = data.getString(ACTION);
-        String extraData = data.getString(EXTRA_DATA);
+        String action = data.get(ACTION);
+        String extraData = data.get(EXTRA_DATA);
         LOGD(TAG, "Got GCM message, " + ACTION + "=" + action +
                 ", " + EXTRA_DATA + "=" + extraData);
         if (action == null) {
