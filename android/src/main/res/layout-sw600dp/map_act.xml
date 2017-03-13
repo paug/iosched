@@ -66,7 +66,7 @@
                     android:layout_width="@dimen/drawer_width"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/padding_normal"
-                    app:cardBackgroundColor="@color/card"
+                    app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="@dimen/card_corner_radius"
                     app:cardElevation="@dimen/card_elevation"
                     app:cardPreventCornerOverlap="false"

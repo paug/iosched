@@ -1,5 +1,5 @@
 <component name="CopyrightManager">
-  <settings default="Google, Inc Apache2.0">
+  <settings default="">
     <LanguageOptions name="Groovy">
       <option name="fileTypeOverride" value="3" />
     </LanguageOptions>

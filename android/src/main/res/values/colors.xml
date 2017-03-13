@@ -19,9 +19,14 @@
     <color name="transparent">#00000000</color>
     <color name="background">#fff7f9f9</color>
 
+    <!--AM colors-->
+    <!--#1EB6E1-->
+    <!--#E85145-->
+    <!--#FFFFFF-->
+
     <!-- 2016 palette -->
-    <color name="io16_primary_cyan">#ff25c5d9</color>
-    <color name="io16_primary_purple">#ff5d6abf</color>
+    <color name="io16_primary_cyan">#1EB6E1</color>
+    <color name="io16_primary_purple">#E85145</color>
     <color name="io16_primary_blue_grey">#ff445963</color>
     <color name="io16_grey">#ffafbdc4</color>
     <color name="io16_light_grey">#ffebeef0</color>
@@ -40,17 +45,8 @@
     <color name="light_status_bar_against_header_img">#ffe0e1e3</color>
     <color name="immersive_status_bar">#26000000</color> <!-- 15% black -->
     <color name="immersive_light_status_bar">#13000000</color> <!-- 7.5% black -->
-    <!-- todo cleanup old colors -->
 
-    <!-- App main palette for io15 version. -->
-    <color name="io15_dark_grey">#FF455A64</color>
-    <color name="io15_grey">#FF607D8B</color>
-    <color name="io15_light_grey">#FF90A4AE</color>
-    <color name="io15_aqua_dark">#FF4DD0E1</color>
-    <color name="io15_aqua_light">#FF80DEEA</color>
-    <color name="io15_blue_grey_100">#ffcfd8dc</color>
-    <color name="io15_white">#FFFFFFFF</color>
-    <color name="card">#fff</color>
+    <color name="white">#FFFFFFFF</color>
     <color name="cyan_a700_plus">#ff006574</color>
 
     <!-- App Primary View Colors (might be deprecated). -->
@@ -78,7 +74,7 @@
     <!-- Session Detail colors. -->
     <color name="session_detail_tag_text">@color/session_detail_interactive_element</color>
     <color name="fab_not_in_schedule">#ffeeff21</color>
-    <color name="fab_in_schedule">@color/io15_white</color>
+    <color name="fab_in_schedule">@color/white</color>
     <color name="fab_press_ripple">#1a000000</color>
     <color name="fab_icon_color">@color/dark_icon</color>
     <color name="session_tag_stroke">#80546e7a</color>
@@ -111,8 +107,8 @@
     <color name="sticky_block_background">#ddffffff</color>
     <color name="light_content_scrim">#0d000000</color>
 
-    <color name="map_text_primary">@color/io15_dark_grey</color>
-    <color name="map_text_secondary">@color/io15_light_grey</color>
+    <color name="map_text_primary">#FF455A64</color>
+    <color name="map_text_secondary">#FF90A4AE</color>
 
     <color name="grey_background">#f5f5f5</color>
     <color name="dark_divider">#32000000</color>
@@ -167,16 +163,6 @@
     <color name="video_title">#de07434d</color>
     <color name="filter_text">@color/app_primary_text</color>
     <color name="played_video_tint">#b3f1f1f1</color>
-
-    <!-- Colors used in the Social feature. -->
-    <color name="social_io15">@color/io15_dark_grey</color>
-    <color name="social_twitter_devs">@color/io15_grey</color>
-    <color name="social_gplus_devs">@color/io15_light_grey</color>
-    <color name="social_extended">@color/io15_aqua_dark</color>
-    <color name="social_request">@color/io15_aqua_light</color>
-    <color name="social_logo">@color/cyan_a700_plus</color>
-    <color name="social_logo_background">@color/io15_blue_grey_100</color>
-    <color name="social_text_color">@color/io15_white</color>
 
     <!-- Colors used in the Video Library or Explore list view -->
     <color name="item_text_primary_color">#ff275B64</color>

@@ -18,12 +18,6 @@
           xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           android:installLocation="auto">
-    <!-- versionName and versionCode are specified in build.gradle -->
-
-    <!-- min and target sdk are defined in build.gradle -->
-    <!-- uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="21" / -->
 
     <permission
         android:name="${applicationId}.permission.WRITE_SCHEDULE"

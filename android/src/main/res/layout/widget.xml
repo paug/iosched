@@ -69,10 +69,10 @@
             android:id="@+id/widget_schedule_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/card"
+            android:background="@color/white"
             android:paddingTop="@dimen/spacing_normal"
             android:clipToPadding="false"
-            android:cacheColorHint="@color/card"
+            android:cacheColorHint="@color/white"
             android:divider="@null"
             android:dividerHeight="0dp"
             android:listSelector="@drawable/schedule_item_touchoverlay" />
