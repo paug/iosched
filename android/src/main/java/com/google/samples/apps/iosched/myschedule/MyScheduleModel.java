@@ -205,7 +205,8 @@ public class MyScheduleModel implements Model<MyScheduleModel.MyScheduleQueryEnu
     }
 
     public static boolean showPreConferenceData(Context context) {
-        return SettingsUtils.isAttendeeAtVenue(context);
+//        return SettingsUtils.isAttendeeAtVenue(context);
+        return false;
     }
 
     @Override

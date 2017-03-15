@@ -45,8 +45,8 @@ public class Config {
             {ParserUtils.parseTime(BuildConfig.CONFERENCE_DAY2_START),
                     ParserUtils.parseTime(BuildConfig.CONFERENCE_DAY2_END)},
             // start and end of day 3
-            {ParserUtils.parseTime(BuildConfig.CONFERENCE_DAY3_START),
-                    ParserUtils.parseTime(BuildConfig.CONFERENCE_DAY3_END)},
+//            {ParserUtils.parseTime(BuildConfig.CONFERENCE_DAY3_START),
+//                    ParserUtils.parseTime(BuildConfig.CONFERENCE_DAY3_END)},
     };
 
     public static final TimeZone CONFERENCE_TIMEZONE =
