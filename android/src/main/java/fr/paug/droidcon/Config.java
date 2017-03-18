@@ -42,12 +42,12 @@ public class Config {
     public static final String BOOTSTRAP_DATA_TIMESTAMP = "Mon, 9 Nov 2015 00:01:03 GMT";
 
     // Conference hashtag
-    public static final String CONFERENCE_HASHTAG = "#droidconparis";
+    public static final String CONFERENCE_HASHTAG = "#androidmakersfr";
 
     // Patterns that, when absent from a hashtag, will trigger the addition of the
     // CONFERENCE_HASHTAG on sharing snippets. Ex: "#Android" will be shared as "#io14 #Android",
     // but "#iohunt" won't be modified.
-    public static final String CONFERENCE_HASHTAG_PREFIX = "#droidcon";
+    public static final String CONFERENCE_HASHTAG_PREFIX = "#androidmakers";
 
     // Hard-coded conference dates. This is hardcoded here instead of extracted from the conference
     // data to avoid the Schedule UI breaking if some session is incorrectly set to a wrong date.
@@ -55,11 +55,11 @@ public class Config {
 
     public static final long[][] CONFERENCE_DAYS = new long[][] {
             // start and end of day 1
-            { ParserUtils.parseTime("2015-11-09T06:30:00.000Z"),
-              ParserUtils.parseTime("2015-11-10T06:29:59.999Z") },
+            { ParserUtils.parseTime("2017-04-10T06:30:00.000Z"),
+              ParserUtils.parseTime("2017-04-11T06:29:59.999Z") },
             // start and end of day 2
-            { ParserUtils.parseTime("2015-11-10T06:30:00.000Z"),
-              ParserUtils.parseTime("2015-11-11T06:59:59.999Z") },
+            { ParserUtils.parseTime("2017-04-10T06:30:00.000Z"),
+              ParserUtils.parseTime("2017-04-11T06:59:59.999Z") },
         };
 
     public static final TimeZone CONFERENCE_TIMEZONE = TimeZone.getTimeZone("Europe/Paris");
@@ -74,7 +74,7 @@ public class Config {
     public static final long DAY_MILLIS = 24 * HOUR_MILLIS;
 
     // OAuth 2.0 related config
-    public static final String APP_NAME = "Droidcon Paris 2015";
+    public static final String APP_NAME = "Android Makers FR 2017";
     public static final String API_KEY = "";
 
     // Announcements
